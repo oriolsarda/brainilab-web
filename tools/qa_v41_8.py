@@ -330,15 +330,28 @@ if 'TRY_FIRST_MODE' not in (ROOT/'assets/js/order-up.js').read_text(): err('Orde
 if 'TRY_FIRST_MODE' not in (ROOT/'assets/js/topic-rush.js').read_text(): err('Topic Rush Try First resume-state isolation missing')
 if 'tryFirstMode' not in (ROOT/'games/brainiword/index.html').read_text(): err('BrainiWord Try First state isolation missing')
 
-# Past Daily replay is integrated into Games cards, not a separate archive grid.
+# Play-anytime Daily-source games choose unseen/random past content automatically.
 games_html=(ROOT/'games/index.html').read_text()
 games_js=(ROOT/'assets/js/games-library.js').read_text()
-if 'archive-games-grid' in games_html or 'archive-games-grid' in games_js: err('Old separate Past Daily grid still present')
-if 'data-daily-archive-date' not in games_html: err('Games Past Daily date picker missing')
-for gid in ['brainmix','brainiword','orderup','topicrush','connections','oddoneout','higherlower','mathrush','numberroute','sequence']:
-    if f'data-past-daily-action="{gid}"' not in games_html: err(f'Games card missing Past Daily action: {gid}')
-if '#past-dailies' in ''.join((ROOT/p).read_text(errors='ignore') for p in ['games/brain-mix/index.html','games/brainiword/index.html','assets/js/order-up.js','assets/js/topic-rush.js']): err('Obsolete #past-dailies anchor remains')
-if 'const DAILY_LAUNCH_DATE="2026-08-29"' not in games_js: err('Past Daily launch date is not official Daily #1')
+
+if 'archive-games-grid' in games_html or 'archive-games-grid' in games_js:
+    err('Old separate Past Daily grid still present')
+
+if 'data-daily-archive-date' in games_html:
+    err('Games manual Past Daily date picker still present')
+
+if 'data-past-daily-action' in games_html:
+    err('Games obsolete manual Past Daily actions still present')
+
+for gid in ['brainmix','brainiword','orderup','topicrush']:
+    if f'data-random-past-game="{gid}"' not in games_html:
+        err(f'Games automatic past-content action missing: {gid}')
+
+if 'pickPastDate' not in games_js or 'playedPastDates' not in games_js:
+    err('Games unseen/random content selection missing')
+
+if 'const DAILY_LAUNCH_DATE="2026-08-29"' not in games_js:
+    err('Past-content launch date is not official Daily #1')
 
 # Date-dependent local fallbacks for rotating content.
 for rel in ['assets/js/connections.js','assets/js/odd-one-out.js','assets/js/higher-lower.js','assets/js/number-route.js','assets/js/sequence.js']:

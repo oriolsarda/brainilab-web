@@ -125,11 +125,11 @@
       dailyCrumb.textContent="Games";
     }
     const loadingQuestion=root.querySelector("[data-q]");
-    if(loadingQuestion) loadingQuestion.textContent="Loading Past Daily challenge…";
+    if(loadingQuestion) loadingQuestion.textContent="Loading Brain Mix…";
     const about=document.querySelector(".daily-about p");
-    if(about) about.textContent="Replay this earlier 10-question Brain Mix as practice. You can review every answer after finishing without changing today’s Daily Brain Score or streak.";
+    if(about) about.textContent="Play a different 10-question Brain Mix. You can review every answer after finishing.";
     const sub=document.querySelector(".daily-explanations .sub");
-    if(sub) sub.textContent="Review the correct answers from this Past Daily.";
+    if(sub) sub.textContent="Review the correct answers from this Brain Mix.";
   }
   let watchdog=null;
 
@@ -139,9 +139,9 @@
 
     stage.innerHTML=`
       <div class="daily-load-error">
-        <strong>${archiveMode?"That Past Daily didn’t load correctly.":"Today’s challenge didn’t load correctly."}</strong>
-        <span>${archiveMode?"Retry the archive or continue with the deterministic local fallback.":"Your Daily is safe. Retry the connection or continue with the local fallback."}</span>
-        <button class="btn-secondary" type="button" data-daily-retry>${archiveMode?"Retry Past Daily":"Retry Daily"}</button>
+        <strong>${archiveMode?"That Brain Mix didn’t load correctly.":"Today’s challenge didn’t load correctly."}</strong>
+        <span>${archiveMode?"Retry the game or continue with the local fallback.":"Your Daily is safe. Retry the connection or continue with the local fallback."}</span>
+        <button class="btn-secondary" type="button" data-daily-retry>${archiveMode?"Retry Brain Mix":"Retry Daily"}</button>
       </div>`;
 
     stage.querySelector("[data-daily-retry]")?.addEventListener("click",()=>{
@@ -174,7 +174,7 @@
     const dailyTitle=root.querySelector(".challenge-labels .challenge-pill:first-child");
     if(dailyTitle){
       dailyTitle.textContent=archiveMode
-        ? `Past Daily · #${daily.dailyNumber}`
+        ? "Play anytime"
         : `Daily Brain Challenge · #${daily.dailyNumber}`;
     }
 
@@ -221,8 +221,8 @@
 
       return `
         <div class="daily-result-inline">
-          <div class="daily-result-kicker">${archiveMode?"Past Daily practice":"Daily"} #${daily.dailyNumber} complete</div>
-          <h1>${archiveMode?"Practice result":"Today’s result"}</h1>
+          <div class="daily-result-kicker">${archiveMode?"Brain Mix":"Daily"}${archiveMode?"":" #"+daily.dailyNumber} complete</div>
+          <h1>${archiveMode?"Your result":"Today’s result"}</h1>
 
           <div class="daily-result-score-row">
             <div class="daily-result-score">
@@ -238,13 +238,13 @@
               <span>accuracy</span>
             </div>
             <div class="daily-result-stat">
-              <strong>${archiveMode?"Practice":`Top ${result.percentile}%`}</strong>
-              <span>${archiveMode?"archive replay":"today"}</span>
+              <strong>${archiveMode?"Play anytime":`Top ${result.percentile}%`}</strong>
+              <span>${archiveMode?"game":"today"}</span>
             </div>
           </div>
 
           <div class="daily-result-grid" aria-label="Result grid">${cells}</div>
-          ${archiveMode?'<p class="archive-result-note">Past Daily replays do not change today’s Daily Brain Score or streak.</p>':'<div id="dailyInlineShare"></div>'}
+          ${archiveMode?'':'<div id="dailyInlineShare"></div>'}
 
           <div class="daily-result-actions">
             <a class="btn-secondary" href="${replayHref}">${archiveMode?"Play another Brain Mix":"Replay today’s quiz"}</a>

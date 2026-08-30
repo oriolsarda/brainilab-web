@@ -158,14 +158,14 @@
     content=await BrainiDailyGames.loadBrainiWord(archiveMode?{date:archiveDate}:{});
   }catch(err){
     message.textContent=archiveMode
-      ? "That Past Daily BrainiWord could not load. Please refresh."
+      ? "That BrainiWord could not load. Please refresh."
       : "Today’s BrainiWord could not load. Please refresh.";
     message.classList.add("error");
     return;
   }
 
-  if(meta) meta.textContent=`${archiveMode?"Past Daily":"Daily"} #${content.dailyNumber} · 5 letters · 5 tries${archiveMode?" · Practice":""}`;
-  if(subtitle) subtitle.textContent=`${archiveMode?"Past Daily word puzzle":"Daily word puzzle"} · #${content.dailyNumber}`;
+  if(meta) meta.textContent=archiveMode?"Play anytime · 5 letters · 5 tries":`Daily #${content.dailyNumber} · 5 letters · 5 tries`;
+  if(subtitle) subtitle.textContent=archiveMode?"Five-letter word puzzle":`Daily word puzzle · #${content.dailyNumber}`;
 
   const stateKey=`brainilab-brainiword-${content.challengeDate}`;
   let row=0;
@@ -387,13 +387,13 @@
       : (archiveMode?"Not solved":"Not solved today");
 
     resultText.textContent=won
-      ? `${points.toLocaleString()} ${archiveMode?"practice":"Daily"} points`
-      : `${points.toLocaleString()} ${archiveMode?"practice":"Daily"} points${finalAnswer?` · Word: ${finalAnswer}`:""}`;
+      ? `${points.toLocaleString()} ${archiveMode?"":"Daily "}points`
+      : `${points.toLocaleString()} ${archiveMode?"":"Daily "}points${finalAnswer?` · Word: ${finalAnswer}`:""}`;
 
     resultActions.innerHTML=archiveMode?`
-      <p class="archive-result-note">Practice replay · does not change today’s Daily Brain Score or streak.</p>
+      
       <div class="simple-result-actions archive-result-actions">
-        <a class="simple-result-play" href="${localHref(`index.html?archive=${encodeURIComponent(content.challengeDate)}`)}">Play another BrainiWord</a>
+        <a class="simple-result-play" href="${localHref("../../games/index.html#brainiword")}">Play another BrainiWord</a>
         <a class="simple-result-share archive-result-other" href="${localHref("../../games/index.html")}">Choose another game</a>
       </div>`:`
       <div class="simple-result-actions">

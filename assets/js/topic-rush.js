@@ -75,7 +75,7 @@ window.BrainiTopicRush=(function(){
         back.textContent="Games →";
       }
       const introCopy=root.querySelector("[data-tr-intro] p");
-      if(introCopy) introCopy.textContent="That Daily’s topic appears only after you start. The timer begins at the same moment.";
+      if(introCopy) introCopy.textContent="The topic appears only after you start. The timer begins at the same moment.";
     }
     const localDaily=BrainiData.daily();
     const currentDailyNumber=Number(
@@ -88,7 +88,7 @@ window.BrainiTopicRush=(function(){
 
     if(dailyLabel){
       dailyLabel.textContent=currentDailyNumber
-        ? `${archiveMode?"Past Daily":"Daily"} #${currentDailyNumber}${archiveMode?" · Practice":""}`
+        ? archiveMode?"Play anytime":`Daily #${currentDailyNumber}`
         : "Today’s Daily";
     }
 
@@ -110,7 +110,7 @@ window.BrainiTopicRush=(function(){
           }
           content=data;
           if(dailyLabel){
-            dailyLabel.textContent=`${archiveMode?"Past Daily":"Daily"} #${content.dailyNumber}${archiveMode?" · Practice":""}`;
+            dailyLabel.textContent=archiveMode?"Play anytime":`Daily #${content.dailyNumber}`;
           }
           return content;
         })
@@ -415,14 +415,14 @@ window.BrainiTopicRush=(function(){
 
       resultBox.innerHTML=`
         <div class="simple-game-result">
-          <div class="simple-result-kicker">${archiveMode?"Past Daily practice":"Daily"} #${content.dailyNumber} · Topic Rush · Complete ✓</div>
+          <div class="simple-result-kicker">${archiveMode?"Topic Rush · Complete ✓":`Daily #${content.dailyNumber} · Topic Rush · Complete ✓`}</div>
           <h2>${correct} ${correct===1?"answer":"answers"}</h2>
-          <p>${points.toLocaleString()} ${archiveMode?"practice":"Daily"} points · ${escapeHtml(content.title)}</p>
+          <p>${points.toLocaleString()} ${archiveMode?"":"Daily "}points · ${escapeHtml(content.title)}</p>
 
           ${archiveMode?`
-            <p class="archive-result-note">Practice replay · does not change today’s Daily Brain Score or streak.</p>
+            
             <div class="simple-result-actions archive-result-actions">
-              <a class="simple-result-play" href="${localHref(`index.html?archive=${encodeURIComponent(content.challengeDate)}`)}">Play another Topic Rush</a>
+              <a class="simple-result-play" href="${localHref("../../games/index.html#topic-rush")}">Play another Topic Rush</a>
               <a class="simple-result-share archive-result-other" href="${localHref("../../games/index.html")}">Choose another game</a>
             </div>
           `:`

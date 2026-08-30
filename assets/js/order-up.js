@@ -104,9 +104,9 @@ window.BrainiOrderUp=(function(){
         back.textContent="Games →";
       }
       const label=root.querySelector(".order-up-label");
-      if(label) label.textContent="Past Daily ordering challenge";
+      if(label) label.textContent="Play anytime";
       const preparing=root.querySelector("[data-ou-loading] strong");
-      if(preparing) preparing.textContent="Preparing Past Daily Order Up…";
+      if(preparing) preparing.textContent="Preparing Order Up…";
     }
     const currentDaily=BrainiData.daily();
 
@@ -119,7 +119,7 @@ window.BrainiOrderUp=(function(){
 
     if(dailyLabel){
       dailyLabel.textContent=archiveMode
-        ? `Past Daily #${BrainiData.dailyNumberForDate(archiveDate)}`
+        ? "Play anytime"
         : `Daily #${currentDaily.number}`;
     }
 
@@ -132,7 +132,7 @@ window.BrainiOrderUp=(function(){
 
       if(dailyLabel){
         dailyLabel.textContent=archiveMode
-          ? `Past Daily #${content.dailyNumber} · Practice`
+          ? "Play anytime"
           : `Daily #${content.dailyNumber}`;
       }
 
@@ -519,8 +519,7 @@ window.BrainiOrderUp=(function(){
       resultBox.innerHTML=`
         <div class="simple-game-result">
           <div class="simple-result-kicker">
-            ${archiveMode?"Past Daily practice":"Daily"} #${content.dailyNumber}
-            · Order Up · Complete ✓
+            ${archiveMode?"Order Up · Complete ✓":`Daily #${content.dailyNumber} · Order Up · Complete ✓`}
           </div>
 
           <h2>
@@ -535,9 +534,9 @@ window.BrainiOrderUp=(function(){
           </p>
 
           ${archiveMode?`
-            <p class="archive-result-note">Practice replay · does not change today’s Daily Brain Score or streak.</p>
+            
             <div class="simple-result-actions archive-result-actions">
-              <a class="simple-result-play" href="${localHref(`index.html?archive=${encodeURIComponent(content.challengeDate)}`)}">Play another Order Up</a>
+              <a class="simple-result-play" href="${localHref("../../games/index.html#order-up")}">Play another Order Up</a>
               <a class="simple-result-share archive-result-other" href="${localHref("../../games/index.html")}">Choose another game</a>
             </div>
           `:`
@@ -596,7 +595,7 @@ window.BrainiOrderUp=(function(){
     async function start(){
       startBtn.disabled=true;
       startBtn.textContent=archiveMode
-        ? "Loading Past Daily rounds…"
+        ? "Loading Order Up…"
         : "Loading today’s rounds…";
 
       try{
