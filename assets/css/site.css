@@ -5715,3 +5715,47 @@ main > section.section,
   min-height:46px;
   line-height:1.2;
 }
+
+/* V41.8.3 VISUAL HIERARCHY */
+
+/* Daily completed actions: important actions must be readable. */
+.home-daily-primary,
+.home-daily-secondary{
+  font-size:15px !important;
+  line-height:1.2;
+}
+
+.home-daily-tertiary{
+  font-size:13px !important;
+  line-height:1.2;
+}
+
+/* Game catalogue: stronger game identity without changing card layout. */
+.anytime-game-head{
+  gap:13px;
+}
+
+.anytime-game-head h2,
+.anytime-browser .anytime-game-head h3{
+  font-size:20px !important;
+  line-height:1.08;
+  font-weight:950;
+}
+
+/* Larger visual game icons. */
+.anytime-category-icon{
+  width:54px;
+  height:54px;
+}
+
+.anytime-category-icon .braini-category-icon,
+.anytime-category-icon > img{
+  width:50px;
+  height:50px;
+}
+
+/* Keep current button size, reduce excessive boldness. */
+.difficulty-actions a{
+  font-weight:700 !important;
+}
+
