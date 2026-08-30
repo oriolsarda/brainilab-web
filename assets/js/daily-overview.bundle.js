@@ -1432,7 +1432,7 @@ window.BrainiDailyJourney=(function(){
                 ${complete
                   ? `<div class="daily-journey-completed-lock">Completed today · result locked ✓</div>`
                   : `<div class="daily-journey-actions">
-                      <a class="daily-journey-try" href="${tryHref}">Try first · full practice</a>
+                      <a class="daily-journey-try" href="${tryHref}">Try first</a>
                       <a class="daily-journey-play" href="${playHref}">Play Daily</a>
                     </div>`
                 }
