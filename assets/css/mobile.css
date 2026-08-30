@@ -1430,3 +1430,43 @@ button,a,input,select,textarea{
 }
 
 @media(max-width:700px){.games-past-picker{align-items:stretch;flex-direction:column}.try-first-global-banner{position:relative;align-items:flex-start;flex-direction:column;gap:2px;font-size:10px}}
+
+/* V41.8.1 MOBILE RANKINGS CLEANUP */
+@media(max-width:650px){
+
+  /* Filters already show this information: do not repeat it on mobile. */
+  .rankings-shell .ranking-summary{
+    display:none!important
+  }
+
+  /* Rankings start immediately below the filters. */
+  .rankings-shell #rankingsRoot>.ranking-podium{
+    margin-top:10px
+  }
+
+  /* Better mobile readability. */
+  .anytime-game-head p,
+  .anytime-browser .anytime-game-head p{
+    font-size:12px
+  }
+
+  .anytime-status{font-size:11px}
+  .anytime-difficulty-label{font-size:10px}
+
+  .difficulty-actions a{
+    font-size:11px!important
+  }
+
+  .daily-journey-eyebrow{font-size:10px}
+  .daily-journey-copy strong{font-size:12px}
+  .daily-journey-copy small{font-size:10px}
+  .daily-journey-foot{font-size:10px}
+
+  .ranking-filter label{font-size:10px}
+  .ranking-filter select{font-size:14px}
+
+  .podium-name{font-size:15px}
+  .podium-country{font-size:10px}
+  .ranking-row-score{font-size:15px}
+}
+

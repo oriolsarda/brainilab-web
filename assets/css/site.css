@@ -5650,3 +5650,60 @@ main > section.section,
 
 /* V41.8.0 integrated Daily archive + completed lock + Try First */
 .games-past-picker{grid-column:1/-1;display:flex;align-items:center;gap:14px;padding:14px 16px;border:1px solid var(--line);border-radius:16px;background:#fff}.games-past-picker .archive-context{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.past-daily-card-action{margin-top:10px}.archive-unavailable{display:flex;align-items:center;justify-content:center;min-height:42px;border:1px dashed #d8d6e8;border-radius:11px;color:#858397;font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.04em}.daily-journey-completed-lock{display:flex;align-items:center;justify-content:center;min-height:38px;border-radius:10px;background:#e8f7e5;color:#187522;font-size:9px;font-weight:950}.try-first-global-banner{position:sticky;top:0;z-index:9999;display:flex;justify-content:center;gap:10px;align-items:center;padding:9px 16px;background:#fff4b7;color:var(--navy);border-bottom:1px solid #ead36a;font-size:11px}.try-first-global-banner strong{font-weight:950}.try-first-global-banner span{font-weight:750}.labgame-mode-note{font-size:11px;font-weight:850;color:#5d5a78}
+
+/* V41.8.1 READABILITY PASS */
+/* Improve the smallest UI text without changing the page structure. */
+.games-choice-eyebrow,
+.daily-overview-kicker{font-size:10px}
+
+.games-choice-panel p{font-size:13px}
+
+.anytime-browser-head p{font-size:11px}
+.anytime-browser-all{font-size:10px}
+
+.anytime-game-head p,
+.anytime-browser .anytime-game-head p{
+  font-size:11px;
+  line-height:1.5
+}
+
+.anytime-status{font-size:10px}
+.anytime-difficulty-label{font-size:9px}
+.difficulty-actions a{font-size:10px}
+
+.daily-overview-summary span{font-size:9px}
+
+.daily-journey-eyebrow{font-size:9px}
+.daily-journey-score span{font-size:10px}
+.daily-journey-copy strong{font-size:11px}
+.daily-journey-copy small{
+  font-size:9px;
+  line-height:1.4
+}
+.daily-journey-foot{
+  font-size:9px;
+  line-height:1.4
+}
+
+.daily-journey-completed-lock,
+.daily-journey-try,
+.daily-journey-play{font-size:11px}
+
+.ranking-filter label,
+.ranking-summary span{font-size:10px}
+
+.ranking-filter select{font-size:13px}
+.podium-country{font-size:11px}
+.podium-card small{font-size:10px}
+.ranking-list-head{font-size:10px}
+.ranking-identity strong{font-size:13px}
+
+.ranking-identity small{
+  font-size:10px;
+  line-height:1.35
+}
+
+.your-rank-card>div:first-child span{font-size:10px}
+.rankings-group-link strong{font-size:11px}
+.rankings-group-link small{font-size:9px}
+
