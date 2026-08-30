@@ -1,0 +1,6 @@
+# BrainiLab ads.txt
+# Advertising is launch-gated in V39.
+# After AdSense approval, replace the placeholder below with the exact line
+# shown in the AdSense account, then enable ads from BrainiLab Admin.
+#
+# google.com, pub-REPLACE_WITH_ADSENSE_PUBLISHER_ID, DIRECT, f08c47fec0942fa0

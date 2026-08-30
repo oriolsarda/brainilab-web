@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
+<meta content="noindex,nofollow,noarchive" name="robots"/>
+<meta content="same-origin" name="referrer"/>
+<meta content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self' https://wvgcdlxebbybthyuajgb.supabase.co wss://wvgcdlxebbybthyuajgb.supabase.co; object-src 'none'; base-uri 'none'; form-action 'self' https://wvgcdlxebbybthyuajgb.supabase.co;" http-equiv="Content-Security-Policy"/>
+<title>BrainiLab Admin</title>
+<link href="../assets/brand/iso-multicolor.png" rel="icon"/>
+<link href="../assets/css/admin.css?v=41.8.0" rel="stylesheet"/><link href="../assets/css/admin-mobile.css?v=41.8.0" rel="stylesheet"/>
+<script defer="" src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script defer="" src="../assets/js/supabase-config.js?v=41.8.0"></script>
+<script defer="" src="../assets/js/monetization-config.js?v=41.8.0"></script><script defer="" src="../assets/js/admin.js?v=41.8.0"></script>
+<link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect"/>
+<link rel="preconnect" href="https://wvgcdlxebbybthyuajgb.supabase.co" crossorigin/>
+</head>
+<body class="admin-body">
+<div class="admin-auth-screen" id="adminAuthScreen">
+<div class="admin-auth-card">
+<picture><source srcset="../assets/brand/brainilab-logo.webp" type="image/webp"/><img alt="BrainiLab" class="admin-auth-logo" decoding="async" fetchpriority="high" height="153" loading="eager" src="../assets/brand/brainilab-logo.png" width="450"/></picture>
+<span class="admin-eyebrow">Operations console</span>
+<h1>BrainiLab Admin</h1>
+<p id="adminAuthMessage">Checking secure admin access…</p>
+<div id="adminAuthActions"></div>
+<small>Admin access is enforced in PostgreSQL. Knowing this URL is not enough.</small>
+</div>
+</div>
+<div class="admin-shell" hidden="" id="adminShell">
+<aside class="admin-sidebar">
+<a aria-label="BrainiLab Admin dashboard" class="admin-brand" href="#dashboard">
+<picture><source srcset="../assets/brand/brainilab-logo.webp" type="image/webp"/><img alt="BrainiLab" decoding="async" fetchpriority="high" height="153" loading="eager" src="../assets/brand/brainilab-logo.png" width="450"/></picture>
+<span>Admin</span>
+</a>
+<div class="admin-session-chip">
+<span class="admin-status-dot"></span>
+<div>
+<strong id="adminSessionName">Admin</strong>
+<small id="adminSessionRole">—</small>
+</div>
+</div>
+<nav aria-label="Admin navigation" class="admin-nav">
+<button data-admin-view="dashboard" type="button"><span>▣</span>Dashboard</button>
+<button data-admin-view="daily" type="button"><span>◉</span>Daily</button>
+<button data-admin-view="questions" type="button"><span>?</span>Question Bank</button>
+<button data-admin-view="content" type="button"><span>▦</span>Content Pools</button>
+<button data-admin-view="analytics" type="button"><span>▥</span>Game Analytics</button>
+<button data-admin-view="users" type="button"><span>◎</span>Users</button>
+<button data-admin-view="rankings" type="button"><span>🏆</span>Rankings</button>
+<button data-admin-view="groups" type="button"><span>🛡</span>Groups</button>
+<button data-admin-view="suggestions" type="button"><span>✉</span>Suggestions</button>
+<button data-admin-view="monetization" type="button"><span>€</span>Monetization</button><button data-admin-view="system" type="button"><span>⚙</span>System</button>
+<button data-admin-view="audit" type="button"><span>⌕</span>Audit Log</button>
+</nav>
+<div class="admin-sidebar-foot">
+<a href="../index.html" rel="noopener" target="_blank">Open BrainiLab ↗</a>
+<button id="adminSignOut" type="button">Sign out</button>
+</div>
+</aside>
+<main class="admin-main">
+<header class="admin-topbar">
+<div>
+<span class="admin-eyebrow" id="adminPageEyebrow">BrainiLab</span>
+<h1 id="adminPageTitle">Dashboard</h1>
+</div>
+<div class="admin-topbar-actions">
+<span class="admin-env">PRODUCTION DATA</span>
+<button class="admin-icon-button" id="adminRefresh" title="Refresh" type="button">↻</button>
+</div>
+</header>
+<section aria-live="polite" class="admin-content" id="adminContent"></section>
+</main>
+</div>
+<div class="admin-drawer-backdrop" hidden="" id="adminDrawerBackdrop">
+<aside class="admin-drawer" id="adminDrawer">
+<button aria-label="Close" class="admin-drawer-close" id="adminDrawerClose" type="button">×</button>
+<div id="adminDrawerContent"></div>
+</aside>
+</div>
+<div class="admin-toast" id="adminToast" role="status"></div>
+</body>
+</html>

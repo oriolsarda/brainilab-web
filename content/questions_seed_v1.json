@@ -1,0 +1,7202 @@
+[
+  {
+    "external_key": "general-knowledge.easy.set1.q01",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 1,
+    "prompt": "How many continents are commonly recognized?",
+    "options": [
+      "7",
+      "5",
+      "6",
+      "8"
+    ],
+    "correct_index": 0,
+    "explanation": "The common model recognizes seven continents.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.easy.set1.q02",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 2,
+    "prompt": "Which ocean is the largest on Earth?",
+    "options": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Arctic Ocean",
+      "Pacific Ocean"
+    ],
+    "correct_index": 3,
+    "explanation": "The Pacific Ocean is the largest.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.easy.set1.q03",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 3,
+    "prompt": "What is the capital of France?",
+    "options": [
+      "Rome",
+      "Madrid",
+      "Paris",
+      "Lyon"
+    ],
+    "correct_index": 2,
+    "explanation": "Paris is the capital of France.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.easy.set1.q04",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 4,
+    "prompt": "Which planet is known as the Red Planet?",
+    "options": [
+      "Jupiter",
+      "Mars",
+      "Venus",
+      "Mercury"
+    ],
+    "correct_index": 1,
+    "explanation": "Iron minerals give Mars its reddish appearance.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.easy.set1.q05",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 5,
+    "prompt": "How many sides does a hexagon have?",
+    "options": [
+      "6",
+      "5",
+      "7",
+      "8"
+    ],
+    "correct_index": 0,
+    "explanation": "A hexagon has six sides.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.easy.set1.q06",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 6,
+    "prompt": "Which animal is the largest mammal?",
+    "options": [
+      "African elephant",
+      "Giraffe",
+      "Orca",
+      "Blue whale"
+    ],
+    "correct_index": 3,
+    "explanation": "The blue whale is the largest known animal.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.easy.set1.q07",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 7,
+    "prompt": "What is the freezing point of water in Celsius at standard pressure?",
+    "options": [
+      "32°C",
+      "100°C",
+      "0°C",
+      "10°C"
+    ],
+    "correct_index": 2,
+    "explanation": "Water freezes at 0°C under standard conditions.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.easy.set1.q08",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 8,
+    "prompt": "Which language is primarily spoken in Brazil?",
+    "options": [
+      "Italian",
+      "Portuguese",
+      "Spanish",
+      "French"
+    ],
+    "correct_index": 1,
+    "explanation": "Portuguese is Brazil's official language.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.easy.set1.q09",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 9,
+    "prompt": "Which instrument has black and white keys?",
+    "options": [
+      "Piano",
+      "Violin",
+      "Trumpet",
+      "Flute"
+    ],
+    "correct_index": 0,
+    "explanation": "A piano keyboard has black and white keys.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.easy.set1.q10",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 10,
+    "prompt": "Which shape has three sides?",
+    "options": [
+      "Square",
+      "Pentagon",
+      "Circle",
+      "Triangle"
+    ],
+    "correct_index": 3,
+    "explanation": "A triangle has three sides.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.easy.set1.q11",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 11,
+    "prompt": "Which country is famous for the pyramids of Giza?",
+    "options": [
+      "Greece",
+      "Mexico",
+      "Egypt",
+      "Jordan"
+    ],
+    "correct_index": 2,
+    "explanation": "The pyramids of Giza are in Egypt.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.easy.set1.q12",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 12,
+    "prompt": "Which month comes after September?",
+    "options": [
+      "December",
+      "October",
+      "August",
+      "November"
+    ],
+    "correct_index": 1,
+    "explanation": "October follows September.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.easy.set1.q13",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 13,
+    "prompt": "What do bees make from flower nectar?",
+    "options": [
+      "Honey",
+      "Milk",
+      "Silk",
+      "Wax paper"
+    ],
+    "correct_index": 0,
+    "explanation": "Bees transform nectar into honey.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.easy.set1.q14",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 14,
+    "prompt": "Which gas do humans need to breathe?",
+    "options": [
+      "Helium",
+      "Carbon dioxide",
+      "Neon",
+      "Oxygen"
+    ],
+    "correct_index": 3,
+    "explanation": "Humans need oxygen for cellular respiration.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.easy.set1.q15",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 15,
+    "prompt": "What is 12 × 12?",
+    "options": [
+      "132",
+      "154",
+      "144",
+      "124"
+    ],
+    "correct_index": 2,
+    "explanation": "12 multiplied by 12 is 144.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.easy.set1.q16",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 16,
+    "prompt": "Which continent is Japan part of?",
+    "options": [
+      "Oceania",
+      "Asia",
+      "Europe",
+      "Africa"
+    ],
+    "correct_index": 1,
+    "explanation": "Japan is in East Asia.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.easy.set1.q17",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 17,
+    "prompt": "How many days are in a leap year?",
+    "options": [
+      "366",
+      "364",
+      "365",
+      "367"
+    ],
+    "correct_index": 0,
+    "explanation": "Leap years have 366 days.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.easy.set1.q18",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 18,
+    "prompt": "Which metal is liquid near room temperature?",
+    "options": [
+      "Iron",
+      "Copper",
+      "Aluminium",
+      "Mercury"
+    ],
+    "correct_index": 3,
+    "explanation": "Mercury is liquid at ordinary room temperatures.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.easy.set1.q19",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 19,
+    "prompt": "Which sport uses a racket and a shuttlecock?",
+    "options": [
+      "Baseball",
+      "Golf",
+      "Badminton",
+      "Cricket"
+    ],
+    "correct_index": 2,
+    "explanation": "Badminton is played with rackets and a shuttlecock.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.easy.set1.q20",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 20,
+    "prompt": "What is the opposite direction of north?",
+    "options": [
+      "Up",
+      "South",
+      "East",
+      "West"
+    ],
+    "correct_index": 1,
+    "explanation": "South is opposite north.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.medium.set1.q01",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 1,
+    "prompt": "What is the chemical symbol for gold?",
+    "options": [
+      "Au",
+      "Ag",
+      "Gd",
+      "Go"
+    ],
+    "correct_index": 0,
+    "explanation": "Au comes from the Latin word aurum.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.medium.set1.q02",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 2,
+    "prompt": "Which city is the capital of Canada?",
+    "options": [
+      "Toronto",
+      "Vancouver",
+      "Montreal",
+      "Ottawa"
+    ],
+    "correct_index": 3,
+    "explanation": "Ottawa is Canada's capital.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.medium.set1.q03",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 3,
+    "prompt": "Which novel begins with the character Ishmael as narrator?",
+    "options": [
+      "Frankenstein",
+      "The Great Gatsby",
+      "Moby-Dick",
+      "Dracula"
+    ],
+    "correct_index": 2,
+    "explanation": "Ishmael narrates Herman Melville's Moby-Dick.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.medium.set1.q04",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 4,
+    "prompt": "Which country uses the yen as its currency?",
+    "options": [
+      "Thailand",
+      "Japan",
+      "China",
+      "South Korea"
+    ],
+    "correct_index": 1,
+    "explanation": "Japan's currency is the yen.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.medium.set1.q05",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 5,
+    "prompt": "What is the largest internal organ in the human body?",
+    "options": [
+      "Liver",
+      "Heart",
+      "Lung",
+      "Kidney"
+    ],
+    "correct_index": 0,
+    "explanation": "The liver is the largest internal organ.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.medium.set1.q06",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 6,
+    "prompt": "Which mountain range separates much of Europe from Asia in Russia?",
+    "options": [
+      "Alps",
+      "Andes",
+      "Pyrenees",
+      "Ural Mountains"
+    ],
+    "correct_index": 3,
+    "explanation": "The Urals are a conventional boundary between Europe and Asia.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.medium.set1.q07",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 7,
+    "prompt": "Who painted The Starry Night?",
+    "options": [
+      "Pablo Picasso",
+      "Salvador Dalí",
+      "Vincent van Gogh",
+      "Claude Monet"
+    ],
+    "correct_index": 2,
+    "explanation": "Vincent van Gogh painted The Starry Night in 1889.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.medium.set1.q08",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 8,
+    "prompt": "Which element has atomic number 6?",
+    "options": [
+      "Helium",
+      "Carbon",
+      "Oxygen",
+      "Nitrogen"
+    ],
+    "correct_index": 1,
+    "explanation": "Carbon has atomic number 6.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.medium.set1.q09",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 9,
+    "prompt": "Which country contains the ancient city of Petra?",
+    "options": [
+      "Jordan",
+      "Lebanon",
+      "Egypt",
+      "Turkey"
+    ],
+    "correct_index": 0,
+    "explanation": "Petra is in modern-day Jordan.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.medium.set1.q10",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 10,
+    "prompt": "What is the name of the line at 0° latitude?",
+    "options": [
+      "Prime Meridian",
+      "Tropic of Cancer",
+      "International Date Line",
+      "Equator"
+    ],
+    "correct_index": 3,
+    "explanation": "The Equator is at 0° latitude.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.medium.set1.q11",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 11,
+    "prompt": "Which composer wrote The Four Seasons?",
+    "options": [
+      "Bach",
+      "Beethoven",
+      "Antonio Vivaldi",
+      "Mozart"
+    ],
+    "correct_index": 2,
+    "explanation": "Vivaldi composed The Four Seasons.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.medium.set1.q12",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 12,
+    "prompt": "What is the square root of 169?",
+    "options": [
+      "14",
+      "13",
+      "11",
+      "12"
+    ],
+    "correct_index": 1,
+    "explanation": "13 × 13 = 169.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.medium.set1.q13",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 13,
+    "prompt": "Which sea lies between Europe and Africa?",
+    "options": [
+      "Mediterranean Sea",
+      "Baltic Sea",
+      "Black Sea",
+      "Arabian Sea"
+    ],
+    "correct_index": 0,
+    "explanation": "The Mediterranean separates southern Europe from North Africa.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.medium.set1.q14",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 14,
+    "prompt": "What is the capital of New Zealand?",
+    "options": [
+      "Auckland",
+      "Christchurch",
+      "Hamilton",
+      "Wellington"
+    ],
+    "correct_index": 3,
+    "explanation": "Wellington is New Zealand's capital.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.medium.set1.q15",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 15,
+    "prompt": "Which writing system is used for modern Korean?",
+    "options": [
+      "Cyrillic",
+      "Devanagari",
+      "Hangul",
+      "Kanji"
+    ],
+    "correct_index": 2,
+    "explanation": "Hangul is the Korean alphabet.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.medium.set1.q16",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 16,
+    "prompt": "Which organelle is often called the powerhouse of the cell?",
+    "options": [
+      "Golgi apparatus",
+      "Mitochondrion",
+      "Nucleus",
+      "Ribosome"
+    ],
+    "correct_index": 1,
+    "explanation": "Mitochondria produce much of a cell's ATP.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.medium.set1.q17",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 17,
+    "prompt": "Which chess piece moves in an L-shape?",
+    "options": [
+      "Knight",
+      "Bishop",
+      "Rook",
+      "Queen"
+    ],
+    "correct_index": 0,
+    "explanation": "The knight moves in an L-shaped pattern.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.medium.set1.q18",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 18,
+    "prompt": "Which desert covers much of northern Africa?",
+    "options": [
+      "Gobi",
+      "Kalahari",
+      "Atacama",
+      "Sahara"
+    ],
+    "correct_index": 3,
+    "explanation": "The Sahara spans much of North Africa.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.medium.set1.q19",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 19,
+    "prompt": "Which country has Lisbon as its capital?",
+    "options": [
+      "Brazil",
+      "Angola",
+      "Portugal",
+      "Spain"
+    ],
+    "correct_index": 2,
+    "explanation": "Lisbon is the capital of Portugal.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.medium.set1.q20",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 20,
+    "prompt": "What is the Roman numeral for 50?",
+    "options": [
+      "X",
+      "L",
+      "C",
+      "V"
+    ],
+    "correct_index": 1,
+    "explanation": "L represents 50 in Roman numerals.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.hard.set1.q01",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 1,
+    "prompt": "Which SI base unit measures luminous intensity?",
+    "options": [
+      "Candela",
+      "Lumen",
+      "Lux",
+      "Watt"
+    ],
+    "correct_index": 0,
+    "explanation": "The candela is the SI base unit of luminous intensity.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.hard.set1.q02",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 2,
+    "prompt": "What is the largest desert on Earth by area?",
+    "options": [
+      "Sahara",
+      "Arabian Desert",
+      "Gobi",
+      "Antarctica"
+    ],
+    "correct_index": 3,
+    "explanation": "A desert is defined by low precipitation; Antarctica is the largest.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.hard.set1.q03",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 3,
+    "prompt": "Which strait separates Asia from North America?",
+    "options": [
+      "Strait of Gibraltar",
+      "Malacca Strait",
+      "Bering Strait",
+      "Bosporus"
+    ],
+    "correct_index": 2,
+    "explanation": "The Bering Strait lies between Russia and Alaska.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.hard.set1.q04",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 4,
+    "prompt": "Which language family includes Finnish, Estonian and Hungarian?",
+    "options": [
+      "Semitic",
+      "Uralic",
+      "Romance",
+      "Slavic"
+    ],
+    "correct_index": 1,
+    "explanation": "These languages belong to the Uralic family.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.hard.set1.q05",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 5,
+    "prompt": "What is the capital of Bhutan?",
+    "options": [
+      "Thimphu",
+      "Kathmandu",
+      "Paro",
+      "Dhaka"
+    ],
+    "correct_index": 0,
+    "explanation": "Thimphu is Bhutan's capital.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.hard.set1.q06",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 6,
+    "prompt": "Which painter created Las Meninas?",
+    "options": [
+      "El Greco",
+      "Goya",
+      "Murillo",
+      "Diego Velázquez"
+    ],
+    "correct_index": 3,
+    "explanation": "Velázquez painted Las Meninas.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.hard.set1.q07",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 7,
+    "prompt": "Which number is represented by the Roman numeral CM?",
+    "options": [
+      "600",
+      "1100",
+      "900",
+      "400"
+    ],
+    "correct_index": 2,
+    "explanation": "CM means 1000 minus 100, which is 900.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.hard.set1.q08",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 8,
+    "prompt": "Which element's chemical symbol is W?",
+    "options": [
+      "Tantalum",
+      "Tungsten",
+      "Tin",
+      "Titanium"
+    ],
+    "correct_index": 1,
+    "explanation": "W comes from tungsten's older name, wolfram.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.hard.set1.q09",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 9,
+    "prompt": "Which country has the most natural lakes by many standard counts?",
+    "options": [
+      "Canada",
+      "Finland",
+      "Russia",
+      "United States"
+    ],
+    "correct_index": 0,
+    "explanation": "Canada contains an exceptionally large share of the world's lakes.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.hard.set1.q10",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 10,
+    "prompt": "Which ancient wonder stood at the harbor of Rhodes?",
+    "options": [
+      "Lighthouse of Alexandria",
+      "Temple of Artemis",
+      "Hanging Gardens",
+      "Colossus of Rhodes"
+    ],
+    "correct_index": 3,
+    "explanation": "The Colossus was a monumental statue on Rhodes.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.hard.set1.q11",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 11,
+    "prompt": "What is the study of flags called?",
+    "options": [
+      "Numismatics",
+      "Cartography",
+      "Vexillology",
+      "Heraldry"
+    ],
+    "correct_index": 2,
+    "explanation": "Vexillology is the study of flags.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.hard.set1.q12",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 12,
+    "prompt": "Which moon is the largest in the Solar System?",
+    "options": [
+      "Europa",
+      "Ganymede",
+      "Titan",
+      "Callisto"
+    ],
+    "correct_index": 1,
+    "explanation": "Ganymede, a moon of Jupiter, is the largest.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.hard.set1.q13",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 13,
+    "prompt": "Which country has the city of Samarkand?",
+    "options": [
+      "Uzbekistan",
+      "Kazakhstan",
+      "Tajikistan",
+      "Azerbaijan"
+    ],
+    "correct_index": 0,
+    "explanation": "Samarkand is in Uzbekistan.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.hard.set1.q14",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 14,
+    "prompt": "What is the smallest prime number greater than 100?",
+    "options": [
+      "103",
+      "107",
+      "109",
+      "101"
+    ],
+    "correct_index": 3,
+    "explanation": "101 is prime and immediately follows 100.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.hard.set1.q15",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 15,
+    "prompt": "Which ocean trench contains Challenger Deep?",
+    "options": [
+      "Java Trench",
+      "Puerto Rico Trench",
+      "Mariana Trench",
+      "Tonga Trench"
+    ],
+    "correct_index": 2,
+    "explanation": "Challenger Deep lies within the Mariana Trench.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.hard.set1.q16",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 16,
+    "prompt": "Which philosopher wrote The Republic?",
+    "options": [
+      "Epicurus",
+      "Plato",
+      "Aristotle",
+      "Socrates"
+    ],
+    "correct_index": 1,
+    "explanation": "Plato wrote The Republic.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.hard.set1.q17",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 17,
+    "prompt": "What is the capital of Namibia?",
+    "options": [
+      "Windhoek",
+      "Gaborone",
+      "Lusaka",
+      "Harare"
+    ],
+    "correct_index": 0,
+    "explanation": "Windhoek is Namibia's capital.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.hard.set1.q18",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 18,
+    "prompt": "Which gas is most abundant in Earth's atmosphere?",
+    "options": [
+      "Oxygen",
+      "Argon",
+      "Carbon dioxide",
+      "Nitrogen"
+    ],
+    "correct_index": 3,
+    "explanation": "Nitrogen makes up about 78% of the atmosphere.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.hard.set1.q19",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 19,
+    "prompt": "Which musical interval spans eight diatonic scale degrees?",
+    "options": [
+      "Third",
+      "Seventh",
+      "Octave",
+      "Fifth"
+    ],
+    "correct_index": 2,
+    "explanation": "An octave spans eight scale degrees.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "general-knowledge.hard.set1.q20",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "general-knowledge",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 20,
+    "prompt": "Which branch of mathematics studies properties preserved under continuous deformation?",
+    "options": [
+      "Combinatorics",
+      "Topology",
+      "Trigonometry",
+      "Arithmetic"
+    ],
+    "correct_index": 1,
+    "explanation": "Topology studies properties preserved under continuous deformation.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.easy.set1.q01",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 1,
+    "prompt": "What is the closest star to Earth?",
+    "options": [
+      "The Sun",
+      "Sirius",
+      "Proxima Centauri",
+      "Betelgeuse"
+    ],
+    "correct_index": 0,
+    "explanation": "The Sun is Earth's closest star.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.easy.set1.q02",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 2,
+    "prompt": "What organ pumps blood around the human body?",
+    "options": [
+      "Liver",
+      "Lungs",
+      "Kidney",
+      "Heart"
+    ],
+    "correct_index": 3,
+    "explanation": "The heart pumps blood through the circulatory system.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.easy.set1.q03",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 3,
+    "prompt": "What is H₂O commonly called?",
+    "options": [
+      "Oxygen",
+      "Hydrogen",
+      "Water",
+      "Salt"
+    ],
+    "correct_index": 2,
+    "explanation": "H₂O is the chemical formula for water.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.easy.set1.q04",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 4,
+    "prompt": "Which force keeps planets in orbit?",
+    "options": [
+      "Electricity",
+      "Gravity",
+      "Magnetism",
+      "Friction"
+    ],
+    "correct_index": 1,
+    "explanation": "Gravity keeps planets in orbit around stars.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.easy.set1.q05",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 5,
+    "prompt": "Which part of a plant performs most photosynthesis?",
+    "options": [
+      "Leaves",
+      "Roots",
+      "Flowers",
+      "Seeds"
+    ],
+    "correct_index": 0,
+    "explanation": "Leaves contain many chloroplasts.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.easy.set1.q06",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 6,
+    "prompt": "How many planets are in the Solar System?",
+    "options": [
+      "7",
+      "9",
+      "10",
+      "8"
+    ],
+    "correct_index": 3,
+    "explanation": "Eight planets orbit the Sun.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.easy.set1.q07",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 7,
+    "prompt": "What gas do plants absorb for photosynthesis?",
+    "options": [
+      "Hydrogen",
+      "Helium",
+      "Carbon dioxide",
+      "Oxygen"
+    ],
+    "correct_index": 2,
+    "explanation": "Plants use carbon dioxide during photosynthesis.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.easy.set1.q08",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 8,
+    "prompt": "What is the boiling point of water in Celsius at standard pressure?",
+    "options": [
+      "212°C below zero",
+      "100°C",
+      "0°C",
+      "50°C"
+    ],
+    "correct_index": 1,
+    "explanation": "Water boils at 100°C at standard atmospheric pressure.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.easy.set1.q09",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 9,
+    "prompt": "Which planet is largest?",
+    "options": [
+      "Jupiter",
+      "Earth",
+      "Saturn",
+      "Mars"
+    ],
+    "correct_index": 0,
+    "explanation": "Jupiter is the largest planet.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.easy.set1.q10",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 10,
+    "prompt": "What is the basic unit of life?",
+    "options": [
+      "Atom",
+      "Tissue",
+      "Organ",
+      "Cell"
+    ],
+    "correct_index": 3,
+    "explanation": "Cells are the basic structural units of living organisms.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.easy.set1.q11",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 11,
+    "prompt": "Which organ is mainly responsible for breathing?",
+    "options": [
+      "Pancreas",
+      "Bladder",
+      "Lungs",
+      "Stomach"
+    ],
+    "correct_index": 2,
+    "explanation": "The lungs exchange oxygen and carbon dioxide.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.easy.set1.q12",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 12,
+    "prompt": "Which substance do magnets strongly attract?",
+    "options": [
+      "Plastic",
+      "Iron",
+      "Wood",
+      "Glass"
+    ],
+    "correct_index": 1,
+    "explanation": "Iron is ferromagnetic.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.easy.set1.q13",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 13,
+    "prompt": "What do we call animals that eat only plants?",
+    "options": [
+      "Herbivores",
+      "Carnivores",
+      "Omnivores",
+      "Decomposers"
+    ],
+    "correct_index": 0,
+    "explanation": "Herbivores feed on plants.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.easy.set1.q14",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 14,
+    "prompt": "Which state of matter has a fixed volume but takes the shape of its container?",
+    "options": [
+      "Solid",
+      "Gas",
+      "Plasma",
+      "Liquid"
+    ],
+    "correct_index": 3,
+    "explanation": "Liquids have fixed volume but no fixed shape.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.easy.set1.q15",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 15,
+    "prompt": "What is Earth's natural satellite?",
+    "options": [
+      "Europa",
+      "Titan",
+      "The Moon",
+      "Mars"
+    ],
+    "correct_index": 2,
+    "explanation": "The Moon is Earth's natural satellite.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.easy.set1.q16",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 16,
+    "prompt": "Which blood cells carry oxygen?",
+    "options": [
+      "Neurons",
+      "Red blood cells",
+      "White blood cells",
+      "Platelets"
+    ],
+    "correct_index": 1,
+    "explanation": "Red blood cells contain hemoglobin.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.easy.set1.q17",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 17,
+    "prompt": "What is the center of an atom called?",
+    "options": [
+      "Nucleus",
+      "Shell",
+      "Membrane",
+      "Core electron"
+    ],
+    "correct_index": 0,
+    "explanation": "Protons and neutrons are located in the nucleus.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.easy.set1.q18",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 18,
+    "prompt": "Which vitamin can the skin produce with sunlight exposure?",
+    "options": [
+      "Vitamin C",
+      "Vitamin B12",
+      "Vitamin K only",
+      "Vitamin D"
+    ],
+    "correct_index": 3,
+    "explanation": "UVB exposure helps the skin synthesize vitamin D.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.easy.set1.q19",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 19,
+    "prompt": "What type of energy is stored in food?",
+    "options": [
+      "Nuclear energy",
+      "Magnetic energy",
+      "Chemical energy",
+      "Sound energy"
+    ],
+    "correct_index": 2,
+    "explanation": "Food stores energy in chemical bonds.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.easy.set1.q20",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 20,
+    "prompt": "Which planet is famous for its prominent ring system?",
+    "options": [
+      "Earth",
+      "Saturn",
+      "Venus",
+      "Mercury"
+    ],
+    "correct_index": 1,
+    "explanation": "Saturn has the Solar System's most visible ring system.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.medium.set1.q01",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 1,
+    "prompt": "Which organelle contains most of a eukaryotic cell's genetic material?",
+    "options": [
+      "Nucleus",
+      "Golgi apparatus",
+      "Lysosome",
+      "Cytoskeleton"
+    ],
+    "correct_index": 0,
+    "explanation": "Most DNA in eukaryotic cells is housed in the nucleus.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.medium.set1.q02",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 2,
+    "prompt": "What is the pH of a neutral aqueous solution at about 25°C?",
+    "options": [
+      "0",
+      "5",
+      "14",
+      "7"
+    ],
+    "correct_index": 3,
+    "explanation": "A neutral solution has pH 7 at about 25°C.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.medium.set1.q03",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 3,
+    "prompt": "Which particle has a negative electric charge?",
+    "options": [
+      "Neutron",
+      "Photon",
+      "Electron",
+      "Proton"
+    ],
+    "correct_index": 2,
+    "explanation": "Electrons carry negative charge.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.medium.set1.q04",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 4,
+    "prompt": "Which process converts glucose into usable cellular energy with oxygen?",
+    "options": [
+      "Transpiration",
+      "Cellular respiration",
+      "Photosynthesis",
+      "Osmosis"
+    ],
+    "correct_index": 1,
+    "explanation": "Aerobic cellular respiration extracts energy from glucose.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.medium.set1.q05",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 5,
+    "prompt": "What is the chemical symbol for sodium?",
+    "options": [
+      "Na",
+      "S",
+      "So",
+      "Sd"
+    ],
+    "correct_index": 0,
+    "explanation": "Na comes from the Latin natrium.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.medium.set1.q06",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 6,
+    "prompt": "Which layer of Earth is liquid and surrounds the inner core?",
+    "options": [
+      "Mantle",
+      "Crust",
+      "Lithosphere",
+      "Outer core"
+    ],
+    "correct_index": 3,
+    "explanation": "Earth's outer core is liquid iron-rich material.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.medium.set1.q07",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 7,
+    "prompt": "Which law states that pressure and volume of a gas are inversely related at constant temperature?",
+    "options": [
+      "Hooke's law",
+      "Kepler's law",
+      "Boyle's law",
+      "Ohm's law"
+    ],
+    "correct_index": 2,
+    "explanation": "Boyle's law describes the inverse pressure-volume relationship.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.medium.set1.q08",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 8,
+    "prompt": "Which molecule carries genetic instructions in most organisms?",
+    "options": [
+      "Cholesterol",
+      "DNA",
+      "ATP",
+      "Glucose"
+    ],
+    "correct_index": 1,
+    "explanation": "DNA stores hereditary information.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.medium.set1.q09",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 9,
+    "prompt": "What is the acceleration due to gravity near Earth's surface approximately?",
+    "options": [
+      "9.8 m/s²",
+      "1.6 m/s²",
+      "3.7 m/s²",
+      "24.8 m/s²"
+    ],
+    "correct_index": 0,
+    "explanation": "Near Earth's surface, g is about 9.8 m/s².",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.medium.set1.q10",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 10,
+    "prompt": "Which type of bond involves sharing electron pairs?",
+    "options": [
+      "Ionic bond",
+      "Metallic bond only",
+      "Hydrogen nucleus bond",
+      "Covalent bond"
+    ],
+    "correct_index": 3,
+    "explanation": "Covalent bonds involve shared electron pairs.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.medium.set1.q11",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 11,
+    "prompt": "Which part of the electromagnetic spectrum has a longer wavelength than visible red light?",
+    "options": [
+      "X-rays",
+      "Gamma rays",
+      "Infrared",
+      "Ultraviolet"
+    ],
+    "correct_index": 2,
+    "explanation": "Infrared wavelengths are longer than visible light.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.medium.set1.q12",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 12,
+    "prompt": "What is the largest organ of the human body?",
+    "options": [
+      "Brain",
+      "Skin",
+      "Liver",
+      "Lung"
+    ],
+    "correct_index": 1,
+    "explanation": "The skin is the body's largest organ.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.medium.set1.q13",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 13,
+    "prompt": "Which blood type is often called the universal red-cell donor?",
+    "options": [
+      "O negative",
+      "AB positive",
+      "A positive",
+      "B negative"
+    ],
+    "correct_index": 0,
+    "explanation": "O-negative red cells lack A, B and Rh D antigens.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.medium.set1.q14",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 14,
+    "prompt": "What is the name of the process by which liquid water becomes vapor?",
+    "options": [
+      "Condensation",
+      "Freezing",
+      "Sublimation",
+      "Evaporation"
+    ],
+    "correct_index": 3,
+    "explanation": "Evaporation converts liquid into gas at the surface.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.medium.set1.q15",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 15,
+    "prompt": "Which planet has the shortest year?",
+    "options": [
+      "Earth",
+      "Mars",
+      "Mercury",
+      "Venus"
+    ],
+    "correct_index": 2,
+    "explanation": "Mercury completes an orbit in about 88 Earth days.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.medium.set1.q16",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 16,
+    "prompt": "Which scientist formulated the three laws of motion?",
+    "options": [
+      "Niels Bohr",
+      "Isaac Newton",
+      "Michael Faraday",
+      "Gregor Mendel"
+    ],
+    "correct_index": 1,
+    "explanation": "Newton formulated the classical laws of motion.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.medium.set1.q17",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 17,
+    "prompt": "What is the atomic number of oxygen?",
+    "options": [
+      "8",
+      "6",
+      "7",
+      "16"
+    ],
+    "correct_index": 0,
+    "explanation": "Oxygen has eight protons.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.medium.set1.q18",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 18,
+    "prompt": "Which structure connects muscles to bones?",
+    "options": [
+      "Ligament",
+      "Cartilage",
+      "Nerve",
+      "Tendon"
+    ],
+    "correct_index": 3,
+    "explanation": "Tendons attach muscle to bone.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.medium.set1.q19",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 19,
+    "prompt": "What is the term for a species' role in an ecosystem?",
+    "options": [
+      "Genotype",
+      "Trophic atom",
+      "Ecological niche",
+      "Biome"
+    ],
+    "correct_index": 2,
+    "explanation": "A niche describes a species' ecological role and relationships.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.medium.set1.q20",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 20,
+    "prompt": "Which gas law relates volume directly to absolute temperature at constant pressure?",
+    "options": [
+      "Snell's law",
+      "Charles's law",
+      "Boyle's law",
+      "Coulomb's law"
+    ],
+    "correct_index": 1,
+    "explanation": "Charles's law states V is proportional to absolute temperature at constant pressure.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.hard.set1.q01",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 1,
+    "prompt": "Which quantum number determines an orbital's shape?",
+    "options": [
+      "Azimuthal quantum number",
+      "Principal quantum number",
+      "Magnetic spin only",
+      "Mass quantum number"
+    ],
+    "correct_index": 0,
+    "explanation": "The azimuthal quantum number l determines orbital shape.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.hard.set1.q02",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 2,
+    "prompt": "Which enzyme unwinds the DNA double helix during replication?",
+    "options": [
+      "Ligase",
+      "Amylase",
+      "Pepsin",
+      "Helicase"
+    ],
+    "correct_index": 3,
+    "explanation": "Helicase separates the DNA strands.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.hard.set1.q03",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 3,
+    "prompt": "What is the SI unit of electric capacitance?",
+    "options": [
+      "Weber",
+      "Henry",
+      "Farad",
+      "Tesla"
+    ],
+    "correct_index": 2,
+    "explanation": "Capacitance is measured in farads.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.hard.set1.q04",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 4,
+    "prompt": "Which organelle modifies and packages many proteins for secretion?",
+    "options": [
+      "Nucleolus",
+      "Golgi apparatus",
+      "Centrosome",
+      "Peroxisome"
+    ],
+    "correct_index": 1,
+    "explanation": "The Golgi apparatus modifies, sorts and packages proteins.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.hard.set1.q05",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 5,
+    "prompt": "What is Avogadro's constant approximately?",
+    "options": [
+      "6.022 × 10²³ mol⁻¹",
+      "9.81 × 10²",
+      "3.00 × 10⁸",
+      "1.602 × 10⁻¹⁹"
+    ],
+    "correct_index": 0,
+    "explanation": "Avogadro's constant is about 6.022 × 10²³ per mole.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.hard.set1.q06",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 6,
+    "prompt": "Which fundamental force binds quarks together?",
+    "options": [
+      "Weak interaction",
+      "Gravity",
+      "Electromagnetism",
+      "Strong interaction"
+    ],
+    "correct_index": 3,
+    "explanation": "The strong interaction binds quarks inside hadrons.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.hard.set1.q07",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 7,
+    "prompt": "What type of RNA carries amino acids to the ribosome?",
+    "options": [
+      "rRNA only",
+      "miRNA",
+      "tRNA",
+      "mRNA"
+    ],
+    "correct_index": 2,
+    "explanation": "Transfer RNA carries amino acids during translation.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.hard.set1.q08",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 8,
+    "prompt": "Which law says entropy of an isolated system tends not to decrease?",
+    "options": [
+      "Newton's second law",
+      "Second law of thermodynamics",
+      "First law of thermodynamics",
+      "Zeroth law"
+    ],
+    "correct_index": 1,
+    "explanation": "The second law describes the statistical tendency of entropy to increase.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.hard.set1.q09",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 9,
+    "prompt": "Which atmospheric layer contains most of the ozone layer?",
+    "options": [
+      "Stratosphere",
+      "Troposphere",
+      "Mesosphere",
+      "Thermosphere"
+    ],
+    "correct_index": 0,
+    "explanation": "Most atmospheric ozone is in the stratosphere.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.hard.set1.q10",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 10,
+    "prompt": "What is the term for programmed cell death?",
+    "options": [
+      "Mitosis",
+      "Necrosis only",
+      "Diffusion",
+      "Apoptosis"
+    ],
+    "correct_index": 3,
+    "explanation": "Apoptosis is regulated programmed cell death.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.hard.set1.q11",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 11,
+    "prompt": "Which equation relates energy and mass in special relativity?",
+    "options": [
+      "PV = nRT",
+      "V = IR",
+      "E = mc²",
+      "F = ma"
+    ],
+    "correct_index": 2,
+    "explanation": "Einstein's mass-energy equivalence is E = mc².",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.hard.set1.q12",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 12,
+    "prompt": "Which molecule is the primary energy currency of cells?",
+    "options": [
+      "Cellulose",
+      "ATP",
+      "DNA",
+      "NADH only"
+    ],
+    "correct_index": 1,
+    "explanation": "ATP transfers usable chemical energy in cells.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.hard.set1.q13",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 13,
+    "prompt": "What is the name of the boundary around a black hole beyond which escape is impossible?",
+    "options": [
+      "Event horizon",
+      "Photosphere",
+      "Magnetopause",
+      "Roche limit"
+    ],
+    "correct_index": 0,
+    "explanation": "The event horizon is the causal boundary of a black hole.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.hard.set1.q14",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 14,
+    "prompt": "Which amino acid contains sulfur in a thiol group?",
+    "options": [
+      "Glycine",
+      "Alanine",
+      "Valine",
+      "Cysteine"
+    ],
+    "correct_index": 3,
+    "explanation": "Cysteine contains a sulfur-bearing thiol group.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.hard.set1.q15",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 15,
+    "prompt": "What is the SI unit of magnetic flux?",
+    "options": [
+      "Farad",
+      "Siemens",
+      "Weber",
+      "Tesla"
+    ],
+    "correct_index": 2,
+    "explanation": "Magnetic flux is measured in webers.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.hard.set1.q16",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 16,
+    "prompt": "Which geological process forms new oceanic crust at mid-ocean ridges?",
+    "options": [
+      "Isostasy",
+      "Seafloor spreading",
+      "Subduction",
+      "Weathering"
+    ],
+    "correct_index": 1,
+    "explanation": "Magma rises and creates new crust at spreading centers.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.hard.set1.q17",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 17,
+    "prompt": "Which blood vessel carries oxygenated blood from the lungs to the heart?",
+    "options": [
+      "Pulmonary vein",
+      "Pulmonary artery",
+      "Aorta",
+      "Vena cava"
+    ],
+    "correct_index": 0,
+    "explanation": "Pulmonary veins return oxygenated blood to the left atrium.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.hard.set1.q18",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 18,
+    "prompt": "What is the term for a change in allele frequency caused by chance?",
+    "options": [
+      "Gene flow",
+      "Natural selection",
+      "Speciation",
+      "Genetic drift"
+    ],
+    "correct_index": 3,
+    "explanation": "Genetic drift is stochastic change in allele frequencies.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.hard.set1.q19",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 19,
+    "prompt": "Which principle states that no two electrons in an atom can have the same four quantum numbers?",
+    "options": [
+      "Aufbau rule",
+      "Le Chatelier principle",
+      "Pauli exclusion principle",
+      "Heisenberg uncertainty principle"
+    ],
+    "correct_index": 2,
+    "explanation": "The Pauli exclusion principle restricts electron quantum states.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "science.hard.set1.q20",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "science",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 20,
+    "prompt": "Which type of star is the Sun?",
+    "options": [
+      "Neutron star",
+      "G-type main-sequence star",
+      "Red giant",
+      "White dwarf"
+    ],
+    "correct_index": 1,
+    "explanation": "The Sun is a G-type main-sequence star.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.easy.set1.q01",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 1,
+    "prompt": "Which ancient civilization built the pyramids of Giza?",
+    "options": [
+      "Ancient Egyptians",
+      "Romans",
+      "Vikings",
+      "Aztecs"
+    ],
+    "correct_index": 0,
+    "explanation": "The pyramids of Giza were built in ancient Egypt.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.easy.set1.q02",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 2,
+    "prompt": "In which country did the Renaissance begin?",
+    "options": [
+      "France",
+      "England",
+      "Germany",
+      "Italy"
+    ],
+    "correct_index": 3,
+    "explanation": "The Renaissance began in Italian city-states.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.easy.set1.q03",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 3,
+    "prompt": "Who was the first president of the United States?",
+    "options": [
+      "Thomas Jefferson",
+      "John Adams",
+      "George Washington",
+      "Abraham Lincoln"
+    ],
+    "correct_index": 2,
+    "explanation": "George Washington served as the first U.S. president.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.easy.set1.q04",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 4,
+    "prompt": "Which empire used Rome as its central city?",
+    "options": [
+      "Inca Empire",
+      "Roman Empire",
+      "Ottoman Empire",
+      "Mughal Empire"
+    ],
+    "correct_index": 1,
+    "explanation": "Rome was the political heart of the Roman Empire.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.easy.set1.q05",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 5,
+    "prompt": "Which ship famously sank on its maiden voyage in 1912?",
+    "options": [
+      "Titanic",
+      "Lusitania",
+      "Bismarck",
+      "Mayflower"
+    ],
+    "correct_index": 0,
+    "explanation": "RMS Titanic sank in April 1912.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.easy.set1.q06",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 6,
+    "prompt": "Which civilization built Machu Picchu?",
+    "options": [
+      "Maya",
+      "Aztec",
+      "Olmec",
+      "Inca"
+    ],
+    "correct_index": 3,
+    "explanation": "Machu Picchu was built by the Inca.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.easy.set1.q07",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 7,
+    "prompt": "The Great Wall is located in which country?",
+    "options": [
+      "Japan",
+      "Mongolia",
+      "China",
+      "India"
+    ],
+    "correct_index": 2,
+    "explanation": "The Great Wall stretches across northern China.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.easy.set1.q08",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 8,
+    "prompt": "Which war ended in 1945?",
+    "options": [
+      "Seven Years' War",
+      "World War II",
+      "World War I",
+      "Crimean War"
+    ],
+    "correct_index": 1,
+    "explanation": "World War II ended in 1945.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.easy.set1.q09",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 9,
+    "prompt": "Which city was buried by Mount Vesuvius in AD 79?",
+    "options": [
+      "Pompeii",
+      "Athens",
+      "Sparta",
+      "Carthage"
+    ],
+    "correct_index": 0,
+    "explanation": "Pompeii was buried by the eruption of Vesuvius.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.easy.set1.q10",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 10,
+    "prompt": "Which ancient people are associated with democracy in Athens?",
+    "options": [
+      "Persians",
+      "Phoenicians",
+      "Hittites",
+      "Greeks"
+    ],
+    "correct_index": 3,
+    "explanation": "Classical Athens developed an early form of democracy.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.easy.set1.q11",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 11,
+    "prompt": "Who wrote the Declaration of Independence's main draft?",
+    "options": [
+      "Benjamin Franklin",
+      "James Madison",
+      "Thomas Jefferson",
+      "George Washington"
+    ],
+    "correct_index": 2,
+    "explanation": "Thomas Jefferson wrote the principal draft.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.easy.set1.q12",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 12,
+    "prompt": "Which country was ruled by pharaohs?",
+    "options": [
+      "Spain",
+      "Egypt",
+      "Norway",
+      "Peru"
+    ],
+    "correct_index": 1,
+    "explanation": "Pharaoh was the title of ancient Egyptian rulers.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.easy.set1.q13",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 13,
+    "prompt": "Which medieval pandemic was known as the Black Death?",
+    "options": [
+      "Bubonic plague",
+      "Smallpox",
+      "Influenza",
+      "Cholera"
+    ],
+    "correct_index": 0,
+    "explanation": "The Black Death was largely caused by plague.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.easy.set1.q14",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 14,
+    "prompt": "Which explorer's 1492 voyage crossed the Atlantic under Spanish sponsorship?",
+    "options": [
+      "James Cook",
+      "Marco Polo",
+      "Ferdinand Magellan",
+      "Christopher Columbus"
+    ],
+    "correct_index": 3,
+    "explanation": "Columbus crossed the Atlantic in 1492.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.easy.set1.q15",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 15,
+    "prompt": "Which empire was centered in Constantinople after the western Roman Empire fell?",
+    "options": [
+      "Aztec Empire",
+      "British Empire",
+      "Byzantine Empire",
+      "Mali Empire"
+    ],
+    "correct_index": 2,
+    "explanation": "The Eastern Roman Empire is commonly called the Byzantine Empire.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.easy.set1.q16",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 16,
+    "prompt": "Which invention is strongly associated with Johannes Gutenberg?",
+    "options": [
+      "Compass",
+      "Movable-type printing press",
+      "Steam engine",
+      "Telephone"
+    ],
+    "correct_index": 1,
+    "explanation": "Gutenberg is associated with movable-type printing in Europe.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.easy.set1.q17",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 17,
+    "prompt": "Which country gifted the Statue of Liberty to the United States?",
+    "options": [
+      "France",
+      "Spain",
+      "Italy",
+      "Canada"
+    ],
+    "correct_index": 0,
+    "explanation": "France gifted the Statue of Liberty.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.easy.set1.q18",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 18,
+    "prompt": "Who was known as the Maid of Orléans?",
+    "options": [
+      "Marie Curie",
+      "Catherine de' Medici",
+      "Eleanor of Aquitaine",
+      "Joan of Arc"
+    ],
+    "correct_index": 3,
+    "explanation": "Joan of Arc is known as the Maid of Orléans.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.easy.set1.q19",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 19,
+    "prompt": "Which civilization used cuneiform writing in Mesopotamia?",
+    "options": [
+      "Celts",
+      "Maori",
+      "Sumerians",
+      "Minoans"
+    ],
+    "correct_index": 2,
+    "explanation": "Sumerians used cuneiform script.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.easy.set1.q20",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 20,
+    "prompt": "Which document signed in 1215 limited the English king's power?",
+    "options": [
+      "Treaty of Versailles",
+      "Magna Carta",
+      "Bill of Rights",
+      "Domesday Book"
+    ],
+    "correct_index": 1,
+    "explanation": "Magna Carta was sealed in 1215.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.medium.set1.q01",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 1,
+    "prompt": "Which treaty formally ended World War I between Germany and the Allies?",
+    "options": [
+      "Treaty of Versailles",
+      "Treaty of Tordesillas",
+      "Treaty of Utrecht",
+      "Treaty of Paris 1763"
+    ],
+    "correct_index": 0,
+    "explanation": "The Treaty of Versailles was signed in 1919.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.medium.set1.q02",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 2,
+    "prompt": "Which empire was ruled by Mansa Musa?",
+    "options": [
+      "Songhai Empire",
+      "Ottoman Empire",
+      "Aksumite Empire",
+      "Mali Empire"
+    ],
+    "correct_index": 3,
+    "explanation": "Mansa Musa ruled the Mali Empire.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.medium.set1.q03",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 3,
+    "prompt": "What was the capital of the Aztec Empire?",
+    "options": [
+      "Teotihuacan",
+      "Chichén Itzá",
+      "Tenochtitlan",
+      "Cusco"
+    ],
+    "correct_index": 2,
+    "explanation": "Tenochtitlan stood where Mexico City is today.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.medium.set1.q04",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 4,
+    "prompt": "Which dynasty built much of the present-day Great Wall of China?",
+    "options": [
+      "Qing dynasty",
+      "Ming dynasty",
+      "Tang dynasty",
+      "Han dynasty"
+    ],
+    "correct_index": 1,
+    "explanation": "Large surviving sections were built under the Ming.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.medium.set1.q05",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 5,
+    "prompt": "Which battle in 1066 led to Norman rule in England?",
+    "options": [
+      "Battle of Hastings",
+      "Battle of Agincourt",
+      "Battle of Tours",
+      "Battle of Bosworth"
+    ],
+    "correct_index": 0,
+    "explanation": "William the Conqueror won at Hastings.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.medium.set1.q06",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 6,
+    "prompt": "Which civilization had its capital at Cusco?",
+    "options": [
+      "Maya civilization",
+      "Mali Empire",
+      "Khmer Empire",
+      "Inca Empire"
+    ],
+    "correct_index": 3,
+    "explanation": "Cusco was the capital of the Inca Empire.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.medium.set1.q07",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 7,
+    "prompt": "Which movement began with Martin Luther's Ninety-five Theses?",
+    "options": [
+      "Industrial Revolution",
+      "Great Awakening",
+      "Protestant Reformation",
+      "Enlightenment"
+    ],
+    "correct_index": 2,
+    "explanation": "Luther's challenge helped launch the Protestant Reformation.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.medium.set1.q08",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 8,
+    "prompt": "Which empire captured Constantinople in 1453?",
+    "options": [
+      "Safavid Empire",
+      "Ottoman Empire",
+      "Mongol Empire",
+      "Holy Roman Empire"
+    ],
+    "correct_index": 1,
+    "explanation": "Ottoman forces under Mehmed II captured Constantinople.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.medium.set1.q09",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 9,
+    "prompt": "Which queen ruled England during the defeat of the Spanish Armada?",
+    "options": [
+      "Elizabeth I",
+      "Victoria",
+      "Mary I",
+      "Anne"
+    ],
+    "correct_index": 0,
+    "explanation": "Elizabeth I reigned in 1588.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.medium.set1.q10",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 10,
+    "prompt": "Which country was formerly known as Persia?",
+    "options": [
+      "Iraq",
+      "Syria",
+      "Turkey",
+      "Iran"
+    ],
+    "correct_index": 3,
+    "explanation": "Iran was commonly called Persia in the West until the 20th century.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.medium.set1.q11",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 11,
+    "prompt": "Which revolution began with the storming of the Bastille in 1789?",
+    "options": [
+      "Haitian Revolution",
+      "Glorious Revolution",
+      "French Revolution",
+      "Russian Revolution"
+    ],
+    "correct_index": 2,
+    "explanation": "The Bastille was stormed on 14 July 1789.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.medium.set1.q12",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 12,
+    "prompt": "Which Roman city was the eastern capital refounded by Constantine?",
+    "options": [
+      "Ravenna",
+      "Constantinople",
+      "Alexandria",
+      "Antioch"
+    ],
+    "correct_index": 1,
+    "explanation": "Constantine refounded Byzantium as Constantinople.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.medium.set1.q13",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 13,
+    "prompt": "Which empire built Angkor Wat?",
+    "options": [
+      "Khmer Empire",
+      "Maurya Empire",
+      "Majapahit Empire",
+      "Gupta Empire"
+    ],
+    "correct_index": 0,
+    "explanation": "Angkor Wat was built by the Khmer Empire.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.medium.set1.q14",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 14,
+    "prompt": "Who led the Soviet Union during most of World War II?",
+    "options": [
+      "Vladimir Lenin",
+      "Nikita Khrushchev",
+      "Leon Trotsky",
+      "Joseph Stalin"
+    ],
+    "correct_index": 3,
+    "explanation": "Stalin led the USSR during most of the war.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.medium.set1.q15",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 15,
+    "prompt": "Which ancient Greek city-state was famous for its military society?",
+    "options": [
+      "Delphi",
+      "Miletus",
+      "Sparta",
+      "Corinth"
+    ],
+    "correct_index": 2,
+    "explanation": "Sparta was known for its military-centered society.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.medium.set1.q16",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 16,
+    "prompt": "Which event triggered the start of World War I in 1914?",
+    "options": [
+      "Wall Street Crash",
+      "Assassination of Archduke Franz Ferdinand",
+      "Sinking of the Titanic",
+      "Russian Revolution"
+    ],
+    "correct_index": 1,
+    "explanation": "The assassination in Sarajevo triggered the July Crisis.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.medium.set1.q17",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 17,
+    "prompt": "Which ruler issued the Edict of Milan with Licinius in 313?",
+    "options": [
+      "Constantine I",
+      "Augustus",
+      "Nero",
+      "Trajan"
+    ],
+    "correct_index": 0,
+    "explanation": "The Edict of Milan granted religious toleration in the Roman Empire.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.medium.set1.q18",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 18,
+    "prompt": "Which African country defeated Italy at the Battle of Adwa in 1896?",
+    "options": [
+      "Kenya",
+      "Sudan",
+      "Ghana",
+      "Ethiopia"
+    ],
+    "correct_index": 3,
+    "explanation": "Ethiopian forces defeated Italy at Adwa.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.medium.set1.q19",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 19,
+    "prompt": "Which civilization created the Rosetta Stone?",
+    "options": [
+      "Achaemenid Persia",
+      "Minoan Crete",
+      "Ptolemaic Egypt",
+      "Roman Republic"
+    ],
+    "correct_index": 2,
+    "explanation": "The Rosetta Stone dates to Ptolemaic Egypt.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.medium.set1.q20",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 20,
+    "prompt": "Which English king had six wives?",
+    "options": [
+      "Edward I",
+      "Henry VIII",
+      "Henry V",
+      "Richard III"
+    ],
+    "correct_index": 1,
+    "explanation": "Henry VIII married six times.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.hard.set1.q01",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 1,
+    "prompt": "Which peace settlement ended the Thirty Years' War in 1648?",
+    "options": [
+      "Peace of Westphalia",
+      "Treaty of Utrecht",
+      "Congress of Vienna",
+      "Treaty of Aachen"
+    ],
+    "correct_index": 0,
+    "explanation": "The Peace of Westphalia ended the Thirty Years' War.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.hard.set1.q02",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 2,
+    "prompt": "Which dynasty ruled China when Zheng He led his major voyages?",
+    "options": [
+      "Song dynasty",
+      "Yuan dynasty",
+      "Qing dynasty",
+      "Ming dynasty"
+    ],
+    "correct_index": 3,
+    "explanation": "Zheng He's voyages occurred under the Ming.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.hard.set1.q03",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 3,
+    "prompt": "Which Persian ruler founded the Achaemenid Empire?",
+    "options": [
+      "Xerxes II",
+      "Artaxerxes III",
+      "Cyrus the Great",
+      "Darius III"
+    ],
+    "correct_index": 2,
+    "explanation": "Cyrus II founded the Achaemenid Empire.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.hard.set1.q04",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 4,
+    "prompt": "Which battle in 732 is associated with Charles Martel?",
+    "options": [
+      "Battle of Crécy",
+      "Battle of Tours",
+      "Battle of Poitiers 1356",
+      "Battle of Bouvines"
+    ],
+    "correct_index": 1,
+    "explanation": "Charles Martel's forces won near Tours/Poitiers in 732.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.hard.set1.q05",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 5,
+    "prompt": "Which ruler commissioned the Domesday Book?",
+    "options": [
+      "William I of England",
+      "Alfred the Great",
+      "Henry II",
+      "Edward the Confessor"
+    ],
+    "correct_index": 0,
+    "explanation": "William the Conqueror ordered the Domesday survey.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.hard.set1.q06",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 6,
+    "prompt": "Which dynasty ruled the Byzantine Empire during the reign of Justinian I?",
+    "options": [
+      "Komnenian dynasty",
+      "Palaiologan dynasty",
+      "Macedonian dynasty",
+      "Justinian dynasty"
+    ],
+    "correct_index": 3,
+    "explanation": "Justinian I belonged to the Justinian dynasty.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.hard.set1.q07",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 7,
+    "prompt": "Which treaty divided newly encountered lands outside Europe between Spain and Portugal in 1494?",
+    "options": [
+      "Treaty of Alcáçovas",
+      "Treaty of Cateau-Cambrésis",
+      "Treaty of Tordesillas",
+      "Treaty of Zaragoza only"
+    ],
+    "correct_index": 2,
+    "explanation": "Tordesillas divided spheres of expansion between Spain and Portugal.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.hard.set1.q08",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 8,
+    "prompt": "Which revolt began in India in 1857 against East India Company rule?",
+    "options": [
+      "Sepoy War of 1919",
+      "Indian Rebellion of 1857",
+      "Boxer Rebellion",
+      "Taiping Rebellion"
+    ],
+    "correct_index": 1,
+    "explanation": "The 1857 uprising challenged Company rule.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.hard.set1.q09",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 9,
+    "prompt": "Which ruler was defeated at the Battle of Waterloo?",
+    "options": [
+      "Napoleon Bonaparte",
+      "Louis XIV",
+      "Charlemagne",
+      "Otto von Bismarck"
+    ],
+    "correct_index": 0,
+    "explanation": "Napoleon was defeated at Waterloo in 1815.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.hard.set1.q10",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 10,
+    "prompt": "Which city served as the capital of the Abbasid Caliphate for much of its history?",
+    "options": [
+      "Damascus",
+      "Cairo",
+      "Mecca",
+      "Baghdad"
+    ],
+    "correct_index": 3,
+    "explanation": "Baghdad was founded as the Abbasid capital in the 8th century.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.hard.set1.q11",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 11,
+    "prompt": "Which civilization built the city of Great Zimbabwe?",
+    "options": [
+      "Romans",
+      "Aksumites",
+      "Shona ancestors",
+      "Phoenicians"
+    ],
+    "correct_index": 2,
+    "explanation": "Great Zimbabwe was built by ancestors of the Shona peoples.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.hard.set1.q12",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 12,
+    "prompt": "Which emperor was crowned in Rome on Christmas Day in 800?",
+    "options": [
+      "Justinian I",
+      "Charlemagne",
+      "Otto I",
+      "Frederick Barbarossa"
+    ],
+    "correct_index": 1,
+    "explanation": "Pope Leo III crowned Charlemagne emperor in 800.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.hard.set1.q13",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 13,
+    "prompt": "Which battle in 1709 was one of the bloodiest of the War of the Spanish Succession?",
+    "options": [
+      "Battle of Malplaquet",
+      "Battle of Blenheim",
+      "Battle of Ramillies",
+      "Battle of Rocroi"
+    ],
+    "correct_index": 0,
+    "explanation": "Malplaquet in 1709 was exceptionally costly.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.hard.set1.q14",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 14,
+    "prompt": "Which Japanese shogunate began in 1603?",
+    "options": [
+      "Kamakura shogunate",
+      "Ashikaga shogunate",
+      "Fujiwara shogunate",
+      "Tokugawa shogunate"
+    ],
+    "correct_index": 3,
+    "explanation": "Tokugawa Ieyasu became shogun in 1603.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.hard.set1.q15",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 15,
+    "prompt": "Which kingdom had its capital at Meroë?",
+    "options": [
+      "Nabataean Kingdom",
+      "Ptolemaic Kingdom",
+      "Kingdom of Kush",
+      "Kingdom of Aksum"
+    ],
+    "correct_index": 2,
+    "explanation": "Meroë was a major capital of Kush.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.hard.set1.q16",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 16,
+    "prompt": "Which 19th-century conference formalized many rules for European colonization in Africa?",
+    "options": [
+      "Potsdam Conference",
+      "Berlin Conference",
+      "Congress of Vienna",
+      "Algeciras Conference"
+    ],
+    "correct_index": 1,
+    "explanation": "The Berlin Conference took place in 1884–85.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.hard.set1.q17",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 17,
+    "prompt": "Which Roman emperor divided administration between a tetrarchy of rulers?",
+    "options": [
+      "Diocletian",
+      "Hadrian",
+      "Claudius",
+      "Marcus Aurelius"
+    ],
+    "correct_index": 0,
+    "explanation": "Diocletian established the Tetrarchy.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.hard.set1.q18",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 18,
+    "prompt": "Which 1688 event replaced James II in England?",
+    "options": [
+      "English Civil War",
+      "Wars of the Roses",
+      "Restoration",
+      "Glorious Revolution"
+    ],
+    "correct_index": 3,
+    "explanation": "The Glorious Revolution deposed James II.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.hard.set1.q19",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 19,
+    "prompt": "Which empire controlled much of the Andes before the Inca expansion?",
+    "options": [
+      "Sassanian Empire",
+      "Srivijaya",
+      "Wari Empire",
+      "Mughal Empire"
+    ],
+    "correct_index": 2,
+    "explanation": "The Wari state was a major Andean power centuries before the Inca.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "history.hard.set1.q20",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "history",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 20,
+    "prompt": "Which ancient historian wrote The Histories about the Greco-Persian Wars?",
+    "options": [
+      "Tacitus",
+      "Herodotus",
+      "Thucydides",
+      "Polybius"
+    ],
+    "correct_index": 1,
+    "explanation": "Herodotus authored The Histories.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.easy.set1.q01",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 1,
+    "prompt": "How many players does a soccer team normally have on the field at once?",
+    "options": [
+      "11",
+      "9",
+      "10",
+      "12"
+    ],
+    "correct_index": 0,
+    "explanation": "A soccer team fields 11 players including the goalkeeper.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.easy.set1.q02",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 2,
+    "prompt": "Which sport uses a basketball hoop?",
+    "options": [
+      "Volleyball",
+      "Tennis",
+      "Rugby",
+      "Basketball"
+    ],
+    "correct_index": 3,
+    "explanation": "Basketball is scored through a hoop.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.easy.set1.q03",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 3,
+    "prompt": "How many points is a touchdown worth before the extra-point attempt?",
+    "options": [
+      "5",
+      "7",
+      "6",
+      "3"
+    ],
+    "correct_index": 2,
+    "explanation": "A touchdown is worth six points.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.easy.set1.q04",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 4,
+    "prompt": "Which sport is played at Wimbledon?",
+    "options": [
+      "Badminton",
+      "Tennis",
+      "Golf",
+      "Cricket"
+    ],
+    "correct_index": 1,
+    "explanation": "Wimbledon is a major tennis championship.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.easy.set1.q05",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 5,
+    "prompt": "How many rings are on the Olympic symbol?",
+    "options": [
+      "5",
+      "4",
+      "6",
+      "7"
+    ],
+    "correct_index": 0,
+    "explanation": "The Olympic symbol has five interlocking rings.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.easy.set1.q06",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 6,
+    "prompt": "Which sport uses clubs and a small ball on a course with holes?",
+    "options": [
+      "Hockey",
+      "Polo",
+      "Baseball",
+      "Golf"
+    ],
+    "correct_index": 3,
+    "explanation": "Golf is played with clubs and holes.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.easy.set1.q07",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 7,
+    "prompt": "What color card sends a soccer player off the field?",
+    "options": [
+      "Blue",
+      "Green",
+      "Red",
+      "Yellow"
+    ],
+    "correct_index": 2,
+    "explanation": "A red card means dismissal.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.easy.set1.q08",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 8,
+    "prompt": "Which sport uses a puck?",
+    "options": [
+      "Handball",
+      "Ice hockey",
+      "Basketball",
+      "Baseball"
+    ],
+    "correct_index": 1,
+    "explanation": "Ice hockey is played with a puck.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.easy.set1.q09",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 9,
+    "prompt": "How many bases are on a baseball diamond including home plate?",
+    "options": [
+      "4",
+      "3",
+      "5",
+      "6"
+    ],
+    "correct_index": 0,
+    "explanation": "There are first, second, third and home plate.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.easy.set1.q10",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 10,
+    "prompt": "Which sport features a pommel horse?",
+    "options": [
+      "Swimming",
+      "Fencing",
+      "Rowing",
+      "Gymnastics"
+    ],
+    "correct_index": 3,
+    "explanation": "The pommel horse is a gymnastics apparatus.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.easy.set1.q11",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 11,
+    "prompt": "What is the maximum score with one dart in standard darts?",
+    "options": [
+      "50",
+      "100",
+      "60",
+      "20"
+    ],
+    "correct_index": 2,
+    "explanation": "Triple 20 scores 60.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.easy.set1.q12",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 12,
+    "prompt": "Which sport uses a shuttlecock?",
+    "options": [
+      "Lacrosse",
+      "Badminton",
+      "Squash",
+      "Table tennis"
+    ],
+    "correct_index": 1,
+    "explanation": "Badminton uses a shuttlecock.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.easy.set1.q13",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 13,
+    "prompt": "How long is an Olympic swimming pool?",
+    "options": [
+      "50 metres",
+      "25 metres",
+      "40 metres",
+      "100 metres"
+    ],
+    "correct_index": 0,
+    "explanation": "Olympic long-course pools are 50 metres long.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.easy.set1.q14",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 14,
+    "prompt": "Which sport includes the positions quarterback and wide receiver?",
+    "options": [
+      "Baseball",
+      "Rugby union",
+      "Basketball",
+      "American football"
+    ],
+    "correct_index": 3,
+    "explanation": "Those are American football positions.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.easy.set1.q15",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 15,
+    "prompt": "Which sport is associated with the Tour de France?",
+    "options": [
+      "Motorsport",
+      "Skiing",
+      "Cycling",
+      "Running"
+    ],
+    "correct_index": 2,
+    "explanation": "The Tour de France is a road cycling race.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.easy.set1.q16",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 16,
+    "prompt": "How many points is a free throw worth in basketball?",
+    "options": [
+      "4",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct_index": 1,
+    "explanation": "A made free throw scores one point.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.easy.set1.q17",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 17,
+    "prompt": "Which sport has a goalkeeper and a penalty area?",
+    "options": [
+      "Soccer",
+      "Tennis",
+      "Golf",
+      "Baseball"
+    ],
+    "correct_index": 0,
+    "explanation": "Soccer uses goalkeepers and penalty areas.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.easy.set1.q18",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 18,
+    "prompt": "Which combat sport uses throws, pins and grappling on a mat?",
+    "options": [
+      "Archery",
+      "Rowing",
+      "Cycling",
+      "Wrestling"
+    ],
+    "correct_index": 3,
+    "explanation": "Wrestling centers on grappling techniques.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.easy.set1.q19",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 19,
+    "prompt": "Which sport uses wickets, bats and overs?",
+    "options": [
+      "Field hockey",
+      "Baseball",
+      "Cricket",
+      "Rugby"
+    ],
+    "correct_index": 2,
+    "explanation": "Cricket uses wickets and overs.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.easy.set1.q20",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 20,
+    "prompt": "What is a score of zero called in tennis?",
+    "options": [
+      "Duck",
+      "Love",
+      "Blank",
+      "Nil"
+    ],
+    "correct_index": 1,
+    "explanation": "In tennis, zero is called love.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.medium.set1.q01",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 1,
+    "prompt": "How many minutes are in a standard soccer match excluding added time and extra time?",
+    "options": [
+      "90",
+      "80",
+      "100",
+      "120"
+    ],
+    "correct_index": 0,
+    "explanation": "A standard match is two 45-minute halves.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.medium.set1.q02",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 2,
+    "prompt": "How many points is a try worth in rugby union?",
+    "options": [
+      "3",
+      "4",
+      "6",
+      "5"
+    ],
+    "correct_index": 3,
+    "explanation": "A try is worth five points.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.medium.set1.q03",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 3,
+    "prompt": "What is the official marathon distance?",
+    "options": [
+      "41.5 km",
+      "44.2 km",
+      "42.195 km",
+      "40 km"
+    ],
+    "correct_index": 2,
+    "explanation": "The marathon distance is 42.195 km.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.medium.set1.q04",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 4,
+    "prompt": "Which tennis surface is used at Roland-Garros?",
+    "options": [
+      "Carpet",
+      "Clay",
+      "Grass",
+      "Hard court"
+    ],
+    "correct_index": 1,
+    "explanation": "The French Open is played on clay.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.medium.set1.q05",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 5,
+    "prompt": "How many outs does each team receive per half-inning in baseball?",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "6"
+    ],
+    "correct_index": 0,
+    "explanation": "Three outs end a half-inning.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.medium.set1.q06",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 6,
+    "prompt": "What is the shot clock length in the NBA?",
+    "options": [
+      "20 seconds",
+      "30 seconds",
+      "35 seconds",
+      "24 seconds"
+    ],
+    "correct_index": 3,
+    "explanation": "NBA teams normally have 24 seconds to attempt a shot.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.medium.set1.q07",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 7,
+    "prompt": "Which chess time-control term describes a very fast game, often under 10 minutes per player?",
+    "options": [
+      "Correspondence",
+      "Adjourned",
+      "Blitz",
+      "Classical"
+    ],
+    "correct_index": 2,
+    "explanation": "Blitz chess uses short time controls.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.medium.set1.q08",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 8,
+    "prompt": "How many players are on the court for one volleyball team?",
+    "options": [
+      "8",
+      "6",
+      "5",
+      "7"
+    ],
+    "correct_index": 1,
+    "explanation": "Six players per team are on the court.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.medium.set1.q09",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 9,
+    "prompt": "What is a birdie in golf?",
+    "options": [
+      "One stroke under par",
+      "One stroke over par",
+      "Two strokes under par",
+      "Exactly par"
+    ],
+    "correct_index": 0,
+    "explanation": "A birdie is one under par.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.medium.set1.q10",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 10,
+    "prompt": "Which athletics event combines ten track-and-field disciplines?",
+    "options": [
+      "Heptathlon",
+      "Pentathlon",
+      "Triathlon",
+      "Decathlon"
+    ],
+    "correct_index": 3,
+    "explanation": "A decathlon has ten events.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.medium.set1.q11",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 11,
+    "prompt": "What is the diameter of a basketball hoop in inches?",
+    "options": [
+      "20 inches",
+      "24 inches",
+      "18 inches",
+      "16 inches"
+    ],
+    "correct_index": 2,
+    "explanation": "A regulation basketball rim is 18 inches in diameter.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.medium.set1.q12",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 12,
+    "prompt": "How many periods are in a standard NHL ice hockey game?",
+    "options": [
+      "5",
+      "3",
+      "2",
+      "4"
+    ],
+    "correct_index": 1,
+    "explanation": "NHL regulation games have three periods.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.medium.set1.q13",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 13,
+    "prompt": "What is the maximum break in snooker under normal circumstances?",
+    "options": [
+      "147",
+      "155",
+      "180",
+      "100"
+    ],
+    "correct_index": 0,
+    "explanation": "A standard maximum break is 147.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.medium.set1.q14",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 14,
+    "prompt": "Which swimming stroke uses a frog-like kick?",
+    "options": [
+      "Backstroke",
+      "Butterfly",
+      "Freestyle",
+      "Breaststroke"
+    ],
+    "correct_index": 3,
+    "explanation": "Breaststroke uses a simultaneous frog-style kick.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.medium.set1.q15",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 15,
+    "prompt": "How many sets must a team normally win to win an indoor volleyball match?",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "2"
+    ],
+    "correct_index": 2,
+    "explanation": "Standard matches are best of five sets.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.medium.set1.q16",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 16,
+    "prompt": "In baseball, how many strikes normally make an out?",
+    "options": [
+      "5",
+      "3",
+      "2",
+      "4"
+    ],
+    "correct_index": 1,
+    "explanation": "Three strikes result in a strikeout.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.medium.set1.q17",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 17,
+    "prompt": "Which lane is closest to the inside of a standard running track?",
+    "options": [
+      "Lane 1",
+      "Lane 4",
+      "Lane 8",
+      "Lane 9"
+    ],
+    "correct_index": 0,
+    "explanation": "Lane 1 is the innermost lane.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.medium.set1.q18",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 18,
+    "prompt": "In Formula One, what color flag signals the end of a race?",
+    "options": [
+      "Red flag",
+      "Yellow flag",
+      "Blue flag",
+      "Chequered flag"
+    ],
+    "correct_index": 3,
+    "explanation": "The chequered flag marks the finish.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.medium.set1.q19",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 19,
+    "prompt": "Which sport uses the term 'scrum'?",
+    "options": [
+      "Tennis",
+      "Baseball",
+      "Rugby",
+      "Basketball"
+    ],
+    "correct_index": 2,
+    "explanation": "Scrums are a set piece in rugby.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.medium.set1.q20",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 20,
+    "prompt": "How many points is the bullseye worth in standard darts?",
+    "options": [
+      "60",
+      "50",
+      "25",
+      "40"
+    ],
+    "correct_index": 1,
+    "explanation": "The inner bull is worth 50 points.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.hard.set1.q01",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 1,
+    "prompt": "In tennis, what is the minimum point margin required to win a standard tiebreak?",
+    "options": [
+      "2 points",
+      "1 point",
+      "3 points",
+      "4 points"
+    ],
+    "correct_index": 0,
+    "explanation": "A standard tiebreak must be won by two points.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.hard.set1.q02",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 2,
+    "prompt": "What is the maximum legal weight of a standard table tennis ball under current rules?",
+    "options": [
+      "2.0 grams",
+      "3.2 grams",
+      "4.0 grams",
+      "2.7 grams"
+    ],
+    "correct_index": 3,
+    "explanation": "A regulation table tennis ball weighs 2.7 g.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.hard.set1.q03",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 3,
+    "prompt": "How far is the penalty spot from the goal line in association football?",
+    "options": [
+      "11 yards",
+      "15 yards",
+      "12 yards",
+      "10 yards"
+    ],
+    "correct_index": 2,
+    "explanation": "The penalty mark is 12 yards from the goal line.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.hard.set1.q04",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 4,
+    "prompt": "In rugby union, how many players are in a full scrum?",
+    "options": [
+      "9 per team",
+      "8 per team",
+      "6 per team",
+      "7 per team"
+    ],
+    "correct_index": 1,
+    "explanation": "Eight forwards per team form a full scrum.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.hard.set1.q05",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 5,
+    "prompt": "What is the standard height of a basketball rim above the floor?",
+    "options": [
+      "10 feet",
+      "9 feet",
+      "11 feet",
+      "12 feet"
+    ],
+    "correct_index": 0,
+    "explanation": "The rim is 10 feet above the court.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.hard.set1.q06",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 6,
+    "prompt": "In cricket, how many legal balls are in a standard over?",
+    "options": [
+      "5",
+      "7",
+      "8",
+      "6"
+    ],
+    "correct_index": 3,
+    "explanation": "Modern standard overs contain six legal deliveries.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.hard.set1.q07",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 7,
+    "prompt": "What is the maximum number of clubs a golfer may carry in a round under the Rules of Golf?",
+    "options": [
+      "15",
+      "16",
+      "14",
+      "12"
+    ],
+    "correct_index": 2,
+    "explanation": "The maximum is 14 clubs.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.hard.set1.q08",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 8,
+    "prompt": "How many points is a safety worth in American football?",
+    "options": [
+      "4",
+      "2",
+      "1",
+      "3"
+    ],
+    "correct_index": 1,
+    "explanation": "A safety scores two points.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.hard.set1.q09",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 9,
+    "prompt": "In fencing, which weapon has the entire body as valid target area?",
+    "options": [
+      "Épée",
+      "Foil",
+      "Sabre",
+      "Rapier"
+    ],
+    "correct_index": 0,
+    "explanation": "Épée target area includes the entire body.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.hard.set1.q10",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 10,
+    "prompt": "How wide is a standard soccer goal?",
+    "options": [
+      "6 yards",
+      "7 yards",
+      "10 yards",
+      "8 yards"
+    ],
+    "correct_index": 3,
+    "explanation": "A full-size goal is 8 yards wide.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.hard.set1.q11",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 11,
+    "prompt": "Which swimming stroke begins from the water rather than a starting block in competition?",
+    "options": [
+      "Breaststroke",
+      "Freestyle",
+      "Backstroke",
+      "Butterfly"
+    ],
+    "correct_index": 2,
+    "explanation": "Backstroke starts are made in the water.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.hard.set1.q12",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 12,
+    "prompt": "What is the maximum score for one arrow in standard target archery?",
+    "options": [
+      "20",
+      "10",
+      "9",
+      "12"
+    ],
+    "correct_index": 1,
+    "explanation": "The innermost scoring ring is worth 10.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.hard.set1.q13",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 13,
+    "prompt": "How many points is a conversion worth in rugby union?",
+    "options": [
+      "2",
+      "1",
+      "3",
+      "5"
+    ],
+    "correct_index": 0,
+    "explanation": "A successful conversion adds two points.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.hard.set1.q14",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 14,
+    "prompt": "In baseball, how far apart are the bases in Major League Baseball?",
+    "options": [
+      "60 feet",
+      "75 feet",
+      "100 feet",
+      "90 feet"
+    ],
+    "correct_index": 3,
+    "explanation": "MLB bases are 90 feet apart.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.hard.set1.q15",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 15,
+    "prompt": "What is the length of one lap of a standard outdoor athletics track in lane 1?",
+    "options": [
+      "300 metres",
+      "500 metres",
+      "400 metres",
+      "200 metres"
+    ],
+    "correct_index": 2,
+    "explanation": "A standard outdoor track is 400 m around lane 1.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.hard.set1.q16",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 16,
+    "prompt": "In snooker, which colored ball is worth the most points?",
+    "options": [
+      "Brown",
+      "Black",
+      "Pink",
+      "Blue"
+    ],
+    "correct_index": 1,
+    "explanation": "The black is worth seven points.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.hard.set1.q17",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 17,
+    "prompt": "What is the net height at the center in men's singles tennis?",
+    "options": [
+      "3 feet",
+      "2 feet 6 inches",
+      "3 feet 6 inches",
+      "4 feet"
+    ],
+    "correct_index": 0,
+    "explanation": "The tennis net is 3 feet high at the center.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.hard.set1.q18",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 18,
+    "prompt": "How many rounds are in a standard professional boxing world-title bout?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "12"
+    ],
+    "correct_index": 3,
+    "explanation": "Modern world-title bouts are generally scheduled for 12 rounds.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.hard.set1.q19",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 19,
+    "prompt": "In ice hockey, how many skaters per team are normally on the ice at even strength, excluding the goaltender?",
+    "options": [
+      "6",
+      "7",
+      "5",
+      "4"
+    ],
+    "correct_index": 2,
+    "explanation": "At even strength, each team has five skaters plus a goaltender.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "sports.hard.set1.q20",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "sports",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 20,
+    "prompt": "Which athletics throwing event uses a wire-handled metal ball?",
+    "options": [
+      "Javelin",
+      "Hammer throw",
+      "Shot put",
+      "Discus"
+    ],
+    "correct_index": 1,
+    "explanation": "The hammer is a metal ball attached to a wire and handle.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.easy.set1.q01",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 1,
+    "prompt": "What is the capital of France?",
+    "options": [
+      "Paris",
+      "Ottawa",
+      "Rome",
+      "Buenos Aires"
+    ],
+    "correct_index": 0,
+    "explanation": "Paris is the capital of France.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.easy.set1.q02",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 2,
+    "prompt": "What is the capital of Japan?",
+    "options": [
+      "Brasília",
+      "Berlin",
+      "Mexico City",
+      "Tokyo"
+    ],
+    "correct_index": 3,
+    "explanation": "Tokyo is the capital of Japan.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.easy.set1.q03",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 3,
+    "prompt": "What is the capital of Australia?",
+    "options": [
+      "New Delhi",
+      "Seoul",
+      "Canberra",
+      "Cairo"
+    ],
+    "correct_index": 2,
+    "explanation": "Canberra is the capital of Australia.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.easy.set1.q04",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 4,
+    "prompt": "What is the capital of Canada?",
+    "options": [
+      "Bangkok",
+      "Ottawa",
+      "Madrid",
+      "Beijing"
+    ],
+    "correct_index": 1,
+    "explanation": "Ottawa is the capital of Canada.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.easy.set1.q05",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 5,
+    "prompt": "What is the capital of Brazil?",
+    "options": [
+      "Brasília",
+      "Rome",
+      "Buenos Aires",
+      "Athens"
+    ],
+    "correct_index": 0,
+    "explanation": "Brasília is the capital of Brazil.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.easy.set1.q06",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 6,
+    "prompt": "What is the capital of Egypt?",
+    "options": [
+      "Berlin",
+      "Mexico City",
+      "Lisbon",
+      "Cairo"
+    ],
+    "correct_index": 3,
+    "explanation": "Cairo is the capital of Egypt.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.easy.set1.q07",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 7,
+    "prompt": "What is the capital of Spain?",
+    "options": [
+      "Seoul",
+      "Oslo",
+      "Madrid",
+      "New Delhi"
+    ],
+    "correct_index": 2,
+    "explanation": "Madrid is the capital of Spain.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.easy.set1.q08",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 8,
+    "prompt": "What is the capital of Italy?",
+    "options": [
+      "Stockholm",
+      "Rome",
+      "Beijing",
+      "Bangkok"
+    ],
+    "correct_index": 1,
+    "explanation": "Rome is the capital of Italy.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.easy.set1.q09",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 9,
+    "prompt": "What is the capital of Germany?",
+    "options": [
+      "Berlin",
+      "Buenos Aires",
+      "Athens",
+      "Nairobi"
+    ],
+    "correct_index": 0,
+    "explanation": "Berlin is the capital of Germany.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.easy.set1.q10",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 10,
+    "prompt": "What is the capital of India?",
+    "options": [
+      "Mexico City",
+      "Lisbon",
+      "Paris",
+      "New Delhi"
+    ],
+    "correct_index": 3,
+    "explanation": "New Delhi is the capital of India.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.easy.set1.q11",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 11,
+    "prompt": "What is the capital of China?",
+    "options": [
+      "Oslo",
+      "Tokyo",
+      "Beijing",
+      "Seoul"
+    ],
+    "correct_index": 2,
+    "explanation": "Beijing is the capital of China.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.easy.set1.q12",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 12,
+    "prompt": "What is the capital of Argentina?",
+    "options": [
+      "Canberra",
+      "Buenos Aires",
+      "Bangkok",
+      "Stockholm"
+    ],
+    "correct_index": 1,
+    "explanation": "Buenos Aires is the capital of Argentina.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.easy.set1.q13",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 13,
+    "prompt": "What is the capital of Mexico?",
+    "options": [
+      "Mexico City",
+      "Athens",
+      "Nairobi",
+      "Ottawa"
+    ],
+    "correct_index": 0,
+    "explanation": "Mexico City is the capital of Mexico.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.easy.set1.q14",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 14,
+    "prompt": "What is the capital of South Korea?",
+    "options": [
+      "Lisbon",
+      "Paris",
+      "Brasília",
+      "Seoul"
+    ],
+    "correct_index": 3,
+    "explanation": "Seoul is the capital of South Korea.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.easy.set1.q15",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 15,
+    "prompt": "What is the capital of Thailand?",
+    "options": [
+      "Tokyo",
+      "Cairo",
+      "Bangkok",
+      "Oslo"
+    ],
+    "correct_index": 2,
+    "explanation": "Bangkok is the capital of Thailand.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.easy.set1.q16",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 16,
+    "prompt": "What is the capital of Greece?",
+    "options": [
+      "Madrid",
+      "Athens",
+      "Stockholm",
+      "Canberra"
+    ],
+    "correct_index": 1,
+    "explanation": "Athens is the capital of Greece.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.easy.set1.q17",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 17,
+    "prompt": "What is the capital of Portugal?",
+    "options": [
+      "Lisbon",
+      "Nairobi",
+      "Ottawa",
+      "Rome"
+    ],
+    "correct_index": 0,
+    "explanation": "Lisbon is the capital of Portugal.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.easy.set1.q18",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 18,
+    "prompt": "What is the capital of Norway?",
+    "options": [
+      "Paris",
+      "Brasília",
+      "Berlin",
+      "Oslo"
+    ],
+    "correct_index": 3,
+    "explanation": "Oslo is the capital of Norway.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.easy.set1.q19",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 19,
+    "prompt": "What is the capital of Sweden?",
+    "options": [
+      "Cairo",
+      "New Delhi",
+      "Stockholm",
+      "Tokyo"
+    ],
+    "correct_index": 2,
+    "explanation": "Stockholm is the capital of Sweden.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.easy.set1.q20",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 20,
+    "prompt": "What is the capital of Kenya?",
+    "options": [
+      "Beijing",
+      "Nairobi",
+      "Canberra",
+      "Madrid"
+    ],
+    "correct_index": 1,
+    "explanation": "Nairobi is the capital of Kenya.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.medium.set1.q01",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 1,
+    "prompt": "What is the capital of Morocco?",
+    "options": [
+      "Rabat",
+      "Jakarta",
+      "Vienna",
+      "Warsaw"
+    ],
+    "correct_index": 0,
+    "explanation": "Rabat is the capital of Morocco.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.medium.set1.q02",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 2,
+    "prompt": "What is the capital of Turkey?",
+    "options": [
+      "Manila",
+      "Bern",
+      "Prague",
+      "Ankara"
+    ],
+    "correct_index": 3,
+    "explanation": "Ankara is the capital of Turkey.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.medium.set1.q03",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 3,
+    "prompt": "What is the capital of Vietnam?",
+    "options": [
+      "Brussels",
+      "Budapest",
+      "Hanoi",
+      "Wellington"
+    ],
+    "correct_index": 2,
+    "explanation": "Hanoi is the capital of Vietnam.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.medium.set1.q04",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 4,
+    "prompt": "What is the capital of Indonesia?",
+    "options": [
+      "Bucharest",
+      "Jakarta",
+      "Dublin",
+      "Amsterdam"
+    ],
+    "correct_index": 1,
+    "explanation": "Jakarta is the capital of Indonesia.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.medium.set1.q05",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 5,
+    "prompt": "What is the capital of Philippines?",
+    "options": [
+      "Manila",
+      "Vienna",
+      "Warsaw",
+      "Sofia"
+    ],
+    "correct_index": 0,
+    "explanation": "Manila is the capital of Philippines.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.medium.set1.q06",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 6,
+    "prompt": "What is the capital of New Zealand?",
+    "options": [
+      "Bern",
+      "Prague",
+      "Helsinki",
+      "Wellington"
+    ],
+    "correct_index": 3,
+    "explanation": "Wellington is the capital of New Zealand.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.medium.set1.q07",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 7,
+    "prompt": "What is the capital of Ireland?",
+    "options": [
+      "Budapest",
+      "Copenhagen",
+      "Dublin",
+      "Brussels"
+    ],
+    "correct_index": 2,
+    "explanation": "Dublin is the capital of Ireland.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.medium.set1.q08",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 8,
+    "prompt": "What is the capital of Austria?",
+    "options": [
+      "Lima",
+      "Vienna",
+      "Amsterdam",
+      "Bucharest"
+    ],
+    "correct_index": 1,
+    "explanation": "Vienna is the capital of Austria.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.medium.set1.q09",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 9,
+    "prompt": "What is the capital of Switzerland?",
+    "options": [
+      "Bern",
+      "Warsaw",
+      "Sofia",
+      "Bogotá"
+    ],
+    "correct_index": 0,
+    "explanation": "Bern is the capital of Switzerland.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.medium.set1.q10",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 10,
+    "prompt": "What is the capital of Belgium?",
+    "options": [
+      "Prague",
+      "Helsinki",
+      "Rabat",
+      "Brussels"
+    ],
+    "correct_index": 3,
+    "explanation": "Brussels is the capital of Belgium.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.medium.set1.q11",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 11,
+    "prompt": "What is the capital of Netherlands?",
+    "options": [
+      "Copenhagen",
+      "Ankara",
+      "Amsterdam",
+      "Budapest"
+    ],
+    "correct_index": 2,
+    "explanation": "Amsterdam is the capital of Netherlands.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.medium.set1.q12",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 12,
+    "prompt": "What is the capital of Poland?",
+    "options": [
+      "Hanoi",
+      "Warsaw",
+      "Bucharest",
+      "Lima"
+    ],
+    "correct_index": 1,
+    "explanation": "Warsaw is the capital of Poland.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.medium.set1.q13",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 13,
+    "prompt": "What is the capital of Czechia?",
+    "options": [
+      "Prague",
+      "Sofia",
+      "Bogotá",
+      "Jakarta"
+    ],
+    "correct_index": 0,
+    "explanation": "Prague is the capital of Czechia.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.medium.set1.q14",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 14,
+    "prompt": "What is the capital of Hungary?",
+    "options": [
+      "Helsinki",
+      "Rabat",
+      "Manila",
+      "Budapest"
+    ],
+    "correct_index": 3,
+    "explanation": "Budapest is the capital of Hungary.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.medium.set1.q15",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 15,
+    "prompt": "What is the capital of Romania?",
+    "options": [
+      "Ankara",
+      "Wellington",
+      "Bucharest",
+      "Copenhagen"
+    ],
+    "correct_index": 2,
+    "explanation": "Bucharest is the capital of Romania.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.medium.set1.q16",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 16,
+    "prompt": "What is the capital of Bulgaria?",
+    "options": [
+      "Dublin",
+      "Sofia",
+      "Lima",
+      "Hanoi"
+    ],
+    "correct_index": 1,
+    "explanation": "Sofia is the capital of Bulgaria.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.medium.set1.q17",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 17,
+    "prompt": "What is the capital of Finland?",
+    "options": [
+      "Helsinki",
+      "Bogotá",
+      "Jakarta",
+      "Vienna"
+    ],
+    "correct_index": 0,
+    "explanation": "Helsinki is the capital of Finland.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.medium.set1.q18",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 18,
+    "prompt": "What is the capital of Denmark?",
+    "options": [
+      "Rabat",
+      "Manila",
+      "Bern",
+      "Copenhagen"
+    ],
+    "correct_index": 3,
+    "explanation": "Copenhagen is the capital of Denmark.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.medium.set1.q19",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 19,
+    "prompt": "What is the capital of Peru?",
+    "options": [
+      "Wellington",
+      "Brussels",
+      "Lima",
+      "Ankara"
+    ],
+    "correct_index": 2,
+    "explanation": "Lima is the capital of Peru.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.medium.set1.q20",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 20,
+    "prompt": "What is the capital of Colombia?",
+    "options": [
+      "Amsterdam",
+      "Bogotá",
+      "Hanoi",
+      "Dublin"
+    ],
+    "correct_index": 1,
+    "explanation": "Bogotá is the capital of Colombia.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.hard.set1.q01",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 1,
+    "prompt": "What is the capital of Kazakhstan?",
+    "options": [
+      "Astana",
+      "Kathmandu",
+      "Dodoma",
+      "Dakar"
+    ],
+    "correct_index": 0,
+    "explanation": "Astana is the capital of Kazakhstan.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.hard.set1.q02",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 2,
+    "prompt": "What is the capital of Mongolia?",
+    "options": [
+      "Vientiane",
+      "Abuja",
+      "Windhoek",
+      "Ulaanbaatar"
+    ],
+    "correct_index": 3,
+    "explanation": "Ulaanbaatar is the capital of Mongolia.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.hard.set1.q03",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 3,
+    "prompt": "What is the capital of Bhutan?",
+    "options": [
+      "Accra",
+      "Gaborone",
+      "Thimphu",
+      "Phnom Penh"
+    ],
+    "correct_index": 2,
+    "explanation": "Thimphu is the capital of Bhutan.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.hard.set1.q04",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 4,
+    "prompt": "What is the capital of Nepal?",
+    "options": [
+      "Harare",
+      "Kathmandu",
+      "Naypyidaw",
+      "Addis Ababa"
+    ],
+    "correct_index": 1,
+    "explanation": "Kathmandu is the capital of Nepal.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.hard.set1.q05",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 5,
+    "prompt": "What is the capital of Laos?",
+    "options": [
+      "Vientiane",
+      "Dodoma",
+      "Dakar",
+      "Montevideo"
+    ],
+    "correct_index": 0,
+    "explanation": "Vientiane is the capital of Laos.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.hard.set1.q06",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 6,
+    "prompt": "What is the capital of Cambodia?",
+    "options": [
+      "Abuja",
+      "Windhoek",
+      "Asunción",
+      "Phnom Penh"
+    ],
+    "correct_index": 3,
+    "explanation": "Phnom Penh is the capital of Cambodia.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.hard.set1.q07",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 7,
+    "prompt": "What is the capital of Myanmar?",
+    "options": [
+      "Gaborone",
+      "Quito",
+      "Naypyidaw",
+      "Accra"
+    ],
+    "correct_index": 2,
+    "explanation": "Naypyidaw is the capital of Myanmar.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.hard.set1.q08",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 8,
+    "prompt": "What is the capital of Tanzania?",
+    "options": [
+      "Belmopan",
+      "Dodoma",
+      "Addis Ababa",
+      "Harare"
+    ],
+    "correct_index": 1,
+    "explanation": "Dodoma is the capital of Tanzania.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.hard.set1.q09",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 9,
+    "prompt": "What is the capital of Nigeria?",
+    "options": [
+      "Abuja",
+      "Dakar",
+      "Montevideo",
+      "Georgetown"
+    ],
+    "correct_index": 0,
+    "explanation": "Abuja is the capital of Nigeria.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.hard.set1.q10",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 10,
+    "prompt": "What is the capital of Ghana?",
+    "options": [
+      "Windhoek",
+      "Asunción",
+      "Astana",
+      "Accra"
+    ],
+    "correct_index": 3,
+    "explanation": "Accra is the capital of Ghana.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.hard.set1.q11",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 11,
+    "prompt": "What is the capital of Ethiopia?",
+    "options": [
+      "Quito",
+      "Ulaanbaatar",
+      "Addis Ababa",
+      "Gaborone"
+    ],
+    "correct_index": 2,
+    "explanation": "Addis Ababa is the capital of Ethiopia.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.hard.set1.q12",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 12,
+    "prompt": "What is the capital of Senegal?",
+    "options": [
+      "Thimphu",
+      "Dakar",
+      "Harare",
+      "Belmopan"
+    ],
+    "correct_index": 1,
+    "explanation": "Dakar is the capital of Senegal.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.hard.set1.q13",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 13,
+    "prompt": "What is the capital of Namibia?",
+    "options": [
+      "Windhoek",
+      "Montevideo",
+      "Georgetown",
+      "Kathmandu"
+    ],
+    "correct_index": 0,
+    "explanation": "Windhoek is the capital of Namibia.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.hard.set1.q14",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 14,
+    "prompt": "What is the capital of Botswana?",
+    "options": [
+      "Asunción",
+      "Astana",
+      "Vientiane",
+      "Gaborone"
+    ],
+    "correct_index": 3,
+    "explanation": "Gaborone is the capital of Botswana.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.hard.set1.q15",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 15,
+    "prompt": "What is the capital of Zimbabwe?",
+    "options": [
+      "Ulaanbaatar",
+      "Phnom Penh",
+      "Harare",
+      "Quito"
+    ],
+    "correct_index": 2,
+    "explanation": "Harare is the capital of Zimbabwe.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.hard.set1.q16",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 16,
+    "prompt": "What is the capital of Uruguay?",
+    "options": [
+      "Naypyidaw",
+      "Montevideo",
+      "Belmopan",
+      "Thimphu"
+    ],
+    "correct_index": 1,
+    "explanation": "Montevideo is the capital of Uruguay.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.hard.set1.q17",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 17,
+    "prompt": "What is the capital of Paraguay?",
+    "options": [
+      "Asunción",
+      "Georgetown",
+      "Kathmandu",
+      "Dodoma"
+    ],
+    "correct_index": 0,
+    "explanation": "Asunción is the capital of Paraguay.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.hard.set1.q18",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 18,
+    "prompt": "What is the capital of Ecuador?",
+    "options": [
+      "Astana",
+      "Vientiane",
+      "Abuja",
+      "Quito"
+    ],
+    "correct_index": 3,
+    "explanation": "Quito is the capital of Ecuador.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.hard.set1.q19",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 19,
+    "prompt": "What is the capital of Belize?",
+    "options": [
+      "Phnom Penh",
+      "Accra",
+      "Belmopan",
+      "Ulaanbaatar"
+    ],
+    "correct_index": 2,
+    "explanation": "Belmopan is the capital of Belize.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-capitals.hard.set1.q20",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-capitals",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 20,
+    "prompt": "What is the capital of Guyana?",
+    "options": [
+      "Addis Ababa",
+      "Georgetown",
+      "Thimphu",
+      "Naypyidaw"
+    ],
+    "correct_index": 1,
+    "explanation": "Georgetown is the capital of Guyana.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.easy.set1.q01",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 1,
+    "prompt": "Which country does this flag represent? 🇫🇷",
+    "options": [
+      "France",
+      "Brazil",
+      "India",
+      "South Korea"
+    ],
+    "correct_index": 0,
+    "explanation": "🇫🇷 is the flag of France.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.easy.set1.q02",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 2,
+    "prompt": "Which country does this flag represent? 🇯🇵",
+    "options": [
+      "Egypt",
+      "China",
+      "Thailand",
+      "Japan"
+    ],
+    "correct_index": 3,
+    "explanation": "🇯🇵 is the flag of Japan.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.easy.set1.q03",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 3,
+    "prompt": "Which country does this flag represent? 🇦🇺",
+    "options": [
+      "Argentina",
+      "Greece",
+      "Australia",
+      "Spain"
+    ],
+    "correct_index": 2,
+    "explanation": "🇦🇺 is the flag of Australia.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.easy.set1.q04",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 4,
+    "prompt": "Which country does this flag represent? 🇨🇦",
+    "options": [
+      "Portugal",
+      "Canada",
+      "Italy",
+      "Mexico"
+    ],
+    "correct_index": 1,
+    "explanation": "🇨🇦 is the flag of Canada.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.easy.set1.q05",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 5,
+    "prompt": "Which country does this flag represent? 🇧🇷",
+    "options": [
+      "Brazil",
+      "Germany",
+      "South Korea",
+      "Norway"
+    ],
+    "correct_index": 0,
+    "explanation": "🇧🇷 is the flag of Brazil.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.easy.set1.q06",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 6,
+    "prompt": "Which country does this flag represent? 🇪🇬",
+    "options": [
+      "India",
+      "Thailand",
+      "Sweden",
+      "Egypt"
+    ],
+    "correct_index": 3,
+    "explanation": "🇪🇬 is the flag of Egypt.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.easy.set1.q07",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 7,
+    "prompt": "Which country does this flag represent? 🇪🇸",
+    "options": [
+      "Greece",
+      "Kenya",
+      "Spain",
+      "China"
+    ],
+    "correct_index": 2,
+    "explanation": "🇪🇸 is the flag of Spain.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.easy.set1.q08",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 8,
+    "prompt": "Which country does this flag represent? 🇮🇹",
+    "options": [
+      "France",
+      "Italy",
+      "Argentina",
+      "Portugal"
+    ],
+    "correct_index": 1,
+    "explanation": "🇮🇹 is the flag of Italy.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.easy.set1.q09",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 9,
+    "prompt": "Which country does this flag represent? 🇩🇪",
+    "options": [
+      "Germany",
+      "Mexico",
+      "Norway",
+      "Japan"
+    ],
+    "correct_index": 0,
+    "explanation": "🇩🇪 is the flag of Germany.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.easy.set1.q10",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 10,
+    "prompt": "Which country does this flag represent? 🇮🇳",
+    "options": [
+      "South Korea",
+      "Sweden",
+      "Australia",
+      "India"
+    ],
+    "correct_index": 3,
+    "explanation": "🇮🇳 is the flag of India.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.easy.set1.q11",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 11,
+    "prompt": "Which country does this flag represent? 🇨🇳",
+    "options": [
+      "Kenya",
+      "Canada",
+      "China",
+      "Thailand"
+    ],
+    "correct_index": 2,
+    "explanation": "🇨🇳 is the flag of China.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.easy.set1.q12",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 12,
+    "prompt": "Which country does this flag represent? 🇦🇷",
+    "options": [
+      "Brazil",
+      "Argentina",
+      "Greece",
+      "France"
+    ],
+    "correct_index": 1,
+    "explanation": "🇦🇷 is the flag of Argentina.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.easy.set1.q13",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 13,
+    "prompt": "Which country does this flag represent? 🇲🇽",
+    "options": [
+      "Mexico",
+      "Portugal",
+      "Japan",
+      "Egypt"
+    ],
+    "correct_index": 0,
+    "explanation": "🇲🇽 is the flag of Mexico.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.easy.set1.q14",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 14,
+    "prompt": "Which country does this flag represent? 🇰🇷",
+    "options": [
+      "Norway",
+      "Australia",
+      "Spain",
+      "South Korea"
+    ],
+    "correct_index": 3,
+    "explanation": "🇰🇷 is the flag of South Korea.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.easy.set1.q15",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 15,
+    "prompt": "Which country does this flag represent? 🇹🇭",
+    "options": [
+      "Canada",
+      "Italy",
+      "Thailand",
+      "Sweden"
+    ],
+    "correct_index": 2,
+    "explanation": "🇹🇭 is the flag of Thailand.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.easy.set1.q16",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 16,
+    "prompt": "Which country does this flag represent? 🇬🇷",
+    "options": [
+      "Germany",
+      "Greece",
+      "Kenya",
+      "Brazil"
+    ],
+    "correct_index": 1,
+    "explanation": "🇬🇷 is the flag of Greece.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.easy.set1.q17",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 17,
+    "prompt": "Which country does this flag represent? 🇵🇹",
+    "options": [
+      "Portugal",
+      "France",
+      "Egypt",
+      "India"
+    ],
+    "correct_index": 0,
+    "explanation": "🇵🇹 is the flag of Portugal.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.easy.set1.q18",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 18,
+    "prompt": "Which country does this flag represent? 🇳🇴",
+    "options": [
+      "Japan",
+      "Spain",
+      "China",
+      "Norway"
+    ],
+    "correct_index": 3,
+    "explanation": "🇳🇴 is the flag of Norway.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.easy.set1.q19",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 19,
+    "prompt": "Which country does this flag represent? 🇸🇪",
+    "options": [
+      "Italy",
+      "Argentina",
+      "Sweden",
+      "Australia"
+    ],
+    "correct_index": 2,
+    "explanation": "🇸🇪 is the flag of Sweden.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.easy.set1.q20",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "easy",
+    "set_number": 1,
+    "position": 20,
+    "prompt": "Which country does this flag represent? 🇰🇪",
+    "options": [
+      "Mexico",
+      "Kenya",
+      "Canada",
+      "Germany"
+    ],
+    "correct_index": 1,
+    "explanation": "🇰🇪 is the flag of Kenya.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.medium.set1.q01",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 1,
+    "prompt": "Which country does this flag represent? 🇲🇦",
+    "options": [
+      "Morocco",
+      "Philippines",
+      "Belgium",
+      "Hungary"
+    ],
+    "correct_index": 0,
+    "explanation": "🇲🇦 is the flag of Morocco.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.medium.set1.q02",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 2,
+    "prompt": "Which country does this flag represent? 🇹🇷",
+    "options": [
+      "New Zealand",
+      "Netherlands",
+      "Romania",
+      "Turkey"
+    ],
+    "correct_index": 3,
+    "explanation": "🇹🇷 is the flag of Turkey.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.medium.set1.q03",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 3,
+    "prompt": "Which country does this flag represent? 🇻🇳",
+    "options": [
+      "Poland",
+      "Bulgaria",
+      "Vietnam",
+      "Ireland"
+    ],
+    "correct_index": 2,
+    "explanation": "🇻🇳 is the flag of Vietnam.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.medium.set1.q04",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 4,
+    "prompt": "Which country does this flag represent? 🇮🇩",
+    "options": [
+      "Finland",
+      "Indonesia",
+      "Austria",
+      "Czechia"
+    ],
+    "correct_index": 1,
+    "explanation": "🇮🇩 is the flag of Indonesia.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.medium.set1.q05",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 5,
+    "prompt": "Which country does this flag represent? 🇵🇭",
+    "options": [
+      "Philippines",
+      "Switzerland",
+      "Hungary",
+      "Denmark"
+    ],
+    "correct_index": 0,
+    "explanation": "🇵🇭 is the flag of Philippines.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.medium.set1.q06",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 6,
+    "prompt": "Which country does this flag represent? 🇳🇿",
+    "options": [
+      "Belgium",
+      "Romania",
+      "Peru",
+      "New Zealand"
+    ],
+    "correct_index": 3,
+    "explanation": "🇳🇿 is the flag of New Zealand.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.medium.set1.q07",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 7,
+    "prompt": "Which country does this flag represent? 🇮🇪",
+    "options": [
+      "Bulgaria",
+      "Colombia",
+      "Ireland",
+      "Netherlands"
+    ],
+    "correct_index": 2,
+    "explanation": "🇮🇪 is the flag of Ireland.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.medium.set1.q08",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 8,
+    "prompt": "Which country does this flag represent? 🇦🇹",
+    "options": [
+      "Morocco",
+      "Austria",
+      "Poland",
+      "Finland"
+    ],
+    "correct_index": 1,
+    "explanation": "🇦🇹 is the flag of Austria.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.medium.set1.q09",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 9,
+    "prompt": "Which country does this flag represent? 🇨🇭",
+    "options": [
+      "Switzerland",
+      "Czechia",
+      "Denmark",
+      "Turkey"
+    ],
+    "correct_index": 0,
+    "explanation": "🇨🇭 is the flag of Switzerland.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.medium.set1.q10",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 10,
+    "prompt": "Which country does this flag represent? 🇧🇪",
+    "options": [
+      "Hungary",
+      "Peru",
+      "Vietnam",
+      "Belgium"
+    ],
+    "correct_index": 3,
+    "explanation": "🇧🇪 is the flag of Belgium.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.medium.set1.q11",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 11,
+    "prompt": "Which country does this flag represent? 🇳🇱",
+    "options": [
+      "Colombia",
+      "Indonesia",
+      "Netherlands",
+      "Romania"
+    ],
+    "correct_index": 2,
+    "explanation": "🇳🇱 is the flag of Netherlands.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.medium.set1.q12",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 12,
+    "prompt": "Which country does this flag represent? 🇵🇱",
+    "options": [
+      "Philippines",
+      "Poland",
+      "Bulgaria",
+      "Morocco"
+    ],
+    "correct_index": 1,
+    "explanation": "🇵🇱 is the flag of Poland.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.medium.set1.q13",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 13,
+    "prompt": "Which country does this flag represent? 🇨🇿",
+    "options": [
+      "Czechia",
+      "Finland",
+      "Turkey",
+      "New Zealand"
+    ],
+    "correct_index": 0,
+    "explanation": "🇨🇿 is the flag of Czechia.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.medium.set1.q14",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 14,
+    "prompt": "Which country does this flag represent? 🇭🇺",
+    "options": [
+      "Denmark",
+      "Vietnam",
+      "Ireland",
+      "Hungary"
+    ],
+    "correct_index": 3,
+    "explanation": "🇭🇺 is the flag of Hungary.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.medium.set1.q15",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 15,
+    "prompt": "Which country does this flag represent? 🇷🇴",
+    "options": [
+      "Indonesia",
+      "Austria",
+      "Romania",
+      "Peru"
+    ],
+    "correct_index": 2,
+    "explanation": "🇷🇴 is the flag of Romania.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.medium.set1.q16",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 16,
+    "prompt": "Which country does this flag represent? 🇧🇬",
+    "options": [
+      "Switzerland",
+      "Bulgaria",
+      "Colombia",
+      "Philippines"
+    ],
+    "correct_index": 1,
+    "explanation": "🇧🇬 is the flag of Bulgaria.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.medium.set1.q17",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 17,
+    "prompt": "Which country does this flag represent? 🇫🇮",
+    "options": [
+      "Finland",
+      "Morocco",
+      "New Zealand",
+      "Belgium"
+    ],
+    "correct_index": 0,
+    "explanation": "🇫🇮 is the flag of Finland.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.medium.set1.q18",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 18,
+    "prompt": "Which country does this flag represent? 🇩🇰",
+    "options": [
+      "Turkey",
+      "Ireland",
+      "Netherlands",
+      "Denmark"
+    ],
+    "correct_index": 3,
+    "explanation": "🇩🇰 is the flag of Denmark.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.medium.set1.q19",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 19,
+    "prompt": "Which country does this flag represent? 🇵🇪",
+    "options": [
+      "Austria",
+      "Poland",
+      "Peru",
+      "Vietnam"
+    ],
+    "correct_index": 2,
+    "explanation": "🇵🇪 is the flag of Peru.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.medium.set1.q20",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "medium",
+    "set_number": 1,
+    "position": 20,
+    "prompt": "Which country does this flag represent? 🇨🇴",
+    "options": [
+      "Czechia",
+      "Colombia",
+      "Indonesia",
+      "Switzerland"
+    ],
+    "correct_index": 1,
+    "explanation": "🇨🇴 is the flag of Colombia.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.hard.set1.q01",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 1,
+    "prompt": "Which country does this flag represent? 🇰🇿",
+    "options": [
+      "Kazakhstan",
+      "Laos",
+      "Ghana",
+      "Botswana"
+    ],
+    "correct_index": 0,
+    "explanation": "🇰🇿 is the flag of Kazakhstan.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.hard.set1.q02",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 2,
+    "prompt": "Which country does this flag represent? 🇲🇳",
+    "options": [
+      "Cambodia",
+      "Ethiopia",
+      "Zimbabwe",
+      "Mongolia"
+    ],
+    "correct_index": 3,
+    "explanation": "🇲🇳 is the flag of Mongolia.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.hard.set1.q03",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 3,
+    "prompt": "Which country does this flag represent? 🇧🇹",
+    "options": [
+      "Senegal",
+      "Uruguay",
+      "Bhutan",
+      "Myanmar"
+    ],
+    "correct_index": 2,
+    "explanation": "🇧🇹 is the flag of Bhutan.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.hard.set1.q04",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 4,
+    "prompt": "Which country does this flag represent? 🇳🇵",
+    "options": [
+      "Paraguay",
+      "Nepal",
+      "Tanzania",
+      "Namibia"
+    ],
+    "correct_index": 1,
+    "explanation": "🇳🇵 is the flag of Nepal.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.hard.set1.q05",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 5,
+    "prompt": "Which country does this flag represent? 🇱🇦",
+    "options": [
+      "Laos",
+      "Nigeria",
+      "Botswana",
+      "Ecuador"
+    ],
+    "correct_index": 0,
+    "explanation": "🇱🇦 is the flag of Laos.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.hard.set1.q06",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 6,
+    "prompt": "Which country does this flag represent? 🇰🇭",
+    "options": [
+      "Ghana",
+      "Zimbabwe",
+      "Belize",
+      "Cambodia"
+    ],
+    "correct_index": 3,
+    "explanation": "🇰🇭 is the flag of Cambodia.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.hard.set1.q07",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 7,
+    "prompt": "Which country does this flag represent? 🇲🇲",
+    "options": [
+      "Uruguay",
+      "Guyana",
+      "Myanmar",
+      "Ethiopia"
+    ],
+    "correct_index": 2,
+    "explanation": "🇲🇲 is the flag of Myanmar.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.hard.set1.q08",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 8,
+    "prompt": "Which country does this flag represent? 🇹🇿",
+    "options": [
+      "Kazakhstan",
+      "Tanzania",
+      "Senegal",
+      "Paraguay"
+    ],
+    "correct_index": 1,
+    "explanation": "🇹🇿 is the flag of Tanzania.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.hard.set1.q09",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 9,
+    "prompt": "Which country does this flag represent? 🇳🇬",
+    "options": [
+      "Nigeria",
+      "Namibia",
+      "Ecuador",
+      "Mongolia"
+    ],
+    "correct_index": 0,
+    "explanation": "🇳🇬 is the flag of Nigeria.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.hard.set1.q10",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 10,
+    "prompt": "Which country does this flag represent? 🇬🇭",
+    "options": [
+      "Botswana",
+      "Belize",
+      "Bhutan",
+      "Ghana"
+    ],
+    "correct_index": 3,
+    "explanation": "🇬🇭 is the flag of Ghana.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.hard.set1.q11",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 11,
+    "prompt": "Which country does this flag represent? 🇪🇹",
+    "options": [
+      "Guyana",
+      "Nepal",
+      "Ethiopia",
+      "Zimbabwe"
+    ],
+    "correct_index": 2,
+    "explanation": "🇪🇹 is the flag of Ethiopia.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.hard.set1.q12",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 12,
+    "prompt": "Which country does this flag represent? 🇸🇳",
+    "options": [
+      "Laos",
+      "Senegal",
+      "Uruguay",
+      "Kazakhstan"
+    ],
+    "correct_index": 1,
+    "explanation": "🇸🇳 is the flag of Senegal.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.hard.set1.q13",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 13,
+    "prompt": "Which country does this flag represent? 🇳🇦",
+    "options": [
+      "Namibia",
+      "Paraguay",
+      "Mongolia",
+      "Cambodia"
+    ],
+    "correct_index": 0,
+    "explanation": "🇳🇦 is the flag of Namibia.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.hard.set1.q14",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 14,
+    "prompt": "Which country does this flag represent? 🇧🇼",
+    "options": [
+      "Ecuador",
+      "Bhutan",
+      "Myanmar",
+      "Botswana"
+    ],
+    "correct_index": 3,
+    "explanation": "🇧🇼 is the flag of Botswana.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.hard.set1.q15",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 15,
+    "prompt": "Which country does this flag represent? 🇿🇼",
+    "options": [
+      "Nepal",
+      "Tanzania",
+      "Zimbabwe",
+      "Belize"
+    ],
+    "correct_index": 2,
+    "explanation": "🇿🇼 is the flag of Zimbabwe.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.hard.set1.q16",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 16,
+    "prompt": "Which country does this flag represent? 🇺🇾",
+    "options": [
+      "Nigeria",
+      "Uruguay",
+      "Guyana",
+      "Laos"
+    ],
+    "correct_index": 1,
+    "explanation": "🇺🇾 is the flag of Uruguay.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.hard.set1.q17",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 17,
+    "prompt": "Which country does this flag represent? 🇵🇾",
+    "options": [
+      "Paraguay",
+      "Kazakhstan",
+      "Cambodia",
+      "Ghana"
+    ],
+    "correct_index": 0,
+    "explanation": "🇵🇾 is the flag of Paraguay.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.hard.set1.q18",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 18,
+    "prompt": "Which country does this flag represent? 🇪🇨",
+    "options": [
+      "Mongolia",
+      "Myanmar",
+      "Ethiopia",
+      "Ecuador"
+    ],
+    "correct_index": 3,
+    "explanation": "🇪🇨 is the flag of Ecuador.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.hard.set1.q19",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 19,
+    "prompt": "Which country does this flag represent? 🇧🇿",
+    "options": [
+      "Tanzania",
+      "Senegal",
+      "Belize",
+      "Bhutan"
+    ],
+    "correct_index": 2,
+    "explanation": "🇧🇿 is the flag of Belize.",
+    "source_url": null,
+    "fact_checked_at": null
+  },
+  {
+    "external_key": "world-flags.hard.set1.q20",
+    "language": "en",
+    "format": "multiple_choice",
+    "primary_topic": "world-flags",
+    "difficulty": "hard",
+    "set_number": 1,
+    "position": 20,
+    "prompt": "Which country does this flag represent? 🇬🇾",
+    "options": [
+      "Namibia",
+      "Guyana",
+      "Nepal",
+      "Nigeria"
+    ],
+    "correct_index": 1,
+    "explanation": "🇬🇾 is the flag of Guyana.",
+    "source_url": null,
+    "fact_checked_at": null
+  }
+]

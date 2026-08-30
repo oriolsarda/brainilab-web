@@ -1,0 +1,29 @@
+-- BrainiLab Step 5 — enable the automatic Daily generation job
+--
+-- FIRST:
+-- In Supabase Dashboard, enable the Cron / pg_cron integration.
+--
+-- Then run this SQL in SQL Editor.
+--
+-- It calls the database maintenance function every day at 00:05 UTC.
+-- The function:
+-- - publishes the current date
+-- - ensures the following 14 days already exist
+--
+-- Supabase Cron uses pg_cron.
+
+select cron.schedule(
+  'brainilab-daily-maintenance',
+  '5 0 * * *',
+  $$select public.maintain_brainilab_daily_schedule(current_date);$$
+);
+
+-- Check the job:
+--
+-- select jobid,jobname,schedule,command,active
+-- from cron.job
+-- where jobname='brainilab-daily-maintenance';
+--
+-- To remove it later:
+--
+-- select cron.unschedule('brainilab-daily-maintenance');

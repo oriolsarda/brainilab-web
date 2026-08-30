@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "javascript_files": 73,
+    "html_files": 43,
+    "inline_scripts": 27,
+    "local_refs": 1074,
+    "indexable_pages": 27,
+    "sitemap_urls": 27,
+    "json_files": 5,
+    "svg_files": 156,
+    "csv_templates": 10,
+    "number_routes": 40,
+    "sequences": 40,
+    "daily_rotation_pairs": 28,
+    "home_core_gzip_kb": 109.0,
+    "daily_core_gzip_kb": 100.5,
+    "largest_asset_kb": 156.0,
+    "largest_asset": "assets/css/site.css",
+    "step27_lines": 843,
+    "connections_anytime_rounds": 20,
+    "connections_daily_rounds": 3,
+    "numberroute_daily_rounds": 3
+  }
+}

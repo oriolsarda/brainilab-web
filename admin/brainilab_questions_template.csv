@@ -1,0 +1,2 @@
+external_key,topic_slug,difficulty,prompt,option_a,option_b,option_c,option_d,correct_option,explanation,tags,source_url
+geo-capital-mongolia-001,geography,medium,What is the capital of Mongolia?,Astana,Ulaanbaatar,Bishkek,Tashkent,B,Ulaanbaatar is the capital and largest city of Mongolia.,capitals|asia,

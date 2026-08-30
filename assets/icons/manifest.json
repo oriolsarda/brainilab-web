@@ -1,0 +1,32 @@
+{
+  "system": "BrainiLab Visual Icon System",
+  "version": "1.1",
+  "palette": {
+    "purple": "#2D296E",
+    "surfacePurple": "#34317A",
+    "green": "#3FAB34",
+    "yellow": "#FDD81C",
+    "red": "#E51E20",
+    "orange": "#FA7211",
+    "neutral": "#E1E1E1",
+    "white": "#FFFFFF"
+  },
+  "counts": {
+    "games": 32,
+    "categories": 17,
+    "product": 49,
+    "badgeBaseShapes": 4,
+    "badgeSymbols": 16,
+    "badgeExamples": 16,
+    "rankHalos": 8,
+    "categoryAssets": 19,
+    "gameSpecificCategoryAliases": 2
+  },
+  "rules": {
+    "viewBox": "0 0 24 24",
+    "stroke": "2px default",
+    "linecap": "round",
+    "linejoin": "round",
+    "svgColorStrategy": "currentColor recommended for UI glyphs"
+  }
+}

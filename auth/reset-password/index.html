@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
+<title>Reset password | BrainiLab</title>
+<meta content="noindex,follow" name="robots"/>
+<link href="../../assets/brand/iso-multicolor.png" rel="icon"/>
+<link href="../../assets/css/site.css?v=41.8.0" rel="stylesheet"/><link href="../../assets/css/mobile.css?v=41.8.0" rel="stylesheet"/>
+<link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect"/><link crossorigin="" href="https://wvgcdlxebbybthyuajgb.supabase.co" rel="preconnect"/><script defer="" src="../../assets/js/shell.bundle.js?v=41.8.0"></script><script crossorigin="anonymous" defer="" src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script defer="" src="../../assets/js/cloud.bundle.js?v=41.8.0"></script></head>
+<body>
+<header class="topbar">
+<div class="wrap nav">
+<a class="brand" href="../../index.html"><picture><source srcset="../../assets/brand/brainilab-logo.webp" type="image/webp"/><img alt="BrainiLab" decoding="async" fetchpriority="high" height="153" loading="eager" src="../../assets/brand/brainilab-logo.png" width="450"/></picture></a>
+<div class="nav-right"><a aria-label="My BrainiLab" class="avatar" href="../../profile/index.html">B</a></div>
+</div>
+</header>
+<main class="reset-password-main">
+<div class="wrap">
+<section class="reset-password-card">
+<div class="auth-kicker">Account security</div>
+<h1>Choose a new password</h1>
+<p>Use at least 8 characters. This page is opened from the secure reset link sent by Supabase Auth.</p>
+<form class="reset-password-form" id="resetPasswordForm">
+<label for="newPassword">New password</label>
+<input autocomplete="new-password" class="auth-full-input" id="newPassword" minlength="8" required="" type="password"/>
+<label for="confirmPassword">Confirm password</label>
+<input autocomplete="new-password" class="auth-full-input" id="confirmPassword" minlength="8" required="" type="password"/>
+<div class="auth-error" id="resetError"></div>
+<button class="auth-primary" type="submit">Update password</button>
+</form>
+<div class="reset-password-success" hidden="" id="resetSuccess">
+        Password updated. <a href="../../profile/index.html">Go to My BrainiLab →</a>
+</div>
+</section>
+</div>
+</main>
+<script>
+document.addEventListener("DOMContentLoaded",async()=>{
+  const form=document.getElementById("resetPasswordForm");
+  const error=document.getElementById("resetError");
+  const success=document.getElementById("resetSuccess");
+
+  try{
+    if(!BrainiBackendAuth.isConfigured()){
+      error.textContent="Supabase is not configured yet. Fill assets/js/supabase-config.js first.";
+      form.querySelector("button").disabled=true;
+      return;
+    }
+    await BrainiBackendAuth.init();
+  }catch(err){
+    error.textContent=err.message||"Could not initialize the reset session.";
+  }
+
+  form.addEventListener("submit",async e=>{
+    e.preventDefault();
+    error.textContent="";
+    const p=document.getElementById("newPassword").value;
+    const c=document.getElementById("confirmPassword").value;
+
+    if(p.length<8){ error.textContent="Use at least 8 characters."; return; }
+    if(p!==c){ error.textContent="Passwords do not match."; return; }
+
+    try{
+      await BrainiBackendAuth.updatePassword(p);
+      form.hidden=true;
+      success.hidden=false;
+    }catch(err){
+      error.textContent=err.message||"Could not update password.";
+    }
+  });
+});
+</script>
+</body>
+</html>

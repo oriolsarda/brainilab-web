@@ -1,0 +1,642 @@
+-- BrainiLab Backend — Step 22: Connections + history-aware Play Anytime
+-- V41.4.0
+-- Run this entire migration once in Supabase SQL Editor.
+
+begin;
+
+create extension if not exists pgcrypto;
+
+-- ============================================================
+-- PLAY ANYTIME QUESTION HISTORY
+-- Reuse verified_question_answers as the canonical per-user question history.
+-- ============================================================
+
+alter table public.verified_question_answers
+  drop constraint if exists verified_question_answers_context;
+
+alter table public.verified_question_answers
+  add constraint verified_question_answers_context
+  check (context_type in ('quiz_pack','daily','anytime'));
+
+create index if not exists verified_question_answers_user_question_idx
+  on public.verified_question_answers(user_id,question_version_id,created_at desc);
+
+alter table public.game_results
+  add column if not exists answers_verified boolean not null default false,
+  add column if not exists verified_correct_answers integer null,
+  add column if not exists verified_total_questions integer null,
+  add column if not exists answers_verified_at timestamptz null;
+
+create or replace function public.get_brainilab_anytime_quiz(
+  p_topic_slug text,
+  p_difficulty text,
+  p_limit integer default 20,
+  p_exclude_question_ids uuid[] default array[]::uuid[]
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path=public
+as $$
+declare
+  v_uid uuid:=auth.uid();
+  v_topic_id uuid;
+  v_limit integer:=least(20,greatest(1,coalesce(p_limit,20)));
+  v_questions jsonb;
+begin
+  if p_difficulty not in ('easy','medium','hard') then
+    raise exception 'Invalid difficulty';
+  end if;
+
+  select t.id into v_topic_id
+  from public.topics t
+  where t.slug=p_topic_slug and t.is_active=true;
+
+  if v_topic_id is null then return null; end if;
+
+  with ranked as (
+    select
+      qv.id as question_version_id,
+      qv.prompt,
+      coalesce(h.play_count,0)
+        + case when qv.id=any(coalesce(p_exclude_question_ids,array[]::uuid[])) then 1 else 0 end
+        as effective_play_count,
+      case
+        when qv.id=any(coalesce(p_exclude_question_ids,array[]::uuid[])) then now()
+        else h.last_played_at
+      end as effective_last_played
+    from public.question_versions qv
+    join public.questions q on q.id=qv.question_id
+    left join lateral (
+      select count(*)::integer as play_count,max(vqa.created_at) as last_played_at
+      from public.verified_question_answers vqa
+      where v_uid is not null
+        and vqa.user_id=v_uid
+        and vqa.question_version_id=qv.id
+    ) h on true
+    where qv.primary_topic_id=v_topic_id
+      and qv.difficulty=p_difficulty
+      and qv.status='published'
+      and q.status='active'
+    order by
+      effective_play_count asc,
+      effective_last_played asc nulls first,
+      random()
+    limit v_limit
+  )
+  select coalesce(
+    jsonb_agg(
+      jsonb_build_object(
+        'question_version_id',r.question_version_id,
+        'prompt',r.prompt,
+        'options',(
+          select jsonb_agg(
+            jsonb_build_object('id',qo.id,'text',qo.option_text)
+            order by qo.position
+          )
+          from public.question_options qo
+          where qo.question_version_id=r.question_version_id
+        )
+      )
+    ),
+    '[]'::jsonb
+  ) into v_questions
+  from ranked r;
+
+  return jsonb_build_object(
+    'topic_id',v_topic_id,
+    'topic_slug',p_topic_slug,
+    'difficulty',p_difficulty,
+    'selection_mode','history_aware',
+    'total_questions',jsonb_array_length(v_questions),
+    'questions',v_questions
+  );
+end;
+$$;
+
+revoke execute on function public.get_brainilab_anytime_quiz(text,text,integer,uuid[]) from public;
+grant execute on function public.get_brainilab_anytime_quiz(text,text,integer,uuid[]) to anon,authenticated;
+
+create or replace function public.verify_brainilab_anytime_quiz_result(
+  p_client_result_id text,
+  p_topic_slug text,
+  p_difficulty text,
+  p_answers jsonb
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path=public
+as $$
+declare
+  v_uid uuid:=auth.uid();
+  v_topic_id uuid;
+  v_session_id uuid;
+  v_result_id uuid;
+  v_item jsonb;
+  v_qv uuid;
+  v_selected uuid;
+  v_is_correct boolean;
+  v_correct integer:=0;
+  v_total integer;
+  v_seen uuid[]:=array[]::uuid[];
+begin
+  if v_uid is null then raise exception 'Authentication required'; end if;
+  if p_difficulty not in ('easy','medium','hard') then raise exception 'Invalid difficulty'; end if;
+  if jsonb_typeof(coalesce(p_answers,'[]'::jsonb))<>'array' then raise exception 'Answers must be an array'; end if;
+
+  v_total:=jsonb_array_length(p_answers);
+  if v_total<1 or v_total>20 then raise exception 'Invalid answer count'; end if;
+
+  select t.id into v_topic_id from public.topics t where t.slug=p_topic_slug and t.is_active=true;
+  if v_topic_id is null then raise exception 'Topic not found'; end if;
+
+  select gs.id,gr.id into v_session_id,v_result_id
+  from public.game_sessions gs
+  join public.game_results gr on gr.session_id=gs.id
+  where gs.user_id=v_uid and gs.client_result_id=p_client_result_id
+  limit 1;
+
+  if v_result_id is null then raise exception 'Game result not found'; end if;
+
+  for v_item in select value from jsonb_array_elements(p_answers) loop
+    begin v_qv:=(v_item->>'question_version_id')::uuid;
+    exception when others then raise exception 'Invalid question version ID'; end;
+
+    if v_qv=any(v_seen) then raise exception 'Duplicate question in result'; end if;
+    v_seen:=array_append(v_seen,v_qv);
+
+    if not exists(
+      select 1
+      from public.question_versions qv
+      join public.questions q on q.id=qv.question_id
+      where qv.id=v_qv
+        and qv.primary_topic_id=v_topic_id
+        and qv.difficulty=p_difficulty
+        and qv.status='published'
+        and q.status='active'
+    ) then
+      raise exception 'Question does not belong to this Play Anytime pool';
+    end if;
+
+    if nullif(v_item->>'selected_option_id','') is null then
+      v_selected:=null; v_is_correct:=false;
+    else
+      begin v_selected:=(v_item->>'selected_option_id')::uuid;
+      exception when others then raise exception 'Invalid selected option ID'; end;
+      select qo.is_correct into v_is_correct
+      from public.question_options qo
+      where qo.id=v_selected and qo.question_version_id=v_qv;
+      if v_is_correct is null then raise exception 'Option does not belong to question'; end if;
+    end if;
+
+    if v_is_correct then v_correct:=v_correct+1; end if;
+
+    insert into public.verified_question_answers(
+      result_id,session_id,user_id,question_version_id,selected_option_id,
+      is_correct,response_time_ms,context_type,context_id
+    ) values(
+      v_result_id,v_session_id,v_uid,v_qv,v_selected,coalesce(v_is_correct,false),
+      case when nullif(v_item->>'response_time_ms','') is null then null else greatest(0,(v_item->>'response_time_ms')::integer) end,
+      'anytime',v_topic_id
+    ) on conflict(result_id,question_version_id) do nothing;
+  end loop;
+
+  update public.game_results
+  set correct_answers=v_correct,
+      total_questions=v_total,
+      accuracy=round((v_correct::numeric/v_total::numeric)*100,2),
+      answers_verified=true,
+      verified_correct_answers=v_correct,
+      verified_total_questions=v_total,
+      answers_verified_at=now()
+  where id=v_result_id;
+
+  return jsonb_build_object(
+    'answers_verified',true,
+    'correct_answers',v_correct,
+    'total_questions',v_total,
+    'accuracy',round((v_correct::numeric/v_total::numeric)*100,2),
+    'server_score_verified',false
+  );
+end;
+$$;
+
+revoke execute on function public.verify_brainilab_anytime_quiz_result(text,text,text,jsonb) from public,anon;
+grant execute on function public.verify_brainilab_anytime_quiz_result(text,text,text,jsonb) to authenticated;
+
+-- ============================================================
+-- CONNECTIONS CONTENT
+-- ============================================================
+
+create table if not exists public.connections_puzzles(
+  id uuid primary key default gen_random_uuid(),
+  external_key text not null unique,
+  category text not null default 'general',
+  prompt text not null default 'What connects these?',
+  clues jsonb not null,
+  explanation text not null default '',
+  is_active boolean not null default true,
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now(),
+  constraint connections_external_key_format check (external_key ~ '^[a-z0-9]+(?:-[a-z0-9]+)*$'),
+  constraint connections_category_length check (char_length(category) between 2 and 40),
+  constraint connections_prompt_length check (char_length(btrim(prompt)) between 4 and 240),
+  constraint connections_clues_count check (jsonb_typeof(clues)='array' and jsonb_array_length(clues) between 4 and 8),
+  constraint connections_explanation_length check (char_length(explanation)<=1200)
+);
+
+create table if not exists public.connections_choices(
+  id uuid primary key default gen_random_uuid(),
+  puzzle_id uuid not null references public.connections_puzzles(id) on delete cascade,
+  position integer not null,
+  choice_text text not null,
+  is_correct boolean not null default false,
+  created_at timestamptz not null default now(),
+  constraint connections_choice_position check (position between 1 and 4),
+  constraint connections_choice_text_length check (char_length(btrim(choice_text)) between 2 and 160),
+  unique(puzzle_id,position)
+);
+
+create unique index if not exists connections_one_correct_idx
+  on public.connections_choices(puzzle_id) where is_correct=true;
+
+create table if not exists public.player_connections_history(
+  user_id uuid not null references auth.users(id) on delete cascade,
+  puzzle_id uuid not null references public.connections_puzzles(id) on delete cascade,
+  times_played integer not null default 1,
+  first_played_at timestamptz not null default now(),
+  last_played_at timestamptz not null default now(),
+  primary key(user_id,puzzle_id),
+  constraint player_connections_times_positive check (times_played>0)
+);
+
+create index if not exists player_connections_history_user_idx
+  on public.player_connections_history(user_id,times_played,last_played_at);
+
+alter table public.connections_puzzles enable row level security;
+alter table public.connections_choices enable row level security;
+alter table public.player_connections_history enable row level security;
+revoke all on table public.connections_puzzles from anon,authenticated;
+revoke all on table public.connections_choices from anon,authenticated;
+revoke all on table public.player_connections_history from anon,authenticated;
+
+create or replace function public.get_brainilab_connections_game(
+  p_exclude_puzzle_ids uuid[] default array[]::uuid[]
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path=public
+as $$
+declare
+  v_uid uuid:=auth.uid();
+  v_puzzles jsonb;
+begin
+  with ranked as (
+    select cp.*,
+      coalesce(ph.times_played,0)
+        + case when cp.id=any(coalesce(p_exclude_puzzle_ids,array[]::uuid[])) then 1 else 0 end
+        as effective_play_count,
+      case when cp.id=any(coalesce(p_exclude_puzzle_ids,array[]::uuid[])) then now() else ph.last_played_at end
+        as effective_last_played
+    from public.connections_puzzles cp
+    left join public.player_connections_history ph
+      on v_uid is not null and ph.user_id=v_uid and ph.puzzle_id=cp.id
+    where cp.is_active=true
+      and (select count(*) from public.connections_choices cc where cc.puzzle_id=cp.id)=4
+    order by effective_play_count asc,effective_last_played asc nulls first,random()
+    limit 3
+  )
+  select coalesce(jsonb_agg(jsonb_build_object(
+      'puzzle_id',r.id,
+      'external_key',r.external_key,
+      'category',r.category,
+      'prompt',r.prompt,
+      'clues',r.clues,
+      'choices',(
+        select jsonb_agg(jsonb_build_object('id',x.id,'text',x.choice_text))
+        from (select cc.id,cc.choice_text from public.connections_choices cc where cc.puzzle_id=r.id order by random()) x
+      )
+    )),'[]'::jsonb) into v_puzzles
+  from ranked r;
+
+  return jsonb_build_object('rounds',3,'puzzles',v_puzzles);
+end;
+$$;
+
+revoke execute on function public.get_brainilab_connections_game(uuid[]) from public;
+grant execute on function public.get_brainilab_connections_game(uuid[]) to anon,authenticated;
+
+create or replace function public.check_brainilab_connections_guess(
+  p_puzzle_id uuid,
+  p_choice_id uuid
+)
+returns jsonb
+language plpgsql
+stable
+security definer
+set search_path=public
+as $$
+declare
+  v_correct boolean;
+  v_answer text;
+  v_explanation text;
+begin
+  select cc.is_correct into v_correct
+  from public.connections_choices cc
+  join public.connections_puzzles cp on cp.id=cc.puzzle_id
+  where cc.id=p_choice_id and cc.puzzle_id=p_puzzle_id and cp.is_active=true;
+
+  if v_correct is null then raise exception 'Connection choice not available'; end if;
+
+  if v_correct then
+    select cc.choice_text,cp.explanation into v_answer,v_explanation
+    from public.connections_choices cc
+    join public.connections_puzzles cp on cp.id=cc.puzzle_id
+    where cc.puzzle_id=p_puzzle_id and cc.is_correct=true;
+  end if;
+
+  return jsonb_build_object('correct',v_correct,'answer',v_answer,'explanation',v_explanation);
+end;
+$$;
+
+revoke execute on function public.check_brainilab_connections_guess(uuid,uuid) from public;
+grant execute on function public.check_brainilab_connections_guess(uuid,uuid) to anon,authenticated;
+
+create or replace function public.record_brainilab_connections_history(p_puzzle_ids uuid[])
+returns jsonb
+language plpgsql
+security definer
+set search_path=public
+as $$
+declare
+  v_uid uuid:=auth.uid();
+  v_id uuid;
+  v_count integer:=0;
+begin
+  if v_uid is null then raise exception 'Authentication required'; end if;
+
+  for v_id in select distinct unnest(coalesce(p_puzzle_ids,array[]::uuid[])) loop
+    if exists(select 1 from public.connections_puzzles where id=v_id and is_active=true) then
+      insert into public.player_connections_history(user_id,puzzle_id,times_played,first_played_at,last_played_at)
+      values(v_uid,v_id,1,now(),now())
+      on conflict(user_id,puzzle_id) do update
+      set times_played=public.player_connections_history.times_played+1,last_played_at=now();
+      v_count:=v_count+1;
+    end if;
+  end loop;
+
+  return jsonb_build_object('recorded',v_count);
+end;
+$$;
+
+revoke execute on function public.record_brainilab_connections_history(uuid[]) from public,anon;
+grant execute on function public.record_brainilab_connections_history(uuid[]) to authenticated;
+
+create or replace function public.verify_brainilab_connections_result(
+  p_client_result_id text,
+  p_rounds jsonb
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path=public
+as $$
+declare
+  v_uid uuid:=auth.uid();
+  v_result_id uuid;
+  v_session_id uuid;
+  v_round jsonb;
+  v_puzzle uuid;
+  v_choices jsonb;
+  v_choice_text text;
+  v_choice uuid;
+  v_is_correct boolean;
+  v_attempts integer;
+  v_score integer:=0;
+  v_seen uuid[]:=array[]::uuid[];
+  v_round_seen_choices uuid[];
+  v_i integer;
+begin
+  if v_uid is null then raise exception 'Authentication required'; end if;
+  if jsonb_typeof(coalesce(p_rounds,'[]'::jsonb))<>'array' or jsonb_array_length(p_rounds)<>3 then
+    raise exception 'Connections requires exactly 3 rounds';
+  end if;
+
+  select gs.id,gr.id into v_session_id,v_result_id
+  from public.game_sessions gs
+  join public.game_results gr on gr.session_id=gs.id
+  where gs.user_id=v_uid and gs.client_result_id=p_client_result_id and gs.game_id='connections'
+  limit 1;
+  if v_result_id is null then raise exception 'Connections result not found'; end if;
+
+  for v_round in select value from jsonb_array_elements(p_rounds) loop
+    v_puzzle:=(v_round->>'puzzle_id')::uuid;
+    if v_puzzle=any(v_seen) then raise exception 'Duplicate Connections puzzle'; end if;
+    v_seen:=array_append(v_seen,v_puzzle);
+    if not exists(select 1 from public.connections_puzzles where id=v_puzzle) then raise exception 'Connections puzzle not found'; end if;
+
+    v_choices:=coalesce(v_round->'attempted_choice_ids','[]'::jsonb);
+    if jsonb_typeof(v_choices)<>'array' then raise exception 'Invalid Connections attempts'; end if;
+    v_round_seen_choices:=array[]::uuid[];
+    v_attempts:=jsonb_array_length(v_choices);
+    if v_attempts<1 or v_attempts>4 or v_attempts<>coalesce((v_round->>'attempts')::integer,0) then
+      raise exception 'Invalid Connections attempt count';
+    end if;
+
+    for v_i in 0..v_attempts-1 loop
+      v_choice_text:=v_choices->>v_i;
+      v_choice:=v_choice_text::uuid;
+      if v_choice=any(v_round_seen_choices) then raise exception 'Duplicate Connections choice attempt'; end if;
+      v_round_seen_choices:=array_append(v_round_seen_choices,v_choice);
+      select cc.is_correct into v_is_correct
+      from public.connections_choices cc where cc.id=v_choice and cc.puzzle_id=v_puzzle;
+      if v_is_correct is null then raise exception 'Choice does not belong to Connections puzzle'; end if;
+      if v_i<v_attempts-1 and v_is_correct then raise exception 'A solved round cannot continue after the correct answer'; end if;
+      if v_i=v_attempts-1 and not v_is_correct then raise exception 'Connections round must end on the correct answer'; end if;
+    end loop;
+
+    v_score:=v_score+case v_attempts when 1 then 1000 when 2 then 700 when 3 then 400 else 200 end;
+  end loop;
+
+  update public.game_results
+  set score=v_score,correct_answers=3,total_questions=3,accuracy=100,
+      answers_verified=true,verified_correct_answers=3,verified_total_questions=3,answers_verified_at=now()
+  where id=v_result_id;
+
+  return jsonb_build_object('answers_verified',true,'correct_answers',3,'total_questions',3,'accuracy',100,'score',v_score,'server_score_verified',false);
+end;
+$$;
+
+revoke execute on function public.verify_brainilab_connections_result(text,jsonb) from public,anon;
+grant execute on function public.verify_brainilab_connections_result(text,jsonb) to authenticated;
+
+-- ============================================================
+-- CONNECTIONS ADMIN
+-- ============================================================
+
+create or replace function public.admin_list_connections_puzzles()
+returns jsonb
+language plpgsql
+stable
+security definer
+set search_path=public
+as $$
+declare
+  v_uid uuid;
+  v_payload jsonb;
+begin
+  v_uid:=public.require_brainilab_admin(array['owner','editor']::text[]);
+
+  select coalesce(
+    jsonb_agg(
+      jsonb_build_object(
+        'id',cp.id,
+        'external_key',cp.external_key,
+        'category',cp.category,
+        'prompt',cp.prompt,
+        'clues',cp.clues,
+        'explanation',cp.explanation,
+        'active',cp.is_active,
+        'play_count',(
+          select coalesce(sum(ph.times_played),0)
+          from public.player_connections_history ph
+          where ph.puzzle_id=cp.id
+        ),
+        'choices',(
+          select coalesce(
+            jsonb_agg(
+              jsonb_build_object(
+                'id',cc.id,
+                'text',cc.choice_text,
+                'correct',cc.is_correct
+              )
+              order by cc.position
+            ),
+            '[]'::jsonb
+          )
+          from public.connections_choices cc
+          where cc.puzzle_id=cp.id
+        )
+      )
+      order by cp.is_active desc,cp.category,cp.external_key
+    ),
+    '[]'::jsonb
+  )
+  into v_payload
+  from public.connections_puzzles cp;
+
+  return v_payload;
+end;
+$$;
+revoke execute on function public.admin_list_connections_puzzles() from public,anon;
+grant execute on function public.admin_list_connections_puzzles() to authenticated;
+
+create or replace function public.admin_create_connections_puzzle(
+  p_external_key text,p_category text,p_prompt text,p_clues jsonb,
+  p_correct_connection text,p_distractors jsonb,p_explanation text default ''
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path=public
+as $$
+declare
+  v_uid uuid; v_id uuid; v_text text; v_pos integer:=1;
+begin
+  v_uid:=public.require_brainilab_admin(array['owner','editor']::text[]);
+  if lower(btrim(coalesce(p_external_key,''))) !~ '^[a-z0-9]+(?:-[a-z0-9]+)*$' then raise exception 'Invalid external key'; end if;
+  if jsonb_typeof(p_clues)<>'array' or jsonb_array_length(p_clues) not between 4 and 8 then raise exception 'Connections needs between 4 and 8 clues'; end if;
+  if jsonb_typeof(p_distractors)<>'array' or jsonb_array_length(p_distractors)<>3 then raise exception 'Connections needs exactly 3 distractors'; end if;
+  if char_length(btrim(coalesce(p_correct_connection,'')))<2 then raise exception 'Correct connection is required'; end if;
+
+  insert into public.connections_puzzles(external_key,category,prompt,clues,explanation,is_active)
+  values(lower(btrim(p_external_key)),lower(btrim(coalesce(p_category,'general'))),btrim(coalesce(p_prompt,'What connects these?')),p_clues,btrim(coalesce(p_explanation,'')),true)
+  returning id into v_id;
+
+  insert into public.connections_choices(puzzle_id,position,choice_text,is_correct) values(v_id,1,btrim(p_correct_connection),true);
+  v_pos:=2;
+  for v_text in select value from jsonb_array_elements_text(p_distractors) loop
+    insert into public.connections_choices(puzzle_id,position,choice_text,is_correct) values(v_id,v_pos,btrim(v_text),false);
+    v_pos:=v_pos+1;
+  end loop;
+
+  perform public.log_brainilab_admin_action('CONNECTIONS_PUZZLE_CREATED','connections_puzzle',v_id::text,jsonb_build_object('external_key',p_external_key));
+  return jsonb_build_object('id',v_id,'created',true);
+end;
+$$;
+revoke execute on function public.admin_create_connections_puzzle(text,text,text,jsonb,text,jsonb,text) from public,anon;
+grant execute on function public.admin_create_connections_puzzle(text,text,text,jsonb,text,jsonb,text) to authenticated;
+
+create or replace function public.admin_toggle_connections_puzzle(p_puzzle_id uuid,p_active boolean)
+returns jsonb
+language plpgsql
+security definer
+set search_path=public
+as $$
+declare v_uid uuid;
+begin
+  v_uid:=public.require_brainilab_admin(array['owner','editor']::text[]);
+  update public.connections_puzzles set is_active=coalesce(p_active,false),updated_at=now() where id=p_puzzle_id;
+  if not found then raise exception 'Connections puzzle not found'; end if;
+  perform public.log_brainilab_admin_action('CONNECTIONS_PUZZLE_TOGGLED','connections_puzzle',p_puzzle_id::text,jsonb_build_object('active',p_active));
+  return jsonb_build_object('id',p_puzzle_id,'active',p_active);
+end;
+$$;
+revoke execute on function public.admin_toggle_connections_puzzle(uuid,boolean) from public,anon;
+grant execute on function public.admin_toggle_connections_puzzle(uuid,boolean) to authenticated;
+
+-- ============================================================
+-- INITIAL 20 CONNECTIONS PUZZLES
+-- ============================================================
+
+create or replace function public._seed_brainilab_connections(
+  p_external_key text,p_category text,p_prompt text,p_clues jsonb,p_correct text,p_distractors jsonb,p_explanation text
+) returns void
+language plpgsql
+security definer
+set search_path=public
+as $$
+declare v_id uuid; v_text text; v_pos integer:=2;
+begin
+  select id into v_id from public.connections_puzzles where external_key=p_external_key;
+  if v_id is not null then return; end if;
+  insert into public.connections_puzzles(external_key,category,prompt,clues,explanation,is_active)
+  values(p_external_key,p_category,p_prompt,p_clues,p_explanation,true) returning id into v_id;
+  insert into public.connections_choices(puzzle_id,position,choice_text,is_correct) values(v_id,1,p_correct,true);
+  for v_text in select value from jsonb_array_elements_text(p_distractors) loop
+    insert into public.connections_choices(puzzle_id,position,choice_text,is_correct) values(v_id,v_pos,v_text,false);
+    v_pos:=v_pos+1;
+  end loop;
+end;
+$$;
+
+select public._seed_brainilab_connections('solar-inner-planets','science','What connects these four?','["Mercury", "Venus", "Earth", "Mars"]'::jsonb,'The four inner planets','["Moons of Jupiter", "Chemical elements", "Greek constellations"]'::jsonb,'Mercury, Venus, Earth and Mars are the four rocky inner planets of the Solar System.');
+select public._seed_brainilab_connections('shakespeare-tragedies','culture','What connects these four?','["Hamlet", "Macbeth", "Othello", "King Lear"]'::jsonb,'Shakespeare tragedies','["Greek epics", "Victorian novels", "Operas by Mozart"]'::jsonb,'All four are tragedies written by William Shakespeare.');
+select public._seed_brainilab_connections('first-four-elements','science','What connects these four?','["Hydrogen", "Helium", "Lithium", "Beryllium"]'::jsonb,'First four chemical elements','["Noble gases", "Radioactive elements", "Metals used in coins"]'::jsonb,'They are elements 1 to 4 on the periodic table, ordered by atomic number.');
+select public._seed_brainilab_connections('major-rivers','geography','What connects these four?','["Nile", "Amazon", "Yangtze", "Mississippi"]'::jsonb,'Major world rivers','["Mountain ranges", "Ocean currents", "Capital cities"]'::jsonb,'All four are major river systems on different continents.');
+select public._seed_brainilab_connections('programming-languages','technology','What connects these four?','["Python", "Java", "Ruby", "Swift"]'::jsonb,'Programming languages','["Web browsers", "Operating systems", "Database engines"]'::jsonb,'Python, Java, Ruby and Swift are programming languages.');
+select public._seed_brainilab_connections('famous-painters','art','What connects these four?','["Picasso", "Monet", "Van Gogh", "Dalí"]'::jsonb,'Famous painters','["Classical composers", "Film directors", "Novelists"]'::jsonb,'All four are internationally known painters.');
+select public._seed_brainilab_connections('outer-planets','science','What connects these four?','["Jupiter", "Saturn", "Uranus", "Neptune"]'::jsonb,'The four outer planets','["Dwarf planets", "Inner rocky planets", "Galilean moons"]'::jsonb,'Jupiter, Saturn, Uranus and Neptune are the four outer planets of the Solar System.');
+select public._seed_brainilab_connections('highest-mountains','geography','What connects these four?','["Everest", "K2", "Kangchenjunga", "Lhotse"]'::jsonb,'The four highest mountains','["European volcanoes", "Andean peaks", "Seven Summits only"]'::jsonb,'They are the four highest mountains on Earth above sea level.');
+select public._seed_brainilab_connections('southern-europe-capitals','geography','What connects these four?','["Madrid", "Lisbon", "Rome", "Athens"]'::jsonb,'Southern European capitals','["Olympic host cities only", "Cities on the Danube", "Former Roman emperors"]'::jsonb,'They are national capitals in Southern Europe.');
+select public._seed_brainilab_connections('tennis-big-four','sports','What connects these four?','["Federer", "Nadal", "Djokovic", "Murray"]'::jsonb,'Men''s tennis Big Four','["Formula 1 champions", "Olympic sprinters", "World Cup captains"]'::jsonb,'Roger Federer, Rafael Nadal, Novak Djokovic and Andy Murray are known as men''s tennis''s Big Four.');
+select public._seed_brainilab_connections('british-bands','music','What connects these four?','["The Beatles", "Oasis", "Blur", "Coldplay"]'::jsonb,'British bands','["American jazz groups", "Eurovision winners only", "Australian rock bands"]'::jsonb,'All four are bands formed in the United Kingdom.');
+select public._seed_brainilab_connections('japanese-cities','geography','What connects these four?','["Tokyo", "Osaka", "Kyoto", "Nagoya"]'::jsonb,'Major Japanese cities','["Chinese provinces", "South Korean ports", "Japanese islands"]'::jsonb,'Tokyo, Osaka, Kyoto and Nagoya are major cities in Japan.');
+select public._seed_brainilab_connections('common-metals','science','What connects these four?','["Gold", "Silver", "Copper", "Iron"]'::jsonb,'Metallic elements','["Noble gases", "Synthetic polymers", "Alkali metals only"]'::jsonb,'All four are metallic chemical elements.');
+select public._seed_brainilab_connections('african-cities','geography','What connects these four?','["Cairo", "Nairobi", "Lagos", "Accra"]'::jsonb,'Major African cities','["South American capitals", "Mediterranean islands", "Asian megacities"]'::jsonb,'All four are major cities on the African continent.');
+select public._seed_brainilab_connections('nasa-human-programs','science','What connects these four?','["Mercury", "Gemini", "Apollo", "Artemis"]'::jsonb,'NASA human spaceflight programs','["Space telescopes", "Mars rovers", "Soviet space stations"]'::jsonb,'Mercury, Gemini, Apollo and Artemis are NASA human spaceflight programs.');
+select public._seed_brainilab_connections('middle-earth-places','literature','What connects these four?','["The Shire", "Mordor", "Gondor", "Rivendell"]'::jsonb,'Places in Middle-earth','["Houses in Harry Potter", "Greek islands", "Star Wars planets"]'::jsonb,'They are locations in J. R. R. Tolkien''s Middle-earth.');
+select public._seed_brainilab_connections('four-oceans','geography','What connects these four?','["Pacific", "Atlantic", "Indian", "Arctic"]'::jsonb,'Oceans','["Deserts", "Tectonic plates", "Major seas"]'::jsonb,'All four are oceans of the world.');
+select public._seed_brainilab_connections('computer-hardware','technology','What connects these four?','["CPU", "RAM", "SSD", "GPU"]'::jsonb,'Computer hardware components','["Programming languages", "Internet protocols", "Image file formats"]'::jsonb,'All four are common computer hardware components or storage/processing parts.');
+select public._seed_brainilab_connections('dance-styles','culture','What connects these four?','["Salsa", "Tango", "Flamenco", "Waltz"]'::jsonb,'Dance styles','["Pasta shapes", "Martial arts", "Classical instruments"]'::jsonb,'Salsa, tango, flamenco and waltz are established dance styles.');
+select public._seed_brainilab_connections('chon-elements','science','What connects these four?','["Carbon", "Hydrogen", "Oxygen", "Nitrogen"]'::jsonb,'Four key elements of life','["Four noble gases", "Four transition metals", "Four halogens"]'::jsonb,'CHON — carbon, hydrogen, oxygen and nitrogen — make up most of the atoms in living organisms.');
+
+drop function if exists public._seed_brainilab_connections(text,text,text,jsonb,text,jsonb,text);
+
+commit;
+
+-- Verification after running:
+-- select count(*) from public.connections_puzzles where is_active=true; -- expected 20
+-- select count(*) from public.connections_choices; -- expected 80

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
+<title>Suggestions | BrainiLab</title>
+<meta content="Send BrainiLab a quiz idea, feature suggestion, improvement or bug report." name="description"/>
+<meta content="noindex,follow" name="robots"/>
+<link href="https://brainilab.com/suggestions/" rel="canonical"/>
+<link href="../assets/brand/iso-multicolor.png" rel="icon"/>
+<link href="../assets/css/site.css?v=41.8.0" rel="stylesheet"/><link href="../assets/css/suggestions.css?v=41.8.0" rel="stylesheet"/><link href="../assets/css/mobile.css?v=41.8.0" rel="stylesheet"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"BrainiLab Suggestions","url":"https://brainilab.com/suggestions/"}</script>
+<link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect"/><link crossorigin="" href="https://wvgcdlxebbybthyuajgb.supabase.co" rel="preconnect"/><script defer="" src="../assets/js/shell.bundle.js?v=41.8.0"></script><script crossorigin="anonymous" defer="" src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script defer="" src="../assets/js/cloud.bundle.js?v=41.8.0"></script><script defer="" src="../assets/js/suggestions.bundle.js?v=41.8.0"></script></head>
+<body>
+<header class="topbar">
+<div class="wrap nav">
+<a aria-label="BrainiLab home" class="brand" href="../index.html"><picture><source srcset="../assets/brand/brainilab-logo.webp" type="image/webp"/><img alt="BrainiLab" decoding="async" fetchpriority="high" height="153" loading="eager" src="../assets/brand/brainilab-logo.png" width="450"/></picture></a>
+<nav aria-label="Main navigation" class="links" id="mainNav"><a href="../games/index.html">Games</a><a href="../daily-quiz/index.html">Daily</a><a href="../rankings/index.html">Rankings</a><a href="../groups/index.html">Groups</a><a href="../about/index.html">About</a></nav>
+<div class="nav-right">
+<div class="streak">🔥 <span data-player-streak="">0</span></div>
+<a aria-label="Suggestions" class="help-dot active" href="index.html" title="Suggestions">?</a>
+<a aria-label="My BrainiLab" class="avatar" href="../profile/index.html">B</a>
+<button aria-controls="mainNav" aria-expanded="false" aria-label="Open navigation menu" class="mobile-menu" data-mobile-menu="" type="button">Menu</button></div>
+</div>
+</header>
+<main class="suggestions-main">
+<section class="section">
+<div class="wrap suggestions-wrap">
+<div class="suggestions-copy">
+<div class="auth-kicker">Help improve BrainiLab</div>
+<h1>Suggestions</h1>
+<p>Got an idea for a quiz, game mode or improvement? Send it here. This stays intentionally separate from the main game navigation.</p>
+</div>
+<form class="suggestions-card" id="suggestionsForm">
+<div class="suggestions-field">
+<label for="suggestionType">What is it about?</label>
+<select id="suggestionType" name="type">
+<option value="quiz_idea">Quiz idea</option>
+<option value="game_idea">New game or mechanic</option>
+<option value="improvement">Website improvement</option>
+<option value="bug">Something is not working</option>
+<option value="general">Other</option>
+</select>
+</div>
+<div class="suggestions-field">
+<label for="suggestionMessage">Your suggestion</label>
+<textarea id="suggestionMessage" maxlength="4000" name="message" placeholder="Tell us what you would add or change..." required="" rows="7"></textarea>
+</div>
+<div class="suggestions-field">
+<label for="suggestionEmail">Email <span>optional</span></label>
+<input autocomplete="email" id="suggestionEmail" name="email" placeholder="Only if you want us to be able to reply" type="email"/>
+</div>
+<div class="suggestions-error" id="suggestionsError"></div>
+<button class="btn-secondary suggestions-submit" type="submit">Send suggestion</button>
+<p class="suggestions-note">Suggestions are sent to BrainiLab. Email is optional and only used if a reply is needed.</p>
+</form>
+<div class="suggestions-success" hidden="" id="suggestionsSuccess">
+<span class="suggestions-success-icon"><img src="../assets/icons/product/success.svg" alt="" aria-hidden="true"></span>
+<div>
+<strong>Thanks — suggestion received.</strong>
+<p>It has been added to the BrainiLab feedback inbox.</p>
+</div>
+<button class="btn-light" id="suggestAnother" type="button">Send another</button>
+</div>
+</div>
+</section>
+</main>
+<footer class="footer">
+<div class="wrap footer-grid">
+<div><picture><source srcset="../assets/brand/brainilab-logo.webp" type="image/webp"/><img alt="BrainiLab" class="footer-logo" decoding="async" height="153" loading="lazy" src="../assets/brand/brainilab-logo.png" width="450"/></picture><div class="footer-copy">Free quiz games, daily challenges and knowledge content from BrainiLab.</div></div>
+</div>
+</footer>
+<div class="toast">Done</div>
+<script>
+document.addEventListener("DOMContentLoaded",()=>{
+  const form=document.getElementById("suggestionsForm");
+  const error=document.getElementById("suggestionsError");
+  const success=document.getElementById("suggestionsSuccess");
+  const again=document.getElementById("suggestAnother");
+
+  form.addEventListener("submit",async e=>{
+    e.preventDefault();
+    error.textContent="";
+    const fd=new FormData(form);
+    try{
+      await BrainiFeedback.submit({
+        type:fd.get("type"),
+        message:fd.get("message"),
+        email:fd.get("email")
+      });
+      form.hidden=true;
+      success.hidden=false;
+    }catch(err){
+      error.textContent=err.message||"Could not send your suggestion.";
+    }
+  });
+
+  again.addEventListener("click",()=>{
+    form.reset();
+    form.hidden=false;
+    success.hidden=true;
+  });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+external_key,title,prompt,target_count,answers
+world-capitals,World capitals,Name as many world capital cities as you can.,15,"Paris;Madrid;Rome;London;Lisbon;Tokyo;Seoul;Cairo;Ottawa;Canberra;Brasilia;Lima;Athens;Dublin;Oslo;Stockholm;Helsinki;Warsaw;Prague;Vienna"
+football-clubs,Football clubs,Name football clubs.,12,"Manchester United|Man Utd|Man United;Real Madrid;Barcelona|FC Barcelona;Liverpool;Arsenal;Chelsea;Bayern Munich;Juventus;Inter Milan|Inter;AC Milan;Paris Saint-Germain|PSG;Ajax;Benfica;Porto;Borussia Dortmund;Atlético Madrid|Atletico Madrid;Napoli;Roma;Tottenham Hotspur|Spurs;Manchester City|Man City"

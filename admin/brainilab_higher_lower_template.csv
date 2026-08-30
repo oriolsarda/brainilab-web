@@ -1,0 +1,13 @@
+external_key,category,comparison_type,metric,left_label,left_value,right_label,right_value,unit,explanation
+mozart-vs-beethoven-example,music,older_younger,Birth year,Beethoven,1770,Mozart,1756,year,"Mozart was born earlier, so Mozart was older."
+everest-vs-k2-example,geography,higher_lower,Height,Mount Everest,8849,K2,8611,m,"K2 is lower than Mount Everest."
+giraffe-vs-human-example,nature,taller_shorter,Height,an average adult human,1.7,a giraffe,5.5,m,"A giraffe is much taller than an average adult human."
+company-a-vs-company-b-example,business,richer_poorer,Market value,Company A,100,Company B,150,billion USD,"Company B has the higher market value."
+earth-vs-mars-example,science,bigger_smaller,Diameter,Earth,12742,Mars,6779,km,"Mars is smaller than Earth."
+cheetah-vs-lion-example,nature,faster_slower,Top speed,a lion,80,a cheetah,120,km/h,"A cheetah is faster than a lion."
+venus-vs-mercury-example,science,hotter_colder,Average surface temperature,Mercury,167,Venus,464,°C,"Venus is hotter than Mercury on average."
+elephant-vs-rhino-example,nature,heavier_lighter,Typical mass,a rhinoceros,2300,an African elephant,6000,kg,"An African elephant is typically heavier."
+whale-vs-giraffe-example,nature,longer_shorter,Typical maximum length,a giraffe,5.5,a blue whale,30,m,"A blue whale can be much longer."
+iss-vs-moon-example,science,farther_closer,Distance from Earth's surface,the ISS,400,the Moon,384400,km,"The Moon is much farther from Earth's surface than the ISS."
+titanic-vs-moonlanding-example,history,earlier_later,Year,the Titanic sinking,1912,the first Moon landing,1969,year,"The first Moon landing happened later."
+human-vs-chimp-example,science,more_less,chromosomes,a human,46,a chimpanzee,48,chromosomes,"A chimpanzee has more chromosomes than a human."

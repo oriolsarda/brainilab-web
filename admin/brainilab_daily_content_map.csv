@@ -1,0 +1,11 @@
+game,daily_role,content_source,admin_area,csv_template,notes
+Brain Mix,fixed,Question Bank,Question Bank,brainilab_questions_template.csv,10 mixed published questions
+BrainiWord,fixed,BrainiWord pool,Content Pools,brainilab_brainiword_template.csv,One 5-letter word
+Order Up,rotating,Order Up pool,Content Pools,brainilab_order_up_template.csv,Two ordered rounds
+Topic Rush,rotating,Topic Rush pool,Content Pools,brainilab_topic_rush_template.csv,One topic and accepted answer bank
+Connections,rotating,Connections pool,Content Pools,brainilab_connections_template.csv,Three connection puzzles
+Odd One Out,rotating,Odd One Out pool,Content Pools,brainilab_odd_one_out_template.csv,Ten puzzles
+Higher or Lower,rotating,Higher or Lower pool,Content Pools,brainilab_higher_lower_template.csv,Ten comparisons
+Math Rush,rotating,Generated safely,Content Pools,None,60-second deterministic one-digit arithmetic; no CSV needed
+Number Route,rotating,Number Route pool,Content Pools,brainilab_number_route_template.csv,Ten unique-solution left-to-right routes
+Sequence,rotating,Sequence pool,Content Pools,brainilab_sequence_template.csv,Ten number-pattern puzzles

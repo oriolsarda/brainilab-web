@@ -1,0 +1,19 @@
+{
+  "static_errors": [],
+  "semantic_warnings": [],
+  "contracts": {
+    "build_41": true,
+    "no_local_stripe_panel": true,
+    "no_seeded_streak_html": true,
+    "no_seeded_collective": true,
+    "no_mock_ranking_fallback": true,
+    "no_mock_auth_fallback": true,
+    "plus_cancel_support": true,
+    "404_exists": true,
+    "sw_v41": true,
+    "plus_fail_closed_when_entitlement_unknown": true,
+    "static_buttons_typed": true
+  },
+  "missing_internal_targets": [],
+  "runtime_browser_note": "Headless Chromium navigation is blocked by the execution environment (ERR_BLOCKED_BY_ADMINISTRATOR); runtime cross-device visual QA must be completed in a normal browser. Static JS/HTML/link validation passed."
+}

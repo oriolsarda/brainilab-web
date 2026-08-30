@@ -1,0 +1,1432 @@
+/* BrainiLab V40 — Mobile / Tablet Polish */
+
+html{
+  -webkit-text-size-adjust:100%;
+  text-size-adjust:100%;
+}
+
+body{
+  overflow-x:hidden;
+}
+
+img,svg,video,canvas{
+  max-width:100%;
+}
+
+button,a,input,select,textarea{
+  touch-action:manipulation;
+}
+
+.brainilab-ad-slot.is-probe{
+  display:block!important;
+  width:min(1180px,calc(100% - 32px));
+  min-height:1px!important;
+  height:1px;
+  margin:0 auto!important;
+  padding:0!important;
+  overflow:hidden;
+  border:0!important;
+  background:transparent!important;
+  opacity:0;
+  pointer-events:none;
+}
+
+.brainilab-ad-slot.is-active{
+  height:auto;
+  opacity:1;
+  pointer-events:auto;
+}
+
+/* ---------------- Tablet + mobile navigation ---------------- */
+@media(max-width:920px){
+  .topbar{
+    z-index:90;
+  }
+
+  .topbar .nav{
+    position:relative;
+    min-height:64px;
+    gap:9px;
+  }
+
+  .topbar .brand{
+    flex:0 1 auto;
+    min-width:0;
+  }
+
+  .topbar .brand picture{
+    display:block;
+  }
+
+  .topbar .brand img{
+    display:block;
+    width:auto;
+    height:40px;
+    max-width:142px;
+    object-fit:contain;
+  }
+
+  .topbar .links{
+    position:absolute;
+    top:calc(100% + 7px);
+    left:0;
+    right:0;
+    z-index:95;
+    display:none;
+    flex-direction:column;
+    align-items:stretch;
+    gap:2px;
+    max-height:calc(100dvh - 86px);
+    overflow:auto;
+    padding:8px;
+    border:1px solid var(--line);
+    border-radius:16px;
+    background:#fff;
+    box-shadow:0 18px 48px rgba(45,41,110,.18);
+  }
+
+  .topbar .links.mobile-open{
+    display:flex!important;
+  }
+
+  .topbar .links a{
+    display:flex;
+    align-items:center;
+    min-height:48px;
+    padding:0 14px;
+    border-radius:11px;
+    color:var(--ink);
+    font-size:14px;
+  }
+
+  .topbar .links a[aria-current="page"]{
+    background:var(--soft-navy);
+    color:var(--navy);
+  }
+
+  .nav-right{
+    gap:7px;
+  }
+
+  .mobile-menu{
+    display:inline-flex!important;
+    align-items:center;
+    justify-content:center;
+    min-width:44px;
+    min-height:44px;
+    padding:0 11px;
+  }
+
+  .avatar{
+    display:grid!important;
+    width:40px;
+    height:40px;
+    flex:0 0 40px;
+  }
+
+  .streak{
+    display:flex;
+    align-items:center;
+    min-height:40px;
+    padding:0 10px;
+  }
+
+  .help-dot{
+    display:grid;
+    width:40px;
+    height:40px;
+    place-items:center;
+  }
+}
+
+/* ---------------- Main mobile system ---------------- */
+@media(max-width:760px){
+  :root{
+    --mobile-gutter:12px;
+  }
+
+  .wrap{
+    width:calc(100% - (var(--mobile-gutter) * 2));
+  }
+
+  .section{
+    padding:20px 0;
+  }
+
+  .section-head{
+    align-items:flex-start;
+    flex-direction:column;
+    gap:6px;
+    margin-bottom:13px;
+  }
+
+  .section h2,
+  .section-head h2{
+    font-size:26px;
+    line-height:1.05;
+  }
+
+  .sub{
+    font-size:12px;
+  }
+
+  .breadcrumb{
+    padding-top:14px;
+    font-size:11px;
+  }
+
+  .page-hero{
+    padding:16px 0 8px;
+  }
+
+  .page-hero-card{
+    padding:25px 18px;
+    border-radius:21px;
+  }
+
+  .page-hero h1{
+    font-size:clamp(36px,11vw,48px);
+  }
+
+  .page-hero p{
+    font-size:13px;
+    line-height:1.55;
+  }
+
+  .hero-actions{
+    display:grid;
+    grid-template-columns:1fr;
+    width:100%;
+  }
+
+  .btn,.btn-secondary,.btn-light{
+    min-height:46px;
+    padding:11px 15px;
+  }
+
+  input:not([type="checkbox"]):not([type="radio"]),
+  select,
+  textarea{
+    font-size:16px!important;
+  }
+
+  /* Home / core quiz */
+  .challenge-wrap{
+    padding:10px 0 6px;
+  }
+
+  .challenge{
+    border-radius:20px;
+  }
+
+  .challenge-inner,
+  #homeQuiz .challenge-inner,
+  #leafQuiz .challenge-inner{
+    min-height:0!important;
+    padding:19px 12px 17px;
+  }
+
+  .challenge-labels{
+    gap:6px;
+  }
+
+  .challenge-pill{
+    padding:6px 9px;
+    font-size:9px;
+  }
+
+  .challenge-question,
+  .challenge-question.is-long,
+  .challenge-question.is-very-long{
+    margin:14px auto 17px;
+    font-size:clamp(27px,8.3vw,38px);
+    line-height:1.07;
+  }
+
+  .answers{
+    grid-template-columns:1fr;
+    gap:9px;
+  }
+
+  .answer{
+    min-height:58px;
+    padding:10px 12px;
+    border-radius:14px;
+    font-size:14px;
+  }
+
+  .answer .key{
+    width:34px;
+    height:34px;
+  }
+
+  .feedback-area{
+    min-height:82px;
+    margin-top:10px;
+  }
+
+  .next{
+    min-height:52px;
+    font-size:16px;
+  }
+
+  .quiz-progress{
+    margin-top:8px;
+  }
+
+  .quiz-tools{
+    gap:10px;
+  }
+
+  .skip{
+    min-height:44px;
+    padding:0 8px;
+  }
+
+  .daily-result-inline h1{
+    margin:10px 0 14px;
+    font-size:clamp(31px,9vw,42px);
+  }
+
+  .daily-result-score-row{
+    grid-template-columns:1fr 1fr;
+    gap:7px;
+  }
+
+  .daily-result-score,
+  .daily-result-stat{
+    padding:13px 8px;
+    border-radius:14px;
+  }
+
+  .daily-result-score strong{
+    font-size:33px;
+  }
+
+  .daily-result-stat strong{
+    font-size:24px;
+  }
+
+  .daily-result-actions{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:8px;
+  }
+
+  .daily-result-actions>*{
+    width:100%;
+  }
+
+  .daily-about,
+  .daily-explanations,
+  .seo-copy,
+  .panel,
+  .social-panel{
+    padding:16px;
+    border-radius:17px;
+  }
+
+  /* Brain Score */
+  .brain-score-section{
+    padding-top:18px;
+  }
+
+  .brain-score-panel{
+    padding:18px 15px;
+    border-radius:20px;
+  }
+
+  .brain-score-header{
+    gap:16px;
+  }
+
+  .brain-score-copy h2{
+    font-size:25px;
+  }
+
+  .brain-score-copy p{
+    font-size:12px;
+  }
+
+  .brain-score-total-line strong{
+    font-size:45px;
+  }
+
+  .brain-score-games{
+    grid-template-columns:1fr 1fr;
+    gap:8px;
+  }
+
+  .brain-score-game{
+    padding:12px;
+    border-radius:14px;
+  }
+
+  .brain-score-game-head{
+    align-items:flex-start;
+    flex-direction:column;
+    gap:5px;
+  }
+
+  .brain-score-game-points{
+    font-size:18px;
+  }
+
+  /* General cards */
+  .card-grid{
+    grid-template-columns:1fr;
+  }
+
+  .card{
+    min-height:0;
+    padding:17px;
+  }
+
+  .category-grid{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .category{
+    min-height:100px;
+    padding:14px;
+  }
+
+  /* Games browser */
+  .games-choice-hero{
+    padding-top:15px;
+  }
+
+  .games-choice-panel{
+    padding:23px 17px;
+    border-radius:20px;
+  }
+
+  .games-choice-panel h1{
+    font-size:clamp(36px,10vw,48px);
+  }
+
+  .games-choice-panel p{
+    font-size:12px;
+  }
+
+  .anytime-grid,
+  .anytime-browser .anytime-grid{
+    grid-template-columns:1fr;
+    gap:10px;
+  }
+
+  .anytime-browser{
+    padding:14px;
+    border-radius:17px;
+  }
+
+  .anytime-game-card,
+  .anytime-browser .anytime-game-card{
+    padding:15px;
+    border-radius:15px;
+  }
+
+  .anytime-game-head h2,
+  .anytime-browser .anytime-game-head h3{
+    font-size:18px;
+  }
+
+  .anytime-game-head p,
+  .anytime-browser .anytime-game-head p{
+    font-size:10px;
+  }
+
+  .difficulty-actions{
+    gap:7px;
+  }
+
+  .difficulty-actions a{
+    min-height:44px!important;
+    font-size:10px;
+  }
+
+  /* Daily hub */
+  .daily-overview-page{
+    padding:14px 0 34px;
+  }
+
+  .daily-overview-hero{
+    gap:18px;
+    padding:23px 17px;
+    border-radius:20px;
+  }
+
+  .daily-overview-hero h1{
+    font-size:clamp(35px,10vw,46px);
+  }
+
+  .daily-overview-hero p{
+    font-size:12px;
+  }
+
+  .daily-overview-summary{
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:6px;
+    max-width:none;
+  }
+
+  .daily-overview-summary>div{
+    min-width:0;
+    padding:10px 6px;
+  }
+
+  .daily-overview-summary strong{
+    font-size:20px;
+  }
+
+  .daily-overview-summary span{
+    font-size:8px;
+  }
+
+  .daily-journey{
+    padding:13px;
+    border-radius:16px;
+  }
+
+  .daily-journey-head{
+    align-items:flex-start;
+  }
+
+  .daily-journey-grid{
+    grid-template-columns:1fr;
+  }
+
+  .daily-journey-card{
+    min-height:58px;
+  }
+
+  .next-daily-countdown{
+    width:100%;
+    min-height:45px;
+    margin-top:12px;
+  }
+
+  /* Quiz leaf */
+  .quiz-pack-bar{
+    gap:10px;
+    padding:10px;
+  }
+
+  .quiz-difficulty-tabs{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:6px;
+    width:100%;
+  }
+
+  .quiz-difficulty-tabs a{
+    min-width:0;
+    min-height:44px;
+    display:grid;
+    place-items:center;
+    padding:6px;
+  }
+
+  .inline-quiz-complete{
+    min-height:0!important;
+    padding:18px 12px!important;
+  }
+
+  .inline-quiz-result-inner{
+    padding:0;
+  }
+
+  .inline-quiz-result-score{
+    font-size:48px;
+  }
+
+  .inline-quiz-result-actions,
+  .simple-result-actions{
+    grid-template-columns:1fr;
+  }
+
+  .simple-result-play,
+  .simple-result-share{
+    min-height:48px;
+  }
+
+  /* Daily mechanics */
+  .daily-mechanic-page{
+    padding:8px 0 6px;
+  }
+
+  .daily-mechanic-shell{
+    padding:17px 12px 18px;
+    border-radius:19px;
+  }
+
+  .daily-mechanic-top{
+    align-items:flex-start;
+    flex-direction:column;
+    gap:9px;
+    margin-bottom:12px;
+  }
+
+  .daily-mechanic-top h1{
+    font-size:30px;
+  }
+
+  .daily-mechanic-top p{
+    font-size:11px;
+    line-height:1.45;
+  }
+
+  .daily-mechanic-back{
+    order:-1;
+    min-height:40px;
+    display:inline-flex;
+    align-items:center;
+    padding:0 10px;
+  }
+
+  .topic-rush-intro{
+    margin-top:9px;
+    padding:17px 13px;
+  }
+
+  .topic-rush-intro h2{
+    font-size:30px;
+  }
+
+  .topic-rush-start{
+    width:100%;
+    min-height:50px;
+  }
+
+  .topic-rush-live{
+    gap:7px;
+  }
+
+  .topic-rush-live>div{
+    padding:10px;
+  }
+
+  .topic-rush-live strong{
+    font-size:25px;
+  }
+
+  .topic-rush-form{
+    grid-template-columns:1fr;
+  }
+
+  .topic-rush-form input,
+  .topic-rush-form button{
+    min-height:50px;
+  }
+
+  .topic-rush-answer-list{
+    max-height:132px;
+  }
+
+  /* Order Up */
+  .order-up-prompt-v35{
+    padding:14px 10px;
+  }
+
+  .order-up-direction-block{
+    margin-bottom:10px;
+    padding:12px 9px;
+  }
+
+  .order-up-direction-block strong{
+    font-size:28px!important;
+  }
+
+  .order-up-locked-grid{
+    grid-template-columns:1fr 1fr!important;
+    gap:6px;
+  }
+
+  .order-up-locked-slot{
+    min-height:47px;
+    padding:6px;
+  }
+
+  .order-up-choice-grid{
+    grid-template-columns:1fr!important;
+  }
+
+  .order-up-choice{
+    min-height:56px;
+    padding:10px 12px;
+    font-size:15px;
+  }
+
+  .order-up-confirm,
+  .order-up-next{
+    min-height:50px;
+  }
+
+  /* BrainiWord */
+  .brainiword-page{
+    padding-top:7px;
+  }
+
+  .brainiword-shell{
+    border-radius:18px;
+  }
+
+  .brainiword-game{
+    padding:15px 7px 18px;
+  }
+
+  .brainiword-instructions{
+    margin-bottom:12px;
+    font-size:11px;
+  }
+
+  .bw-board{
+    width:min(310px,88vw);
+    margin-bottom:15px;
+  }
+
+  .bw-key{
+    min-height:48px;
+  }
+
+  /* Rankings */
+  .rankings-shell{
+    padding:16px 0 38px;
+  }
+
+  .rankings-intro{
+    padding:23px 17px;
+    border-radius:20px;
+  }
+
+  .rankings-intro h1{
+    font-size:clamp(38px,10vw,48px);
+  }
+
+  .ranking-mode-tabs{
+    grid-template-columns:repeat(3,minmax(0,1fr))!important;
+    gap:6px;
+  }
+
+  .ranking-mode-tabs button{
+    min-height:46px;
+    padding:0 5px;
+    font-size:11px;
+  }
+
+  .ranking-filters{
+    grid-template-columns:1fr 1fr;
+    gap:8px;
+    padding:10px;
+  }
+
+  .ranking-filter select{
+    min-height:44px;
+  }
+
+  .ranking-podium{
+    grid-template-columns:repeat(3,minmax(0,1fr))!important;
+    gap:6px;
+  }
+
+  .podium-card,
+  .podium-card.first{
+    min-height:155px!important;
+    padding:11px 7px;
+    border-radius:16px;
+  }
+
+  .podium-card.first{
+    min-height:176px!important;
+  }
+
+  .ranking-list-head,
+  .ranking-row{
+    grid-template-columns:48px minmax(0,1fr) auto!important;
+    gap:7px;
+    padding-left:10px;
+    padding-right:10px;
+  }
+
+  .ranking-row-score{
+    font-size:12px;
+  }
+
+  /* Groups / Friends */
+  .groups-hero{
+    padding-top:17px;
+  }
+
+  .groups-hero-inner{
+    padding:21px 16px;
+    border-radius:20px;
+  }
+
+  .groups-hero h1{
+    font-size:40px;
+  }
+
+  .groups-ranking-cta{
+    width:100%;
+    flex-basis:auto;
+  }
+
+  .groups-primary-grid{
+    grid-template-columns:1fr;
+  }
+
+  .groups-feature-card{
+    min-height:62px;
+  }
+
+  .friend-row,
+  .social-group-card,
+  .social-request-row{
+    min-width:0;
+  }
+
+  .home-group-card,
+  .home-group-card.has-group{
+    grid-template-columns:auto minmax(0,1fr)!important;
+    gap:12px;
+    padding:16px;
+  }
+
+  .home-group-actions,
+  .home-group-score{
+    grid-column:1/-1;
+    justify-content:flex-start;
+    text-align:left;
+  }
+
+  /* My BrainiLab */
+  .profile-v27-head{
+    padding-top:14px;
+  }
+
+  .profile-v27-title{
+    padding:17px;
+  }
+
+  .profile-v27-title h1{
+    font-size:30px;
+  }
+
+  .profile-tabs{
+    gap:4px;
+    padding:6px;
+    overflow-x:auto;
+    overscroll-behavior-inline:contain;
+    scroll-snap-type:x proximity;
+    scrollbar-width:none;
+  }
+
+  .profile-tabs::-webkit-scrollbar{
+    display:none;
+  }
+
+  .profile-tabs button{
+    flex:0 0 auto;
+    min-height:44px;
+    padding:0 13px;
+    scroll-snap-align:center;
+    font-size:9px;
+  }
+
+  .profile-rank-hero{
+    grid-template-columns:auto minmax(0,1fr);
+    gap:13px;
+    padding:15px;
+  }
+
+  .profile-rank-main h2{
+    font-size:23px;
+  }
+
+  .profile-rank-link{
+    grid-column:1/-1;
+    min-height:42px;
+    display:flex;
+    align-items:center;
+  }
+
+  .profile-progress-strip,
+  .data-strip{
+    grid-template-columns:1fr 1fr!important;
+    gap:8px;
+  }
+
+  .data-metric{
+    padding:11px;
+  }
+
+  .data-metric strong{
+    font-size:18px;
+  }
+
+  .profile-progress-layout,
+  .profile-security-grid{
+    grid-template-columns:1fr;
+  }
+
+  .profile-period-grid{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .profile-security-card{
+    padding:14px;
+  }
+
+  .profile-security-card dl{
+    grid-template-columns:92px minmax(0,1fr);
+  }
+
+  .plus-account-card{
+    padding:15px;
+  }
+
+  /* Plus / legal */
+  .plus-page{
+    padding-bottom:34px;
+  }
+
+  .plus-hero{
+    padding:30px 19px;
+    border-radius:22px;
+  }
+
+  .plus-hero h1{
+    font-size:clamp(38px,11vw,52px);
+  }
+
+  .plus-benefits article,
+  .plus-price-card,
+  .plus-current-card{
+    padding:18px;
+  }
+
+  .plus-price-card h2{
+    font-size:38px;
+  }
+
+  /* Modals / sheets */
+  .modal,
+  .auth-modal,
+  .share-modal{
+    padding:0;
+    align-items:end;
+  }
+
+  .result,
+  .auth-dialog,
+  .share-sheet,
+  .share-sheet-compact{
+    width:100%;
+    max-width:none;
+    max-height:94dvh;
+    overflow:auto;
+    border-radius:24px 24px 0 0;
+    padding-bottom:max(18px,env(safe-area-inset-bottom));
+  }
+
+  .result-head{
+    padding:21px 18px;
+  }
+
+  .result-score{
+    font-size:48px;
+  }
+
+  .share-icon-actions{
+    gap:7px;
+  }
+
+  .share-icon-btn{
+    min-height:54px;
+  }
+
+  .toast{
+    bottom:max(14px,env(safe-area-inset-bottom));
+    max-width:calc(100% - 24px);
+    text-align:center;
+  }
+
+  /* Ads */
+  .brainilab-ad-slot:not(.is-probe){
+    width:calc(100% - 24px);
+    min-height:96px;
+    margin:16px auto;
+    border-radius:14px;
+  }
+
+  /* Footer */
+  .footer{
+    padding:32px 0 max(44px,calc(28px + env(safe-area-inset-bottom)));
+  }
+
+  .footer-grid{
+    grid-template-columns:1fr;
+  }
+
+  .footer-links{
+    gap:5px 12px;
+  }
+
+  .footer-links a{
+    min-height:36px;
+    display:inline-flex;
+    align-items:center;
+  }
+}
+
+/* ---------------- Small phones ---------------- */
+@media(max-width:520px){
+  :root{
+    --mobile-gutter:10px;
+  }
+
+  .topbar .nav{
+    min-height:58px;
+    gap:6px;
+  }
+
+  .topbar .brand img{
+    height:34px;
+    max-width:116px;
+  }
+
+  .nav-right{
+    gap:5px;
+  }
+
+  .streak{
+    min-height:38px;
+    padding:0 8px;
+    font-size:17px;
+  }
+
+  .help-dot{
+    display:none;
+  }
+
+  .avatar{
+    width:38px;
+    height:38px;
+    flex-basis:38px;
+  }
+
+  .mobile-menu{
+    min-width:42px;
+    min-height:42px;
+    padding:0 9px;
+    font-size:12px;
+  }
+
+  .page-hero-card,
+  .games-choice-panel,
+  .daily-overview-hero,
+  .groups-hero-inner{
+    border-radius:18px;
+  }
+
+  .category-grid{
+    gap:8px;
+  }
+
+  .category{
+    min-height:92px;
+  }
+
+  .brain-score-games{
+    grid-template-columns:1fr;
+  }
+
+  .brain-score-game-head{
+    flex-direction:row;
+    align-items:center;
+  }
+
+  .daily-overview-summary{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .daily-overview-summary>div:last-child:nth-child(odd){
+    grid-column:1/-1;
+  }
+
+  .daily-result-score-row{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .order-up-locked-grid{
+    grid-template-columns:1fr 1fr!important;
+  }
+
+  .brainiword-top{
+    grid-template-columns:auto minmax(0,1fr);
+    gap:8px;
+    padding:10px;
+  }
+
+  .brainiword-back{
+    min-height:40px;
+    display:flex;
+    align-items:center;
+  }
+
+  .brainiword-title{
+    text-align:right;
+  }
+
+  .brainiword-title h1{
+    font-size:22px;
+  }
+
+  .brainiword-meta{
+    grid-column:1/-1;
+    justify-self:center;
+  }
+
+  .bw-board{
+    width:min(300px,90vw);
+  }
+
+  .ranking-filters{
+    grid-template-columns:1fr;
+  }
+
+  .podium-card,
+  .podium-card.first{
+    min-height:145px!important;
+  }
+
+  .podium-card.first{
+    min-height:162px!important;
+  }
+
+  .profile-progress-strip,
+  .data-strip,
+  .profile-period-grid{
+    grid-template-columns:1fr 1fr!important;
+  }
+
+  .share-icon-actions{
+    grid-template-columns:repeat(5,minmax(0,1fr));
+  }
+}
+
+@media(max-width:370px){
+  .topbar .brand img{
+    height:30px;
+    max-width:100px;
+  }
+
+  .streak{
+    display:none;
+  }
+
+  .daily-overview-summary,
+  .profile-progress-strip,
+  .data-strip,
+  .profile-period-grid{
+    grid-template-columns:1fr!important;
+  }
+
+  .ranking-podium{
+    grid-template-columns:1fr!important;
+  }
+
+  .podium-card,
+  .podium-card.first{
+    min-height:135px!important;
+  }
+
+  .daily-result-score-row{
+    grid-template-columns:1fr;
+  }
+}
+
+/* Landscape phones: keep gameplay above the fold where practical. */
+@media(max-width:920px) and (max-height:520px) and (orientation:landscape){
+  .topbar .nav{
+    min-height:52px;
+  }
+
+  .topbar .brand img{
+    height:31px;
+  }
+
+  .challenge-inner{
+    padding-top:13px;
+    padding-bottom:13px;
+  }
+
+  .challenge-question,
+  .challenge-question.is-long,
+  .challenge-question.is-very-long{
+    margin:9px auto 11px;
+    font-size:clamp(23px,5vw,31px);
+  }
+
+  .answer{
+    min-height:48px;
+  }
+
+  .daily-mechanic-shell{
+    padding-top:13px;
+  }
+}
+
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{
+    scroll-behavior:auto!important;
+    animation-duration:.001ms!important;
+    animation-iteration-count:1!important;
+    transition-duration:.001ms!important;
+  }
+}
+
+/* ---------------- Additional touch / social / stats polish ---------------- */
+@media(max-width:760px){
+  .account-popover{
+    width:calc(100vw - 20px)!important;
+    max-height:calc(100dvh - 78px);
+    overflow:auto;
+    border-radius:16px;
+  }
+
+  .account-popover-row,
+  .account-popover button.account-popover-row,
+  .account-popover a.account-popover-row,
+  .account-popover-authbtn{
+    min-height:48px;
+  }
+
+  .account-popover-row strong,
+  .account-popover-authbtn strong{
+    font-size:12px;
+  }
+
+  .account-popover-row small,
+  .account-popover-authbtn small{
+    font-size:9px;
+  }
+
+  .social-modal{
+    padding:0;
+    align-items:end;
+  }
+
+  .social-dialog{
+    width:100%;
+    max-width:none;
+    max-height:92dvh;
+    padding:21px 14px max(18px,env(safe-area-inset-bottom));
+    border-radius:23px 23px 0 0;
+  }
+
+  .social-dialog h2{
+    padding-right:40px;
+    font-size:26px;
+  }
+
+  .social-modal-close{
+    width:40px;
+    height:40px;
+  }
+
+  .social-locked{
+    align-items:flex-start;
+    flex-direction:column;
+  }
+
+  .friend-code{
+    width:100%;
+    justify-content:space-between;
+  }
+
+  .friend-code button,
+  .friend-action,
+  .friend-menu,
+  .group-edit,
+  .group-member-remove,
+  .group-actions-real a,
+  .group-actions-real button,
+  .group-invite-actions button,
+  .group-pending-list button{
+    min-height:40px;
+  }
+
+  .friend-row{
+    grid-template-columns:auto minmax(0,1fr) auto!important;
+    gap:7px;
+  }
+
+  .friend-request-actions{
+    align-items:stretch;
+  }
+
+  .group-card-real{
+    padding:13px;
+  }
+
+  .group-member-real{
+    grid-template-columns:auto minmax(0,1fr) auto;
+    padding:8px;
+  }
+
+  .group-actions-real{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:7px;
+  }
+
+  .group-actions-real a,
+  .group-actions-real button,
+  .group-actions-real button:last-child{
+    width:100%;
+    min-height:44px;
+    justify-content:center;
+    margin-left:0;
+  }
+
+  /* My Stats: keep dense analytics readable on phones. */
+  .stats-toolbar{
+    padding:12px;
+  }
+
+  .stats-range-switch{
+    display:grid!important;
+    grid-template-columns:1fr 1fr;
+    width:100%;
+  }
+
+  .stats-range-switch button,
+  .stats-game-filters button{
+    min-height:42px!important;
+    font-size:10px!important;
+  }
+
+  .stats-summary-grid{
+    gap:8px!important;
+  }
+
+  .stats-summary-card{
+    padding:14px!important;
+  }
+
+  .stats-summary-card>span,
+  .stats-summary-card>small{
+    font-size:9px!important;
+  }
+
+  .stats-panel{
+    padding:14px!important;
+    border-radius:16px!important;
+  }
+
+  .stats-panel-head p{
+    font-size:10px!important;
+  }
+
+  .stats-game-filters{
+    display:grid!important;
+    grid-template-columns:1fr 1fr;
+    width:100%;
+  }
+
+  .stats-bar-meta{
+    align-items:flex-start!important;
+    flex-direction:column;
+    gap:3px!important;
+  }
+
+  .stats-bar-meta>span,
+  .stats-difficulty-card small,
+  .stats-game-card-head small,
+  .stats-game-card-metrics span,
+  .stats-insight-grid article>p,
+  .stats-recent-row time,
+  .stats-recent-row>div span{
+    font-size:9px!important;
+  }
+
+  .stats-recent-row{
+    min-height:64px!important;
+  }
+
+  .stats-recent-row>div strong,
+  .stats-recent-row>strong{
+    font-size:11px!important;
+  }
+}
+
+@media(max-width:520px){
+  .group-actions-real{
+    grid-template-columns:1fr;
+  }
+
+  .stats-range-switch,
+  .stats-game-filters{
+    grid-template-columns:1fr 1fr!important;
+  }
+}
+
+@media(hover:none){
+  .card:hover,
+  .category:hover,
+  .answer:hover,
+  .games-primary-card:hover,
+  .share-icon-btn:hover,
+  .order-up-choice:hover,
+  .bw-key:hover,
+  .simple-result-play:hover{
+    transform:none!important;
+  }
+}
+
+@supports(padding-top:env(safe-area-inset-top)){
+  @media(max-width:920px){
+    .topbar{
+      padding-top:env(safe-area-inset-top);
+    }
+  }
+}
+
+@media(max-width:760px){
+  .reset-password-main{
+    min-height:0;
+    align-items:start;
+    padding:22px 0 36px;
+  }
+
+  .reset-password-card{
+    padding:20px 16px;
+    border-radius:19px;
+  }
+
+  .reset-password-card h1{
+    font-size:30px;
+  }
+
+  .reset-password-form .auth-primary{
+    min-height:48px;
+  }
+}
+
+/* ===== V41.3 Past Daily archive ===== */
+@media (max-width:760px){
+  .games-archive-head{
+    align-items:stretch;
+    flex-direction:column;
+    gap:12px
+  }
+  .archive-date-control{min-width:0;width:100%}
+  .archive-date-control input{min-height:46px;font-size:11px}
+  .archive-games-grid{grid-template-columns:1fr!important}
+  .archive-game-card{min-height:0}
+  .archive-play-action{min-height:46px;font-size:10px}
+  .archive-card-meta,.archive-practice-note,.archive-context{font-size:9px}
+}
+
+@media(max-width:700px){.games-past-picker{align-items:stretch;flex-direction:column}.try-first-global-banner{position:relative;align-items:flex-start;flex-direction:column;gap:2px;font-size:10px}}

@@ -1,0 +1,2 @@
+external_key,category,prompt,item_1,item_2,item_3,item_4,odd_item,explanation
+fruit-vs-vegetable-2,general,Which one does not belong?,Apple,Banana,Mango,Carrot,4,Carrot is a vegetable; the others are fruits.

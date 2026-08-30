@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "javascript_files": 71,
+    "html_files": 43,
+    "inline_scripts": 27,
+    "local_refs": 1078,
+    "indexable_pages": 27,
+    "sitemap_urls": 27,
+    "json_files": 4,
+    "svg_files": 156,
+    "csv_templates": 10,
+    "number_routes": 40,
+    "sequences": 40,
+    "daily_rotation_pairs": 28,
+    "home_core_gzip_kb": 107.0,
+    "daily_core_gzip_kb": 98.5,
+    "largest_asset_kb": 154.8,
+    "largest_asset": "assets/css/site.css"
+  }
+}

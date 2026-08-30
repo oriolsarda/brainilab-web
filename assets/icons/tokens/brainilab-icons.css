@@ -1,0 +1,19 @@
+:root {
+  --braini-purple: #2D296E;
+  --braini-surface-purple: #34317A;
+  --braini-green: #3FAB34;
+  --braini-yellow: #FDD81C;
+  --braini-red: #E51E20;
+  --braini-orange: #FA7211;
+  --braini-neutral: #E1E1E1;
+  --braini-white: #FFFFFF;
+  --braini-icon-stroke: 2px;
+}
+.braini-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--braini-purple);
+  flex: 0 0 auto;
+}
+.braini-icon--sm { width: 1rem; height: 1rem; }
+.braini-icon--lg { width: 3rem; height: 3rem; }

@@ -1,0 +1,54 @@
+.auth-header-cta{display:none !important}
+.help-dot{
+  width:28px;height:28px;display:grid;place-items:center;border-radius:50%;
+  border:1px solid #d8d7e4;background:transparent;color:#77758d;
+  font-size:12px;font-weight:950;line-height:1;transition:.15s
+}
+.help-dot:hover,.help-dot.active{
+  background:#fff;color:var(--navy);border-color:#c7c5d8;
+  box-shadow:0 5px 14px rgba(45,41,110,.08)
+}
+.suggestions-main{min-height:65vh}
+.suggestions-wrap{max-width:760px}
+.suggestions-copy{margin-bottom:16px}
+.suggestions-copy h1{
+  margin:4px 0 8px;color:var(--navy);font-size:clamp(36px,5vw,52px)
+}
+.suggestions-copy p{
+  max-width:650px;margin:0;color:var(--muted);font-size:12px;line-height:1.65;font-weight:680
+}
+.suggestions-card{
+  background:#fff;border:1px solid var(--line);border-radius:22px;padding:22px
+}
+.suggestions-field{margin-bottom:15px}
+.suggestions-field label{
+  display:flex;justify-content:space-between;margin-bottom:6px;color:var(--ink);
+  font-size:10px;font-weight:900;text-transform:uppercase
+}
+.suggestions-field label span{color:var(--muted);font-weight:750}
+.suggestions-field select,.suggestions-field textarea,.suggestions-field input{
+  width:100%;border:1px solid var(--line);border-radius:13px;background:#fafafd;
+  color:var(--ink);padding:11px 12px;outline:none;font:inherit
+}
+.suggestions-field textarea{resize:vertical;min-height:150px}
+.suggestions-field select:focus,.suggestions-field textarea:focus,.suggestions-field input:focus{
+  border-color:#b6b3d3;background:#fff
+}
+.suggestions-submit{min-width:160px}
+.suggestions-error{min-height:16px;color:var(--red);font-size:10px;font-weight:850;margin-bottom:5px}
+.suggestions-note{margin:12px 0 0;color:#9998a5;font-size:9px;line-height:1.55}
+.suggestions-success{
+  display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;
+  background:#fff;border:1px solid #cfe6ca;border-radius:20px;padding:18px
+}
+.suggestions-success>span{
+  width:40px;height:40px;border-radius:50%;display:grid;place-items:center;
+  background:var(--soft-green);color:#28792c;font-size:19px;font-weight:950
+}
+.suggestions-success strong{color:var(--ink);font-size:14px}
+.suggestions-success p{margin:3px 0 0;color:var(--muted);font-size:10px}
+@media(max-width:620px){
+  .help-dot{width:27px;height:27px}
+  .suggestions-success{grid-template-columns:auto 1fr}
+  .suggestions-success button{grid-column:1/-1}
+}
