@@ -208,7 +208,11 @@ begin
       select coalesce(
         jsonb_object_agg(
           rf.flag_key,
-          rf.enabled
+          jsonb_build_object(
+            'enabled',rf.enabled,
+            'message',rf.message,
+            'updated_at',rf.updated_at
+          )
         ),
         '{}'::jsonb
       )
@@ -216,10 +220,20 @@ begin
       where rf.flag_key in (
         'ads_enabled',
         'plus_enabled',
+
+        'ad_home_after_play_enabled',
+        'ad_games_mid_content_enabled',
+        'ad_daily_lower_enabled',
+        'ad_quiz_result_enabled',
+        'ad_rankings_after_board_enabled',
+        'ad_about_lower_enabled',
+
         'anchor_ads_enabled',
         'vignette_ads_enabled'
       )
-    )
+    ),
+
+    'generated_at',now()
   );
 end;
 $$;
