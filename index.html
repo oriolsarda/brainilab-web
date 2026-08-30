@@ -32,6 +32,25 @@
 <link href="https://brainilab.com/" hreflang="en" rel="alternate"/>
 <link href="https://brainilab.com/" hreflang="x-default" rel="alternate"/>
 <meta content="#34327f" name="theme-color"/>
+  python3 - <<'PY'
+from pathlib import Path
+import subprocess
+
+p = Path("index.html")
+html = p.read_text()
+
+meta = subprocess.check_output(["pbpaste"], text=True).strip()
+
+if "google-adsense-account" not in meta:
+    raise SystemExit("ERROR: el porta-retalls no conté la metaetiqueta d'AdSense.")
+
+if 'name="google-adsense-account"' in html:
+    print("La metaetiqueta d'AdSense ja existeix a index.html")
+else:
+    html = html.replace("</head>", f"  {meta}\n</head>", 1)
+    p.write_text(html)
+    print("OK: metaetiqueta d'AdSense afegida a index.html")
+PY
 </head>
 <body>
 <header class="topbar">
