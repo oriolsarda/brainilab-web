@@ -994,7 +994,7 @@ key:todayKey(),number:dailyNumber(),completedGames:[],brainScore:0,brainScorePer
     const code=state.social.friendCode;
     const invite={
       code,
-      url:`https://brainilab.com/profile/?friend=${encodeURIComponent(code)}`,
+      url:`https://brainilabgames.com/profile/?friend=${encodeURIComponent(code)}`,
       createdAt:new Date().toISOString()
     };
     track("friend_invite_created",{code});

@@ -405,11 +405,11 @@ The public Suggestions page should remain `noindex` and accessible through the s
 
 The prototype can share:
 
-`https://brainilab.com/profile/?friend=BRN-XXXX`
+`https://brainilabgames.com/profile/?friend=BRN-XXXX`
 
 Production should not rely on a permanent raw friend code in a URL. Prefer a revocable invite token:
 
-`https://brainilab.com/invite/friend/<token>`
+`https://brainilabgames.com/invite/friend/<token>`
 
 Recommended table:
 

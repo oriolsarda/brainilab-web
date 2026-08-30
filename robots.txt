@@ -5,4 +5,4 @@ Disallow: /profile/
 User-agent: OAI-SearchBot
 Allow: /
 
-Sitemap: https://brainilab.com/sitemap.xml
+Sitemap: https://brainilabgames.com/sitemap.xml

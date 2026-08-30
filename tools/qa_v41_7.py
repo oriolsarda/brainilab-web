@@ -54,7 +54,7 @@ for p in html_files:
             if not v: err(f'SEO {k} missing/invalid: {rel}')
         if not (20 <= len(title) <= 60): err(f'SEO title length {len(title)}: {rel}')
         if not (100 <= len(desc) <= 165): err(f'SEO description length {len(desc)}: {rel}')
-        if canon and not canon.startswith('https://brainilab.com/'): err(f'Canonical host: {rel} -> {canon}')
+        if canon and not canon.startswith('https://brainilabgames.com/'): err(f'Canonical host: {rel} -> {canon}')
         indexable.append((rel,canon))
     # scripts
     for i,tag in enumerate(soup.find_all('script')):
@@ -106,7 +106,7 @@ if urls!=canon_set:
     err(f'Sitemap/canonical mismatch missing={sorted(canon_set-urls)} extra={sorted(urls-canon_set)}')
 stats['sitemap_urls']=len(urls)
 robots=(ROOT/'robots.txt').read_text()
-if 'Sitemap: https://brainilab.com/sitemap.xml' not in robots: err('robots.txt missing sitemap directive')
+if 'Sitemap: https://brainilabgames.com/sitemap.xml' not in robots: err('robots.txt missing sitemap directive')
 if 'User-agent: OAI-SearchBot' not in robots: warn('robots.txt has no explicit OAI-SearchBot rule')
 
 # JSON / SVG / CSV

@@ -15,7 +15,7 @@ Structured data:
 - VideoObject is intentionally not emitted until a page embeds a specific BrainiLab video with real title, thumbnail, upload date and duration.
 
 Before production:
-1. Replace `https://brainilab.com` if the final domain differs.
+1. Replace `https://brainilabgames.com` if the final domain differs.
 2. Serve pretty URLs so `/geography/` maps to `/geography/index.html`.
 3. Validate deployed URLs in Google Rich Results Test and Schema.org Validator.
 4. Add real source URLs and last-verified timestamps to the quiz CMS/database.

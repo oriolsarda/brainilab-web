@@ -68,8 +68,8 @@ window.BRAINI_SUPABASE = {
   url: "https://YOUR_PROJECT_REF.supabase.co",
   publishableKey: "sb_publishable_YOUR_KEY",
 
-  authRedirectUrl: "https://brainilab.com/profile/index.html",
-  passwordResetRedirectUrl: "https://brainilab.com/auth/reset-password/index.html"
+  authRedirectUrl: "https://brainilabgames.com/profile/index.html",
+  passwordResetRedirectUrl: "https://brainilabgames.com/auth/reset-password/index.html"
 };
 ```
 
@@ -84,10 +84,10 @@ For current local development:
 
 When BrainiLab is deployed:
 
-- Site URL: `https://brainilab.com`
+- Site URL: `https://brainilabgames.com`
 - Add the exact production redirects you use, such as:
-  - `https://brainilab.com/profile/index.html`
-  - `https://brainilab.com/auth/reset-password/index.html`
+  - `https://brainilabgames.com/profile/index.html`
+  - `https://brainilabgames.com/auth/reset-password/index.html`
 
 Keep localhost only for development.
 
@@ -115,7 +115,7 @@ In Google Auth Platform / Google Cloud:
 1. Create an OAuth Client ID of type **Web application**.
 2. Add Authorized JavaScript origin:
    - `http://localhost:8000`
-   - later `https://brainilab.com`
+   - later `https://brainilabgames.com`
 3. Under Authorized redirect URIs, add the **Supabase callback URL shown on the Google provider page in your Supabase dashboard**.
 4. Copy the Google Client ID and Client Secret.
 5. In Supabase Auth → Providers → Google:

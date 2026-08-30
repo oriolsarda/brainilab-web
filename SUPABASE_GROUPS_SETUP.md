@@ -135,7 +135,7 @@ GRP-XXXXXXXX
 WhatsApp/share uses:
 
 ```text
-https://brainilab.com/groups/?invite=GRP-XXXXXXXX
+https://brainilabgames.com/groups/?invite=GRP-XXXXXXXX
 ```
 
 Opening the URL does not silently add the person.

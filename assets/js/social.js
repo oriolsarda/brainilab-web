@@ -275,7 +275,7 @@ window.BrainiSocial = (function(){
   function friendInviteUrl(){
     const code=BrainiData.socialState().friendCode;
     const base=location.hostname==="localhost" || location.hostname==="127.0.0.1"
-      ? "https://brainilab.com"
+      ? "https://brainilabgames.com"
       : location.origin;
     return `${base}/profile/?friend=${encodeURIComponent(code)}&utm_source=whatsapp&utm_medium=friend_invite&utm_campaign=friend_referral`;
   }
@@ -379,7 +379,7 @@ window.BrainiSocial = (function(){
     if(!code) return null;
 
     const base=location.hostname==="localhost" || location.hostname==="127.0.0.1"
-      ? "https://brainilab.com"
+      ? "https://brainilabgames.com"
       : location.origin;
 
     return `${base}/groups/?invite=${encodeURIComponent(code)}&utm_source=whatsapp&utm_medium=group_invite&utm_campaign=group_referral`;

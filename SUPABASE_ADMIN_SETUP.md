@@ -656,7 +656,7 @@ Authorization is server-side, so the URL is not the security boundary.
 For the final production deployment, a dedicated Admin origin such as:
 
 ```text
-admin.brainilab.com
+admin.brainilabgames.com
 ```
 
 is preferable because it isolates browser origin/session/storage and allows stricter HTTP headers.

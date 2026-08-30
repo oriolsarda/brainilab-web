@@ -48,7 +48,7 @@ If both players send a request to one another, the second request automatically 
 The WhatsApp/share button uses:
 
 ```text
-https://brainilab.com/profile/?friend=BRN-XXXXXXXX
+https://brainilabgames.com/profile/?friend=BRN-XXXXXXXX
 ```
 
 The receiving player explicitly presses **Accept invite**.
